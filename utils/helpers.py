@@ -17,6 +17,9 @@ class Logger(object):
     def write(self, message):
         self.terminal.write(message)
         self.log.write(f"{datetime.now()}: {message}")
+
+    def flush(self):  # avoid this msg: AttributeError: 'Logger' object has no attribute 'flush'
+        pass
 # sys.stdout = Logger("mylog.log") # redirect print function to log file
 
 
