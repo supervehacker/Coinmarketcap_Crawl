@@ -32,9 +32,7 @@ def refresh_l_tokens():
     try:
         l_tokens = read_list_from_txt("l_tokens.txt")
     except FileNotFoundError:
-        l_tokens = ['osmiumcoin', 'aptoslaunch-token', 'moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr']
-        # with open("l_tokens.txt", "w") as f:  # Write the list of URLs to a file
-        #     f.writelines("%s\n" % token for token in l_tokens)
+        l_tokens = ['osmiumcoin', 'aptoslaunch-token', 'aptos', 'meta-apes-peel', 'moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr']
         write_list_to_txt(l_tokens, "l_tokens.txt")
 
     try:
@@ -60,3 +58,5 @@ def refresh_l_tokens():
 
 def refresh_to_date():
     pass
+
+

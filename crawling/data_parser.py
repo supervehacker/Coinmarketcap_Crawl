@@ -2,13 +2,10 @@ from crawling.helpers import *
 
 
 class DataParser:
-    def __init__(self, driver, token_name):
-        self.driver = driver
+    def __init__(self, token_name):
         self.token_name = token_name
 
-    def parse_data(self):
-        # pass
-        driver = self.driver
+    def parse_data(self, driver):
         token_name = self.token_name
         from selenium.webdriver.support.ui import WebDriverWait
         from selenium.webdriver.common.by import By
@@ -39,7 +36,7 @@ class DataParser:
                 token_run_log["is_error"] = True
                 with open(token_run_log_path, "w") as f:
                     json.dump(token_run_log, f)
-            return
+            return None, None
         # import sys
         # sys.exit()
 
@@ -70,6 +67,8 @@ class DataParser:
         cells = thead.find_elements_by_xpath('.//th')
         l_cols = [cell.text for cell in cells]        # print(l_cols) ["Date", "Open", "High", "Low", "Close", "Volume", "Market Cap"]
         ## TODO append l_cols vào dòng đầu tiên của data => write_data_to_csv(data)
+        driver.close()  # All windows related to driver instance will quit #TODO nhét vào parser
 
-        write_data_to_csv(token_name, data, l_cols)
+        # write_data_to_csv(token_name, data, l_cols)
+        return data, l_cols
 
