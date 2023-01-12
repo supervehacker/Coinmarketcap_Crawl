@@ -8,7 +8,7 @@ sys.stdout = Logger("mylog.log")  # redirect print function to log file
 # token_name = 'aptos'  # url_name #aptos bunnypark sportzchain ezcoin-market
 # token_name = 'ruff'
 # token_name = 'ethereum'
-
+# xxxx main
 # l_tokens = data_master.refresh_l_tokens()
 l_tokens = refresh_l_tokens()
 
