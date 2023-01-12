@@ -11,7 +11,6 @@ class DataProcessor:
     def __init__(self, token_name):
         self.token_name = token_name
         self.token_run_log_path = get_token_run_log_path(token_name)
-        # self.token_run_log_path = f"{c.TEMP_PATH}{token_name}_run_log.json"
 
     def write_data_to_csv(self, data, l_cols):
         token_name = self.token_name
