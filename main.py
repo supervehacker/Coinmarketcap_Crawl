@@ -1,31 +1,24 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+from data_worker import crawl_single_token
+from utils.helpers import *
+from data_processing.helpers import refresh_l_tokens
 
-from cmc_navigator.cmc_navigator_main import *
-from data_crawler.data_crawler_main import *
+sys.stdout = Logger("mylog.log") # redirect print function to log file
+# l_urls = ['moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr', 'bikerush', 'smart-reward-token', 'bitica-coin', 'chronicum', 'blocknotex', 'drawshop-kingdom-reverse']
+# l_urls = ['ruff', 'a', 'b']
+# token_name = 'aptos'  # url_name #aptos bunnypark sportzchain ezcoin-market
+# token_name = 'ruff'
+# token_name = 'ethereum'
 
-import time
+l_tokens = refresh_l_tokens()
 
-start = time.perf_counter()
-# code to be measured goes here
+for token_name in l_tokens:
+    crawl_single_token(token_name)
+    break
 
+# print(element.get_attribute('outerHTML'))
+#
+# import time
+# time.sleep(10)
+# import sys
+# sys.exit()
 
-# Set the URL for CoinMarketCap's MANA page
-# url = 'https://coinmarketcap.com/currencies/decentraland/historical-data/'
-url = 'https://coinmarketcap.com/currencies/ethereum/historical-data/'
-to_date = 20221111
-
-
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get(url)
-driver.execute_script("window.scrollBy(0, 500)")
-
-
-cmc_navigator = CmcNavigator(driver, to_date)
-cmc_navigator.navigate_cmc()
-
-data_crawler = DataCrawler(driver)
-data_crawler.crawl()
-
-end = time.perf_counter()
-print(f"Elapsed time: {end - start:0.2f} seconds")
