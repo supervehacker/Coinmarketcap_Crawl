@@ -1,13 +1,10 @@
-# import constants as c
-# from data_processing.helpers import write_to_json, read_from_json, append_token_to_txt
 from utils.helpers import date_batch_map
-# from utils.date_helpers import subtract_days_from_date
+from crawling import data_crawler, data_parser
+
+from data_processing import data_processor, data_logger
 
 
 def crawl_single_token(token_name):
-    from crawling import data_crawler, data_parser
-    from data_processing import data_processor, data_logger
-
     crawler = data_crawler.DataCrawler(token_name)
     parser = data_parser.DataParser(token_name)
     data_processor = data_processor.DataProcessor(token_name)
@@ -15,7 +12,7 @@ def crawl_single_token(token_name):
 
     is_done = data_processor.refresh_is_done()
 
-    while not is_done:  # TODO: clear folder temp ở đầu chương trình, vì đã lọc qua url_list
+    while not is_done:
         import time
         start_time = time.time()
 
