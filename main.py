@@ -9,8 +9,8 @@ sys.stdout = Logger("mylog.log")  # redirect print function to log file
 # token_name = 'ruff'
 # token_name = 'ethereum'
 # l_tokens = data_master.refresh_l_tokens()
-# main a
-# main2
+# dev
+
 l_tokens = refresh_l_tokens()
 
 for token_name in l_tokens:
