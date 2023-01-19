@@ -32,7 +32,6 @@ def read_list_from_txt_create_if_filenotfound(l_txt_path):
     return l_tokens_x
 
 
-
 def append_token_to_txt(token_name, l_txt_path):
     with open(l_txt_path, "a") as f:
         f.write(f"{token_name}\n")  # Write the text to a new line

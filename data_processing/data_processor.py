@@ -11,13 +11,15 @@ class DataProcessor:
     def __init__(self, token_name):
         self.token_name = token_name
         self.token_run_log_path = get_token_run_log_path(token_name)
+        # self.token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
+        self.processing_csv_path = f'{c.PROCESSING_DATA_PATH}{token_name}.csv'
 
     def write_data_to_csv(self, data, l_cols):
         token_name = self.token_name
         token_run_log_path = self.token_run_log_path
 
         if (data, l_cols) == (None, None):  # Handle cases with no_data
-            print(f"token_name=token_name --- No data is available now")
+            print(f"token_name={token_name} --- (data, l_cols) == (None, None)")
             return
 
         df = pd.DataFrame(data, columns=l_cols)  # Create a DataFrame from the list of data
@@ -30,15 +32,19 @@ class DataProcessor:
             token_run_log = json.load(f)
 
         # Append data to csv
-        # Check if the file exists
-        import os
-        csv_path = f'{c.PROCESSING_DATA_PATH}{token_name}.csv'
-        if os.path.exists(csv_path):
-            # If the file exists, append the DataFrame to it
-            df.to_csv(csv_path, mode='a', header=False, index=False)
-        else:
+        processing_csv_path = self.processing_csv_path
+        # if os.path.exists(processing_csv_path):
+        #     # If the file exists, append the DataFrame to it
+        #     df.to_csv(processing_csv_path, mode='a', header=False, index=False)
+        # else:
+        #     # If the file does not exist, create it and write the DataFrame to it, log the max_date
+        #     df.to_csv(processing_csv_path, mode='w', header=True, index=False)
+        #     token_run_log['max_date'] = max_date
+        try:
+            df.to_csv(processing_csv_path, mode='a', header=False, index=False)  # If the file exists, append the DataFrame to it
+        except FileNotFoundError:
             # If the file does not exist, create it and write the DataFrame to it, log the max_date
-            df.to_csv(csv_path, mode='w', header=True, index=False)
+            df.to_csv(processing_csv_path, mode='w', header=True, index=False)
             token_run_log['max_date'] = max_date
 
         token_run_log["batch_dates"].append([max_date, min_date])
@@ -87,6 +93,6 @@ class DataProcessor:
         is_error = token_run_log["is_error"]
         if is_error:
             append_token_to_txt(token_name, c.L_ERROR_TOKENS_PATH)
-        else:
+        else:  # done
             append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
 

@@ -16,8 +16,8 @@ def refresh_l_tokens():
         append_txt_to_txt(last_l_error_tokens_path, c.ALL_ERROR_TOKENS_PATH)
 
         all_tokens = read_list_from_txt(c.ALL_TOKENS_PATH)
-        all_error_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_ERROR_TOKENS_PATH)
         all_done_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_DONE_TOKENS_PATH)
+        all_error_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_ERROR_TOKENS_PATH)
         all_done_error_set = set(all_error_tokens + all_done_tokens)
         all_undone_tokens = [x for x in all_tokens if x not in all_done_error_set]
         write_list_to_txt(all_undone_tokens, c.ALL_UNDONE_TOKENS_PATH)
@@ -52,7 +52,7 @@ def refresh_l_tokens():
     write_list_to_txt(l_tokens, c.L_TOKENS_PATH)
 
     # Write RUN_DATE_HOUR to the file
-    with open(c.RUN_DATE_HOUR_PATH, "w") as f:
+    with open(c.LAST_RUN_DATE_HOUR_PATH, "w") as f:
         f.write(f"{c.RUN_DATE_HOUR}")
 
     return l_tokens
