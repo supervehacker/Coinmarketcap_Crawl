@@ -28,35 +28,35 @@ def append_token_to_txt(token_name, l_txt_path):
         f.write(f"{token_name}\n")  # Write the text to a new line
 
 
-def refresh_l_tokens():
-    try:
-        l_tokens = read_list_from_txt("l_tokens.txt")
-    except FileNotFoundError:
-        l_tokens = ['osmiumcoin', 'aptoslaunch-token', 'aptos', 'meta-apes-peel', 'moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr']
-        write_list_to_txt(l_tokens, "l_tokens.txt")
-
-    try:
-        l_done_tokens = read_list_from_txt("l_done_tokens.txt")
-    except FileNotFoundError:
-        open("l_done_tokens.txt", 'w').close()
-        l_done_tokens = []
-
-    try:
-        with open("l_error_tokens.txt", "r") as f:
-            l_error_tokens = read_list_from_txt("l_error_tokens.txt")
-    except FileNotFoundError:
-        open("l_error_tokens.txt", 'w').close()
-        l_error_tokens = []
-
-    done_error_set = set(l_done_tokens + l_error_tokens)
-    l_tokens = [x for x in l_tokens if x not in done_error_set]
-
-    write_list_to_txt(l_tokens, "l_tokens.txt")
-
-    return l_tokens
-
-
-def refresh_to_date():
-    pass
+# def refresh_l_tokens():
+#     try:
+#         l_tokens = read_list_from_txt("l_tokens.txt")
+#     except FileNotFoundError:
+#         l_tokens = ['osmiumcoin', 'aptoslaunch-token', 'aptos', 'meta-apes-peel', 'moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr']
+#         write_list_to_txt(l_tokens, "l_tokens.txt")
+#
+#     try:
+#         l_done_tokens = read_list_from_txt("l_done_tokens.txt")
+#     except FileNotFoundError:
+#         open("l_done_tokens.txt", 'w').close()
+#         l_done_tokens = []
+#
+#     try:
+#         with open("l_error_tokens.txt", "r") as f:
+#             l_error_tokens = read_list_from_txt("l_error_tokens.txt")
+#     except FileNotFoundError:
+#         open("l_error_tokens.txt", 'w').close()
+#         l_error_tokens = []
+#
+#     done_error_set = set(l_done_tokens + l_error_tokens)
+#     l_tokens = [x for x in l_tokens if x not in done_error_set]
+#
+#     write_list_to_txt(l_tokens, "l_tokens.txt")
+#
+#     return l_tokens
+#
+#
+# def refresh_to_date():
+#     pass
 
 

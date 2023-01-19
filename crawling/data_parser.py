@@ -29,7 +29,7 @@ class DataParser:
         if data[0][0] == 'No data is available now': # print(data)  # [['No data is available now']]
             print(f"token={token_name}, to_date ={c.TO_DATE}, 'No data is available now'")
             import json
-            token_run_log_path = f"{c.TEMP_PATH}{token_name}_run_log.json"
+            token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
             with open(token_run_log_path, "r") as f:
                 token_run_log = json.load(f)
                 token_run_log["is_done"] = True

@@ -1,6 +1,7 @@
-from data_worker import crawl_single_token
+from data_worker import *
 from utils.helpers import *
-from data_processing.helpers import refresh_l_tokens
+# from data_processing.helpers import refresh_l_tokens
+from data_master import *
 
 sys.stdout = Logger("mylog.log")  # redirect print function to log file
 # l_urls = ['moonstarter', 'bunnypark', 'aptoslaunch-token', 'metaverse-vr', 'bikerush', 'smart-reward-token', 'bitica-coin', 'chronicum', 'blocknotex', 'drawshop-kingdom-reverse']
@@ -10,11 +11,12 @@ sys.stdout = Logger("mylog.log")  # redirect print function to log file
 # token_name = 'ethereum'
 # l_tokens = data_master.refresh_l_tokens()
 # dev
-
-l_tokens = refresh_l_tokens()
+data_master = DataMaster()
+l_tokens = data_master.refresh_l_tokens()
 
 for token_name in l_tokens:
-    crawl_single_token(token_name)
+    data_worker = DataWorker(token_name)
+    data_worker.crawl_single_token()
     break
 
 # print(element.get_attribute('outerHTML'))

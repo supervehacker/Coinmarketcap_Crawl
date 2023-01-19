@@ -36,4 +36,4 @@ for i in range(40):  # to around 20120319 / first token: 20130428
 
 
 def get_token_run_log_path(token_name):
-    return f"{c.TEMP_PATH}{token_name}_run_log.json"
+    return f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"

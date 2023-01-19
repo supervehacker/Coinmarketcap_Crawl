@@ -32,7 +32,7 @@ class DataProcessor:
         # Append data to csv
         # Check if the file exists
         import os
-        csv_path = f'{c.DATA_PATH}{token_name}.csv'
+        csv_path = f'{c.PROCESSING_DATA_PATH}{token_name}.csv'
         if os.path.exists(csv_path):
             # If the file exists, append the DataFrame to it
             df.to_csv(csv_path, mode='a', header=False, index=False)
@@ -86,7 +86,7 @@ class DataProcessor:
         token_run_log = read_from_json(token_run_log_path)
         is_error = token_run_log["is_error"]
         if is_error:
-            append_token_to_txt(token_name, "l_error_tokens.txt")
+            append_token_to_txt(token_name, c.L_ERROR_TOKENS_PATH)
         else:
-            append_token_to_txt(token_name, "l_done_tokens.txt")
+            append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
 
