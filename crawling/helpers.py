@@ -67,11 +67,11 @@ def select_from_date_to_date(driver, from_date, to_date):
 
     custom_range_button_double_click(driver)
     try:
-        date_select(driver, from_date)
-    except TimeoutException:
         if from_date <= 20151231:  # from_date <= 2015 (phải sang trang mới)
             element = wait.until(EC.element_to_be_clickable((By.XPATH, "//span[contains(@class,'icon-Chevron-left')]")))  # click sang trái
             element.click()
+        date_select(driver, from_date)
+    except TimeoutException:
         date_select(driver, from_date)
     custom_range_button_double_click(driver)
     date_select(driver, to_date)

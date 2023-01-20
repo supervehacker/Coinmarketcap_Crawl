@@ -17,7 +17,11 @@ class DataCrawler:
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--ignore-ssl-errors=yes')
         chrome_options.add_argument('--ignore-certificate-errors')
-        driver = webdriver.Chrome("crawling/chromedriver.exe", chrome_options=chrome_options)  # driver = webdriver.Chrome(ChromeDriverManager().install())
+        # Crawl without loading Images
+        prefs = {'profile.managed_default_content_settings.images': 2}
+        chrome_options.add_experimental_option("prefs", prefs)
+        #
+        driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=chrome_options)  # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(url)
         driver.execute_script("window.scrollBy(0, 500)")
         return driver
