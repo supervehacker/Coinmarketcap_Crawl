@@ -18,7 +18,7 @@ def write_list_to_txt(l_tokens, l_txt_path) :
 
 
 def read_list_from_txt(l_txt_path):
-    with open(l_txt_path, "r") as f:  # Read a list from a file
+    with open(l_txt_path, "r", encoding="ISO-8859-1") as f:  # Read a list from a file
         tokens = f.readlines()
     return [token.strip() for token in tokens]  # Strip newline characters and store the URLs in a list
 

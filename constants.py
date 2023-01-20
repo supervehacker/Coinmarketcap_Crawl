@@ -7,7 +7,6 @@ def current_time_yyyymmddhh():
 
 RUN_DATE_HOUR = current_time_yyyymmddhh()
 
-
 TO_DATE = 20221231
 
 LIST_ALL_TOKENS_PATH = f"data/01_list_all_tokens/"
