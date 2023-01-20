@@ -16,6 +16,8 @@ class DataWorker:
         data_logger = data_logger.DataLogger(token_name)
 
         is_done = data_processor.refresh_is_done()
+
+        # TODO close the driver after x number of iterations
         driver = crawler.get_driver()
 
         while not is_done:
@@ -33,7 +35,6 @@ class DataWorker:
             end_time = time.time()
 
             is_done = data_logger.log_batch_run_time(start_time, end_time, batch_no)
-
             if is_done:
                 break
 
