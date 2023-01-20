@@ -18,12 +18,12 @@ class DataWorker:
         is_done = data_processor.refresh_is_done()
 
         # TODO close the driver after x number of iterations
-        driver = crawler.get_driver()
 
         while not is_done:
             import time
-            start_time = time.time()
+            start_time = time.perf_counter()
 
+            driver = crawler.get_driver()
             to_date = data_processor.refresh_to_date()
             batch_no = date_batch_map[int(to_date)]
             print_and_log(f"----- token_name={token_name}  batch_no={batch_no}  to_date={to_date}")
@@ -32,13 +32,13 @@ class DataWorker:
             data, l_cols = parser.parse_data(driver)
             data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
 
-            end_time = time.time()
+            end_time = time.perf_counter()
 
             is_done = data_logger.log_batch_run_time(start_time, end_time, batch_no)
             if is_done:
                 break
 
-        driver.close()
+            driver.close()
         # append token_name into l_error_tokens.txt / l_done_tokens.txt
         data_processor.update_list_error_done()
 
