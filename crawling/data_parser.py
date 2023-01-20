@@ -66,9 +66,8 @@ class DataParser:
         thead = table_element.find_element_by_xpath('.//thead/tr')
         cells = thead.find_elements_by_xpath('.//th')
         l_cols = [cell.text for cell in cells]        # print(l_cols) ["Date", "Open", "High", "Low", "Close", "Volume", "Market Cap"]
-        ## TODO append l_cols vào dòng đầu tiên của data => write_data_to_csv(data)
+        # TODO append l_cols vào dòng đầu tiên của data => write_data_to_csv(data)
         # driver.close()  # All windows related to driver instance will quit #TODO nhét vào parser
 
         # write_data_to_csv(token_name, data, l_cols)
         return data, l_cols
-

@@ -11,14 +11,19 @@ class DataCrawler:
         token_name = self.token_name
 
         url = f"https://coinmarketcap.com/currencies/{token_name}/historical-data/"
-
-        driver = webdriver.Chrome(
-            "crawling/chromedriver.exe")  # driver = webdriver.Chrome(ChromeDriverManager().install())
+        """
+        Also, you can try to disable SSL verification by adding the following line of code before creating the webdriver instance. --ignore-ssl-errors=yes which tells the webdriver to ignore SSL errors when connecting to websites. --ignore-certificate-errors which tells the webdriver to ignore certificate errors when connecting to websites. Please keep in mind that disabling SSL verification is not recommended and it should only be used as a last resort.
+        """
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--ignore-ssl-errors=yes')
+        chrome_options.add_argument('--ignore-certificate-errors')
+        driver = webdriver.Chrome("crawling/chromedriver.exe", chrome_options=chrome_options)  # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(url)
         driver.execute_script("window.scrollBy(0, 500)")
         return driver
 
-    def crawl_data(self, driver, to_date):
+    @staticmethod
+    def crawl_data(driver, to_date):
         wait = WebDriverWait(driver, 10)
         # date range button
         date_range_button_xpath = '/html/body/div[1]/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div[1]/span/button'

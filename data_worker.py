@@ -21,7 +21,7 @@ class DataWorker:
 
         while not is_done:
             import time
-            start_time = time.perf_counter()
+            start_time = time.time()
 
             driver = crawler.get_driver()
             to_date = data_processor.refresh_to_date()
@@ -32,7 +32,7 @@ class DataWorker:
             data, l_cols = parser.parse_data(driver)
             data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
 
-            end_time = time.perf_counter()
+            end_time = time.time()
 
             is_done = data_logger.log_batch_run_time(start_time, end_time, batch_no)
             if is_done:

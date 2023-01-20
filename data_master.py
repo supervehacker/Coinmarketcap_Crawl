@@ -50,6 +50,7 @@ class DataMaster:
         from data_worker import DataWorker
         data_worker = DataWorker(token_name)
         data_worker.crawl_single_token()
+        # data_worker.crawl_single_token_not_close_driver()
 
     @staticmethod
     def manage_workers(num_workers, l_tokens):
