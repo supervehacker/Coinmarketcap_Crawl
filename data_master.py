@@ -31,18 +31,6 @@ def refresh_l_tokens():
         # TODO get from all_tokens - (all_error_tokens + all_done_tokens)
         write_list_to_txt(l_tokens, c.L_TOKENS_PATH)
 
-    # try:
-    #     l_done_tokens = read_list_from_txt(c.L_DONE_TOKENS_PATH)
-    # except FileNotFoundError:
-    #     open(c.L_DONE_TOKENS_PATH, 'w').close()
-    #     l_done_tokens = []
-    #
-    # try:
-    #     l_error_tokens = read_list_from_txt(c.L_ERROR_TOKENS_PATH)
-    # except FileNotFoundError:
-    #     open(c.L_ERROR_TOKENS_PATH, 'w').close()
-    #     l_error_tokens = []
-
     l_done_tokens = read_list_from_txt_create_if_filenotfound(c.L_DONE_TOKENS_PATH)
     l_error_tokens = read_list_from_txt_create_if_filenotfound(c.L_ERROR_TOKENS_PATH)
 

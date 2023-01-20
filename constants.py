@@ -33,11 +33,9 @@ def get_l_tokens_paths(token_to_crawl_path):
     return l_tokens_path, l_done_tokens_path, l_error_tokens_path
 
 
-# L_TOKENS_PATH = f"{TOKEN_TO_CRAWL_PATH}/l_tokens.txt"
-# L_DONE_TOKENS_PATH = f"{TOKEN_TO_CRAWL_PATH}/l_done_tokens.txt"
-# L_ERROR_TOKENS_PATH = f"{TOKEN_TO_CRAWL_PATH}/l_error_tokens.txt"
 L_TOKENS_PATH, L_DONE_TOKENS_PATH, L_ERROR_TOKENS_PATH = get_l_tokens_paths(TOKEN_TO_CRAWL_PATH)
 # print(L_TOKENS_PATH, L_DONE_TOKENS_PATH, L_ERROR_TOKENS_PATH)
+LOG_FILE_PATH = f"{TOKEN_TO_CRAWL_PATH}mylog.log"
 
 ALL_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_tokens.txt"
 ALL_DONE_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_done_tokens.txt"

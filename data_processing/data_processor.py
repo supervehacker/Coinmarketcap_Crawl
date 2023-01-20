@@ -1,7 +1,7 @@
 import constants as c
 from data_processing.helpers import read_from_json, write_to_json, append_token_to_txt
 from utils.date_helpers import convert_cmc_date_str_to_yyyymmdd, subtract_days_from_date
-from utils.helpers import get_token_run_log_path
+from utils.helpers import get_token_run_log_path, print_and_log
 
 import os
 import pandas as pd
@@ -12,14 +12,14 @@ class DataProcessor:
         self.token_name = token_name
         self.token_run_log_path = get_token_run_log_path(token_name)
         # self.token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
-        self.processing_csv_path = f'{c.PROCESSING_DATA_PATH}{token_name}.csv'
+        self.processing_data_path = f'{c.PROCESSING_DATA_PATH}{token_name}.csv'
 
     def write_data_to_csv(self, data, l_cols):
         token_name = self.token_name
         token_run_log_path = self.token_run_log_path
 
         if (data, l_cols) == (None, None):  # Handle cases with no_data
-            print(f"token_name={token_name} --- (data, l_cols) == (None, None)")
+            print_and_log(f"token_name={token_name} --- (data, l_cols) == (None, None)")
             return
 
         df = pd.DataFrame(data, columns=l_cols)  # Create a DataFrame from the list of data
@@ -32,20 +32,21 @@ class DataProcessor:
             token_run_log = json.load(f)
 
         # Append data to csv
-        processing_csv_path = self.processing_csv_path
-        # if os.path.exists(processing_csv_path):
-        #     # If the file exists, append the DataFrame to it
-        #     df.to_csv(processing_csv_path, mode='a', header=False, index=False)
-        # else:
+        processing_data_path = self.processing_data_path
+        if os.path.exists(processing_data_path):
+            # If the file exists, append the DataFrame to it
+            df.to_csv(processing_data_path, mode='a', header=False, index=False)
+        else:
+            # If the file does not exist, create it and write the DataFrame to it, log the max_date
+            df.to_csv(processing_data_path, mode='w', header=True, index=False)
+            token_run_log['max_date'] = max_date
+        # try:
+        #     print("xxxxxxx")
+        #     df.to_csv(processing_csv_path, mode='a', header=False, index=False)  # If the file exists, append the DataFrame to it
+        # except FileNotFoundError:
         #     # If the file does not exist, create it and write the DataFrame to it, log the max_date
         #     df.to_csv(processing_csv_path, mode='w', header=True, index=False)
         #     token_run_log['max_date'] = max_date
-        try:
-            df.to_csv(processing_csv_path, mode='a', header=False, index=False)  # If the file exists, append the DataFrame to it
-        except FileNotFoundError:
-            # If the file does not exist, create it and write the DataFrame to it, log the max_date
-            df.to_csv(processing_csv_path, mode='w', header=True, index=False)
-            token_run_log['max_date'] = max_date
 
         token_run_log["batch_dates"].append([max_date, min_date])
         token_run_log["min_date"] = min_date
@@ -95,4 +96,10 @@ class DataProcessor:
             append_token_to_txt(token_name, c.L_ERROR_TOKENS_PATH)
         else:  # done
             append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
+            # move data and log file to data/04_output
+            token_output_data_path = f"{c.OUTPUT_DATA_PATH}{token_name}.csv"
+            token_output_log_path = f"{c.OUTPUT_LOG_PATH}{token_name}_run_log.json"
+            import shutil
+            shutil.move(self.processing_data_path, token_output_data_path)
+            shutil.move(token_run_log_path, token_output_log_path)
 

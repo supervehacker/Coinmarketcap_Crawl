@@ -1,4 +1,4 @@
-from utils.helpers import get_token_run_log_path
+from utils.helpers import get_token_run_log_path, print_and_log
 from data_processing.helpers import write_to_json, read_from_json
 
 
@@ -18,7 +18,7 @@ class DataLogger:
 
         write_to_json(token_run_log, token_run_log_path)
 
-        print(f"token_name={token_name}  batch_no={batch_no}  run_time: {run_time} seconds")
+        print_and_log(f"token_name={token_name}  batch_no={batch_no}  run_time: {run_time} seconds")
 
         # check if is_done
         is_done = token_run_log["is_done"]

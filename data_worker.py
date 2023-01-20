@@ -1,4 +1,4 @@
-from utils.helpers import date_batch_map
+from utils.helpers import date_batch_map, print_and_log
 
 
 class DataWorker:
@@ -16,6 +16,7 @@ class DataWorker:
         data_logger = data_logger.DataLogger(token_name)
 
         is_done = data_processor.refresh_is_done()
+        driver = crawler.get_driver()
 
         while not is_done:
             import time
@@ -23,9 +24,9 @@ class DataWorker:
 
             to_date = data_processor.refresh_to_date()
             batch_no = date_batch_map[int(to_date)]
-            print(f"----- token_name={token_name}  batch_no={batch_no}  to_date={to_date}")
+            print_and_log(f"----- token_name={token_name}  batch_no={batch_no}  to_date={to_date}")
 
-            driver = crawler.crawl_data(to_date)
+            driver = crawler.crawl_data(driver, to_date)
             data, l_cols = parser.parse_data(driver)
             data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
 
@@ -36,7 +37,8 @@ class DataWorker:
             if is_done:
                 break
 
+        driver.close()
         # append token_name into l_error_tokens.txt / l_done_tokens.txt
         data_processor.update_list_error_done()
 
-        print(f"FINISH ----- token_name={token_name}")
+        print_and_log(f"FINISH ----- token_name={token_name}")

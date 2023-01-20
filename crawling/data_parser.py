@@ -26,16 +26,16 @@ class DataParser:
             cells = row.find_elements_by_xpath('.//td')
             data.append([cell.text for cell in cells])
 
-        if data[0][0] == 'No data is available now': # print(data)  # [['No data is available now']]
-            print(f"token={token_name}, to_date ={c.TO_DATE}, 'No data is available now'")
+        if data[0][0] == 'No data is available now':
+            print_and_log(f"token={token_name}, to_date ={c.TO_DATE}, 'No data is available now'")
             import json
             token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
             with open(token_run_log_path, "r") as f:
                 token_run_log = json.load(f)
                 token_run_log["is_done"] = True
                 token_run_log["is_error"] = True
-                with open(token_run_log_path, "w") as f:
-                    json.dump(token_run_log, f)
+                with open(token_run_log_path, "w") as f2:
+                    json.dump(token_run_log, f2)
             return None, None
         # import sys
         # sys.exit()
@@ -67,7 +67,7 @@ class DataParser:
         cells = thead.find_elements_by_xpath('.//th')
         l_cols = [cell.text for cell in cells]        # print(l_cols) ["Date", "Open", "High", "Low", "Close", "Volume", "Market Cap"]
         ## TODO append l_cols vào dòng đầu tiên của data => write_data_to_csv(data)
-        driver.close()  # All windows related to driver instance will quit #TODO nhét vào parser
+        # driver.close()  # All windows related to driver instance will quit #TODO nhét vào parser
 
         # write_data_to_csv(token_name, data, l_cols)
         return data, l_cols

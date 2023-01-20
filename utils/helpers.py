@@ -7,6 +7,13 @@ import sys
 from utils.date_helpers import subtract_days_from_date
 
 
+def print_and_log(message):
+    current_time = str(datetime.now())
+    print(message)
+    with open(c.LOG_FILE_PATH, "a") as log_file:
+        log_file.write(f'{current_time} - {message}\n')
+
+
 # import datetime
 # redirect print function to log file
 class Logger(object):
@@ -37,3 +44,7 @@ for i in range(40):  # to around 20120319 / first token: 20130428
 
 def get_token_run_log_path(token_name):
     return f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
+
+
+def get_token_output_log_path(token_name):
+    return f"{c.OUTPUT_LOG_PATH}{token_name}_run_log.json"
