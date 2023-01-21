@@ -78,28 +78,11 @@ class DataProcessor:
         print_and_log(f"token_name={self.token_name} to_date={to_date}")
         return to_date
 
-    # def update_list_done(self):
-    #     # append token_name into l_error_tokens.txt / l_done_tokens.txt
-    #     token_name = self.token_name
-    #     token_run_log_path = self.token_run_log_path
-    #     token_run_log = read_from_json(token_run_log_path)
-    #     is_error = token_run_log["is_error"]
-    #     if is_error:
-    #         append_token_to_txt(token_name, c.L_ERROR_TOKENS_PATH)
-    #     else:  # done
-    #         append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
-    #         # move data and log file to data/04_output
-    #         token_output_data_path = f"{c.OUTPUT_DATA_PATH}{token_name}.csv"
-    #         token_output_log_path = f"{c.OUTPUT_LOG_PATH}{token_name}_run_log.json"
-    #         import shutil
-    #         shutil.move(self.processing_data_path, token_output_data_path)
-    #         shutil.move(token_run_log_path, token_output_log_path)
-    def update_list_done(self):
+    def move_done_files(self):  # TODO data_master role??
         # append token_name into l_error_tokens.txt / l_done_tokens.txt
         token_name = self.token_name
         token_run_log_path = self.token_run_log_path
 
-        append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
         # move data and log file to data/04_output
         token_output_data_path = f"{c.OUTPUT_DATA_PATH}{token_name}.csv"
         token_output_log_path = f"{c.OUTPUT_LOG_PATH}{token_name}_run_log.json"
@@ -107,11 +90,9 @@ class DataProcessor:
         shutil.move(self.processing_data_path, token_output_data_path)
         shutil.move(token_run_log_path, token_output_log_path)
 
-    def update_list_error_done(self):
-        # append token_name into l_error_tokens.txt / l_done_tokens.txt
-        token_name = self.token_name
-        token_run_log_path = self.token_run_log_path
-        token_run_log = read_from_json(token_run_log_path)
-        is_error = token_run_log["is_error"]
-        if is_error:
-            append_token_to_txt(token_name, c.L_ERROR_TOKENS_PATH)
+        # append to l_done_tokens   $ TODO DataLogger
+        append_token_to_txt(token_name, c.L_DONE_TOKENS_PATH)
+
+    def delete_no_data_files(self):
+        pass
+

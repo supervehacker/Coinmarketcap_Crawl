@@ -19,6 +19,8 @@ class DataLogger:
     def log_wrong_url(self):
         token_run_log = read_from_json(self.token_run_log_path)
         token_run_log['is_wrong_url'] = True
+        token_run_log["is_error"] = True
+        token_run_log["is_done"] = True
         write_to_json(token_run_log, self.token_run_log_path)
         # TODO log to a wrong_url list
 

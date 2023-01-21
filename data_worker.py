@@ -26,16 +26,21 @@ class DataWorker:
             data_logger = data_logger.DataLogger(token_name, to_date)
             try:
                 crawler.crawl_data(driver, to_date)
-                data, l_cols = parser.parse_data(driver)
-                if (data, l_cols) == (None, None):  # Handle cases with no_data
-                    data_logger.log_no_data()
-                    return
-                else:
-                    data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
             except TimeoutException:
+                # print exception
                 # crawl_error = crawler.check_wrong_url()
                 # if crawl_error == 'x": data_logger.log_wrong_url()
+                driver.quit()
                 break
+
+            data, l_cols = parser.parse_data(driver)
+            driver.quit()
+
+            if (data, l_cols) == (None, None):  # Handle cases with no_data
+                data_logger.log_no_data()
+                return
+            else:
+                data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
 
             end_time = time.time()
 
@@ -44,10 +49,10 @@ class DataWorker:
             if is_done:
                 break
 
-            driver.quit()   # driver.close()
+
 
         # append token_name into l_error_tokens.txt / l_done_tokens.txt
-        data_processor.update_list_done()
+        data_processor.move_done_files()
 
         print_and_log(f"FINISH ----- token_name={token_name}")
 
