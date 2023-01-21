@@ -25,15 +25,15 @@ class DataParser:
             data.append([cell.text for cell in cells])
 
         if data[0][0] == 'No data is available now':
-            print_and_log(f"token={token_name}, to_date ={c.TO_DATE}, 'No data is available now'")
-            import json
-            token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
-            with open(token_run_log_path, "r") as f:
-                token_run_log = json.load(f)
-                token_run_log["is_done"] = True
-                token_run_log["is_error"] = True
-                with open(token_run_log_path, "w") as f2:
-                    json.dump(token_run_log, f2)
+            # import json
+            # token_run_log_path = f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
+            # with open(token_run_log_path, "r") as f:
+            #     token_run_log = json.load(f)
+            #     token_run_log["is_error"] = True
+            #     token_run_log["is_done"] = True
+            #
+            #     with open(token_run_log_path, "w") as f2:
+            #         json.dump(token_run_log, f2)
             return None, None
 
         """
@@ -46,24 +46,23 @@ class DataParser:
         Elapsed time: 21.973439 seconds
         Elapsed time: 23.189889 seconds
         Elapsed time: 21.862326 seconds
+        
+        import concurrent.futures
+
+        def get_cell_text(row):
+            cells = row.find_elements_by_xpath('.//td')
+            return [cell.text for cell in cells]
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            rows = table_element.find_elements_by_xpath('.//tbody/tr')
+            results = [executor.submit(get_cell_text, row) for row in rows]
+            for f in concurrent.futures.as_completed(results):
+                data.append(f.result())
         """
-        # import concurrent.futures
-        #
-        # def get_cell_text(row):
-        #     cells = row.find_elements_by_xpath('.//td')
-        #     return [cell.text for cell in cells]
-        #
-        # with concurrent.futures.ThreadPoolExecutor() as executor:
-        #     rows = table_element.find_elements_by_xpath('.//tbody/tr')
-        #     results = [executor.submit(get_cell_text, row) for row in rows]
-        #     for f in concurrent.futures.as_completed(results):
-        #         data.append(f.result())
 
         thead = table_element.find_element_by_xpath('.//thead/tr')
         cells = thead.find_elements_by_xpath('.//th')
         l_cols = [cell.text for cell in cells]        # print(l_cols) ["Date", "Open", "High", "Low", "Close", "Volume", "Market Cap"]
         # TODO append l_cols vào dòng đầu tiên của data => write_data_to_csv(data)
-        # driver.close()  # All windows related to driver instance will quit #TODO nhét vào parser
 
-        # write_data_to_csv(token_name, data, l_cols)
         return data, l_cols
