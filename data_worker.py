@@ -46,10 +46,8 @@ class DataWorker:
 
             driver.quit()   # driver.close()
 
-            # import sys  # TODO comment
-            # sys.exit()
         # append token_name into l_error_tokens.txt / l_done_tokens.txt
-        data_processor.update_list_error_done()
+        data_processor.update_list_done()
 
         print_and_log(f"FINISH ----- token_name={token_name}")
 
