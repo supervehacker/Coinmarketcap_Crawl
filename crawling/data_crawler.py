@@ -20,7 +20,12 @@ class DataCrawler:
         # Crawl without loading Images
         prefs = {'profile.managed_default_content_settings.images': 2}
         chrome_options.add_experimental_option("prefs", prefs)
-        #
+        # # try to handle ERROR:gpu_init.cc(523)] Passthrough is not supported, GL is disabled, ANGLE is
+        # chrome_options.add_argument("--enable-webgl")
+        # chrome_options.add_argument("--disable-extensions")
+        # chrome_options.add_argument("--enable-webgl-developer-extensions")
+        # chrome_options.add_argument("--enable-webgl-draft-extensions")
+        # #
         driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=chrome_options)  # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(url)
         driver.execute_script("window.scrollBy(0, 500)")

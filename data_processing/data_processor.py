@@ -64,16 +64,27 @@ class DataProcessor:
 
     def refresh_is_done(self):
         token_run_log_path = self.token_run_log_path
-        if not os.path.exists(token_run_log_path):
-            token_run_log_schema_dic = {"is_started": False, "is_done": False, "is_error": False, "max_date": None,
-                                        "min_date": None, "batch_dates": [],
-                                        # "to_date": [],
+        # if not os.path.exists(token_run_log_path):
+        #     token_run_log_schema_dic = {"is_started": False, "is_done": False, "is_error": False, "max_date": None,
+        #                                 "min_date": None, "batch_dates": [],
+        #                                 # "to_date": [],
+        #                                 "run_time": [], "last_batch_size": None}
+        #     write_to_json(token_run_log_schema_dic, token_run_log_path)
+        #     is_done = False
+        # else:
+        #     token_run_log = read_from_json(token_run_log_path)
+        #     return token_run_log['is_done']
+        try:
+            is_done = read_from_json(token_run_log_path)['is_done']
+        except FileNotFoundError:
+            token_run_log_schema_dic = {"is_started": False, "is_done": False, "is_error": False,
+                                        "is_no_data": None, "is_wrong_url": None,
+                                        "max_date": None, "min_date": None, "batch_dates": [],
                                         "run_time": [], "last_batch_size": None}
             write_to_json(token_run_log_schema_dic, token_run_log_path)
             is_done = False
-        else:
-            token_run_log = read_from_json(token_run_log_path)
-            return token_run_log['is_done']
+
+        return is_done
 
     def refresh_to_date(self):
         token_run_log_path = self.token_run_log_path
@@ -83,7 +94,6 @@ class DataProcessor:
             to_date = subtract_days_from_date(token_run_log['min_date'], 1)
         else:
             to_date = c.TO_DATE
-
         return to_date
 
     def update_list_error_done(self):

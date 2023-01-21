@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
+
 # CRAWLING HELPERS
 def transform_date_picker(yyyymmdd: int) -> str:
     # Convert the integer to a date object
@@ -44,7 +45,7 @@ def date_select(driver, date):
 
     # 1. YEAR
     # Note: nếu year = 2016, driver will click on "2016-2027" button ==> tìm giải pháp để tìm chính xác text của element đó, ko phải contain nữa
-    yearpicker = wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='yearpicker show']"))) # Wait for the div element with class "yearpicker show" to appear
+    yearpicker = wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='yearpicker show']")))  # Wait for the div element with class "yearpicker show" to appear
 
     # element = wait.until(EC.element_to_be_clickable((By.XPATH, f'//span[text()="{year_text_value}"]')))
     # If you start an XPath expression with //, it begins searching from the root of document. To search relative to a particular element, you should prepend the expression with . instead:

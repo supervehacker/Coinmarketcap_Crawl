@@ -7,9 +7,9 @@ class DataParser:
 
     def parse_data(self, driver):
         token_name = self.token_name
-        from selenium.webdriver.support.ui import WebDriverWait
-        from selenium.webdriver.common.by import By
-        from selenium.webdriver.support import expected_conditions as EC
+        # from selenium.webdriver.support.ui import WebDriverWait
+        # from selenium.webdriver.common.by import By
+        # from selenium.webdriver.support import expected_conditions as EC
 
         table_xpath = '/html/body/div[1]/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div[2]/table'
         # Wait for the table to not contain the text "Loading data..."
@@ -19,11 +19,9 @@ class DataParser:
         table_element = driver.find_element_by_xpath(table_xpath)
         # Scrape the data from the table
         data = []
-        rows = table_element.find_elements_by_xpath('.//tbody/tr')
-        # print(f"rows: {rows} ---- len = {len(rows)}")
+        rows = table_element.find_elements_by_xpath('.//tbody/tr')  # print(f"rows: {rows} ---- len = {len(rows)}")
         for row in rows:
-            # print(row.get_attribute('outerHTML'))
-            cells = row.find_elements_by_xpath('.//td')
+            cells = row.find_elements_by_xpath('.//td') # print(row.get_attribute('outerHTML'))
             data.append([cell.text for cell in cells])
 
         if data[0][0] == 'No data is available now':
@@ -37,8 +35,6 @@ class DataParser:
                 with open(token_run_log_path, "w") as f2:
                     json.dump(token_run_log, f2)
             return None, None
-        # import sys
-        # sys.exit()
 
         """
         Non-concurrent
