@@ -18,10 +18,6 @@ class DataProcessor:
         token_name = self.token_name
         token_run_log_path = self.token_run_log_path
 
-        if (data, l_cols) == (None, None):  # Handle cases with no_data
-            print_and_log(f"token_name={token_name} --- (data, l_cols) == (None, None)")
-            return
-
         df = pd.DataFrame(data, columns=l_cols)  # Create a DataFrame from the list of data
         batch_size = df.shape[0]
         max_date = convert_cmc_date_str_to_yyyymmdd(df['Date'].iloc[0])
@@ -94,6 +90,7 @@ class DataProcessor:
             to_date = subtract_days_from_date(token_run_log['min_date'], 1)
         else:
             to_date = c.TO_DATE
+        print_and_log(f"token_name={self.token_name} to_date={to_date}")
         return to_date
 
     def update_list_error_done(self):
