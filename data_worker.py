@@ -40,7 +40,13 @@ class DataWorker:
                 data_logger.log_no_data()
                 return
             else:
-                data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
+                token_run_log, batch_size = data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
+                if batch_size < 100:
+                    # log last_batch_size, update is_done
+                    # token_run_log = read_from_json(token_run_log_path)
+                    token_run_log["last_batch_size"] = batch_size
+                    token_run_log["is_done"] = True
+                data_logger.write_token_run_log(token_run_log)
 
             end_time = time.time()
 
@@ -48,7 +54,6 @@ class DataWorker:
 
             if is_done:
                 break
-
 
 
         # append token_name into l_error_tokens.txt / l_done_tokens.txt

@@ -45,15 +45,16 @@ class DataProcessor:
         token_run_log['is_started'] = True
         # with open(token_run_log_path, "w") as f:
         #     json.dump(token_run_log, f)
-        write_to_json(token_run_log, token_run_log_path)
+        # write_to_json(token_run_log, token_run_log_path)
         print_and_log(f"token_name={self.token_name}, [{min_date}, {max_date}] {batch_size} rows has been written to csv")
 
-        if batch_size < 100:
-            # log last_batch_size, update is_done
-            token_run_log = read_from_json(token_run_log_path)
-            token_run_log["last_batch_size"] = batch_size
-            token_run_log["is_done"] = True
-            write_to_json(token_run_log, token_run_log_path)
+        return token_run_log, batch_size
+        # if batch_size < 100:
+        #     # log last_batch_size, update is_done
+        #     token_run_log = read_from_json(token_run_log_path)
+        #     token_run_log["last_batch_size"] = batch_size
+        #     token_run_log["is_done"] = True
+        #     write_to_json(token_run_log, token_run_log_path)
 
     def refresh_is_done(self):
         try:
