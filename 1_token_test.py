@@ -10,10 +10,12 @@ def manage_a_worker(token):
 
 l_tokens = refresh_l_tokens()
 
-# token_name = 'terra-classic'
-token_name = 'orbit-chain'
+# token_name = 'terra-classic'  # url does not exist
+token_name = 'golem'    # url has been change
 if token_name in l_tokens:
     manage_a_worker(token_name)
+else:
+    print(f"token_name ={token_name} is not included in l_tokens")
 
 # Write RUN_DATE_HOUR to the file
 with open(c.LAST_RUN_DATE_HOUR_PATH, "w") as f:
