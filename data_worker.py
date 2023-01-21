@@ -17,25 +17,18 @@ class DataWorker:
 
         is_done = data_processor.refresh_is_done()
 
-        # TODO close the driver after x number of iterations
-
         while not is_done:
             import time
             start_time = time.time()
 
             driver = crawler.get_driver()
             to_date = data_processor.refresh_to_date()
-
             data_logger = data_logger.DataLogger(token_name, to_date)
-            # batch_no = date_batch_map[int(to_date)]
-            # print_and_log(f"----- token_name={token_name}  batch_no={batch_no}  to_date={to_date}")
-
             try:
                 crawler.crawl_data(driver, to_date)
                 data, l_cols = parser.parse_data(driver)
                 if (data, l_cols) == (None, None):  # Handle cases with no_data
                     data_logger.log_no_data()
-
                     return
                 else:
                     data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
