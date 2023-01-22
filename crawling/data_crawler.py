@@ -55,7 +55,7 @@ class DataCrawler:
             orig_url_curr_url_str = f"{orig_url} {curr_url}"
             print_and_log(f"url was redirected: {orig_url_curr_url_str}")
             from data_processing.helpers import append_element_to_txt
-            append_element_to_txt(f"{orig_url_curr_url_str}", f"{c.PROCESSING_ERROR_LOG_PATH}/redirected_urls")
+            append_element_to_txt(f"{orig_url_curr_url_str}", f"{c.PROCESSING_ERROR_LOG_PATH}/1_redirected_urls.txt")
             return True
         else:
             return False
@@ -67,7 +67,7 @@ class DataCrawler:
         err_element = driver.find_element_by_xpath(err_msg_xpath)
         if err_element.text == "Sorry, we couldn't find your page":
             # url_not_exists = True
-            print_and_log(f"token_name={self.token_name} -- {err_element.text}")
+            print_and_log(f"url does not exist: {self.url} -- ")
             return True
         else:
             return False
