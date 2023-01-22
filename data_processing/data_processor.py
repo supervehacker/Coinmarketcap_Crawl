@@ -46,7 +46,7 @@ class DataProcessor:
         # with open(token_run_log_path, "w") as f:
         #     json.dump(token_run_log, f)
         # write_to_json(token_run_log, token_run_log_path)
-        print_and_log(f"----- token_name={self.token_name}, [{min_date}, {max_date}] {batch_size} rows has been written to csv")
+        print_and_log(f"----- token_name={self.token_name} batch_dates=[{min_date}, {max_date}] {batch_size} rows has been written to csv")
 
         return token_run_log, batch_size
         # if batch_size < 100:
@@ -102,8 +102,12 @@ class DataProcessor:
         processing_error_data_path = f"{c.PROCESSING_ERROR_LOG_PATH}{token_name}.csv"
         processing_error_run_log_path = f"{c.PROCESSING_ERROR_LOG_PATH}{token_name}_run_log.json"
         import shutil
-        shutil.move(self.processing_data_path, processing_error_data_path)
         shutil.move(token_run_log_path, processing_error_run_log_path)
+        try:
+            shutil.move(self.processing_data_path, processing_error_data_path)
+        """- no data_error:
+            + token this batch has no data -> move 2 files: csv and run_log
+            + first time crawl nodata -> move only run_log file"""
         print_and_log(f"-----Moved No_data error files token_name={token_name} -----")
 
         # append token_name into l_error_tokens.txt
