@@ -14,6 +14,9 @@ def print_and_log(message):
         log_file.write(f'{current_time} - {message}\n')
 
 
+def get_token_run_log_path(token_name):
+    return f"{c.PROCESSING_RUN_LOG_PATH}{token_name}_run_log.json"
+
 # # import datetime
 # # redirect print function to log file
 # class Logger(object):
@@ -41,5 +44,4 @@ def print_and_log(message):
 # {20221231: 1, 20220921: 2, 20220612: 3, 20220303: 4, 20211122: 5, 20210813: 6, 20210504: 7, 20210123: 8, 20201014: 9, 20200705: 10, 20200326: 11, 20191216: 12, 20190906: 13, 20190528: 14, 20190216: 15, 20181107: 16, 20180729: 17, 20180419: 18, 20180108: 19, 20170929: 20, 20170620: 21, 20170311: 22, 20161130: 23, 20160821: 24, 20160512: 25, 20160201: 26, 20151023: 27, 20150714: 28, 20150404: 29, 20141224: 30, 20140914: 31, 20140605: 32, 20140224: 33, 20131115: 34, 20130806: 35, 20130427: 36, 20130116: 37, 20121007: 38, 20120628: 39, 20120319: 40}
 
 
-def get_token_run_log_path(token_name):
-    return f"{c.PROCESSING_LOG_PATH}{token_name}_run_log.json"
+

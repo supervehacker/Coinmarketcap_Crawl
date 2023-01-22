@@ -42,3 +42,8 @@ def get_date_text_values(yyyymmdd):
     date_text_value = str(date.day).zfill(2)  # "20" instead of "20"
 
     return year_text_value, month_text_value, date_text_value
+
+
+def current_time_formatted_str():
+    now = datetime.now()
+    return now.strftime("%Y-%m-%d-%H-%M")

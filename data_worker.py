@@ -1,4 +1,5 @@
-from utils.helpers import print_and_log
+import data_processing.helpers
+# from utils.helpers import print_and_log
 
 
 class DataWorker:
@@ -24,22 +25,28 @@ class DataWorker:
 
             driver = crawler.get_driver()
             to_date = data_processor.refresh_to_date()
-            data_logger = DataLogger(token_name, to_date)
+
             try:
                 crawler.crawl_data(driver, to_date)
             except TimeoutException:
-                # print exception
-                # crawl_error = crawler.check_wrong_url()
-                # if crawl_error == 'x": data_logger.log_wrong_url()
+                if crawler.is_url_redirected(driver):
+                    data_processor.delete_error_runlog_file_append_l_error()
+                elif crawler.is_url_not_exist(driver):
+                    data_processor.delete_error_runlog_file_append_l_error()
+                else:
+                    crawler.save_current_screenshot(driver)
                 driver.quit()
                 break
 
             data, l_cols = parser.parse_data(driver)
             driver.quit()
 
+            data_logger = DataLogger(token_name, to_date)
+
             if (data, l_cols) == (None, None):  # Handle cases with no_data
-                data_logger.log_no_data()
-                return
+                data_logger.log_no_data_error()
+                data_processor.move_no_data_files_append_l_error()
+                break
             else:
                 token_run_log, batch_size = data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
                 if batch_size < 100:
@@ -47,22 +54,12 @@ class DataWorker:
                     token_run_log["last_batch_size"] = batch_size
                     token_run_log["is_done"] = True
                     is_done = True
+                    data_processor.move_done_files_append_l_done()
+                token_run_log = data_logger.append_run_time_to_run_log(token_run_log, start_time)
+                data_logger.write_run_log_to_json(token_run_log)
 
-            end_time = time.time()
-            run_time = format(end_time - start_time, ".2f")
-            token_run_log['run_time'].append(run_time)
-            print_and_log(f"------done batch token_name={token_name} to_date={to_date} run_time: {run_time} seconds")
-            # is_done = data_logger.log_run_time_check_is_done(start_time, end_time)
-
-            data_logger.write_token_run_log(token_run_log)
-
-            if is_done:
-                data_processor.move_done_files()
-                print_and_log(f"FINISH ----- token_name={token_name}")
+            if is_done:  # TODO check if these 2 lines are needed? => no
                 break
 
-        # append token_name into l_error_tokens.txt / l_done_tokens.txt
-
-
-
+    #
     # def crawl_single_token_not_close_driver(self):

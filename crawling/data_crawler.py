@@ -1,20 +1,19 @@
 from crawling.helpers import *
-from utils.date_helpers import subtract_days_from_date
+# from utils.helpers import print_and_log
+
 from selenium import webdriver
 
 
 class DataCrawler:
     def __init__(self, token_name):
         self.token_name = token_name
+        self.url = url = f"https://coinmarketcap.com/currencies/{token_name}/historical-data/"
 
     def get_driver(self):
-        token_name = self.token_name
-
-        url = f"https://coinmarketcap.com/currencies/{token_name}/historical-data/"
+        chrome_options = webdriver.ChromeOptions()
         """
         Also, you can try to disable SSL verification by adding the following line of code before creating the webdriver instance. --ignore-ssl-errors=yes which tells the webdriver to ignore SSL errors when connecting to websites. --ignore-certificate-errors which tells the webdriver to ignore certificate errors when connecting to websites. Please keep in mind that disabling SSL verification is not recommended and it should only be used as a last resort.
         """
-        chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--ignore-ssl-errors=yes')
         chrome_options.add_argument('--ignore-certificate-errors')
         # Crawl without loading Images
@@ -26,8 +25,8 @@ class DataCrawler:
         # chrome_options.add_argument("--enable-webgl-developer-extensions")
         # chrome_options.add_argument("--enable-webgl-draft-extensions")
         # #
-        driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=chrome_options)  # driver = webdriver.Chrome(ChromeDriverManager().install())
-        driver.get(url)
+        driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=chrome_options)   # driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver.get(self.url)
         driver.execute_script("window.scrollBy(0, 500)")
         return driver
 
@@ -40,6 +39,7 @@ class DataCrawler:
         element.click()
 
         # Select date
+        from utils.date_helpers import subtract_days_from_date
         from_date = subtract_days_from_date(to_date, 100)
         select_from_date_to_date(driver, from_date, to_date)
 
@@ -47,3 +47,33 @@ class DataCrawler:
         continue_button_xpath = '/html/body/div[1]/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div[1]/div/div/div[1]/div/div/div[2]/span/button'
         element = driver.find_element_by_xpath(continue_button_xpath)
         element.click()
+
+    def is_url_redirected(self, driver):
+        orig_url = self.url
+        curr_url = driver.current_url
+        if orig_url != curr_url:  # token_name = 'golem' ~ url has been redirected
+            orig_url_curr_url_str = f"{orig_url} {curr_url}"
+            print_and_log(f"url was redirected: {orig_url_curr_url_str}")
+            from data_processing.helpers import append_element_to_txt
+            append_element_to_txt(f"{orig_url_curr_url_str}", f"{c.PROCESSING_ERROR_LOG_PATH}/redirected_urls")
+            return True
+        else:
+            return False
+
+    def is_url_not_exist(self, driver):
+        """token_name = 'terra-classic'
+        Sorry, we couldn't find your page"""
+        err_msg_xpath = "/html/body/div/div/div[1]/div/div[1]/p[2]"
+        err_element = driver.find_element_by_xpath(err_msg_xpath)
+        if err_element.text == "Sorry, we couldn't find your page":
+            # url_not_exists = True
+            print_and_log(f"token_name={self.token_name} -- {err_element.text}")
+            return True
+        else:
+            return False
+
+    def save_current_screenshot(self, driver):
+        from utils.date_helpers import current_time_formatted_str
+        driver.save_screenshot(f"{c.PROCESSING_ERROR_LOG_PATH}{self.token_name}-{current_time_formatted_str()}.png")
+        print_and_log(f"-----Screenshot saved token_name={self.token_name} TimeoutException has not been handled")
+

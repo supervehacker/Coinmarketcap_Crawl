@@ -12,11 +12,12 @@ TO_DATE = 20221231
 LIST_ALL_TOKENS_PATH = f"data/01_list_all_tokens/"
 TOKEN_TO_CRAWL_PATH = f"data/02_tokens_to_crawl/{RUN_DATE_HOUR}/"
 PROCESSING_DATA_PATH = f"data/03_processing/processing_data/"
-PROCESSING_LOG_PATH = f"data/03_processing/processing_logs/"
+PROCESSING_RUN_LOG_PATH = f"data/03_processing/processing_run_logs/"
+PROCESSING_ERROR_LOG_PATH = f"data/03_processing/processing_error_logs/"
 OUTPUT_DATA_PATH = f"data/04_output/output_data/"
 OUTPUT_LOG_PATH = f"data/04_output/data_run_logs/"
 
-paths = {TOKEN_TO_CRAWL_PATH, PROCESSING_DATA_PATH, PROCESSING_LOG_PATH, OUTPUT_DATA_PATH, OUTPUT_LOG_PATH}
+paths = {TOKEN_TO_CRAWL_PATH, PROCESSING_DATA_PATH, PROCESSING_RUN_LOG_PATH, PROCESSING_ERROR_LOG_PATH, OUTPUT_DATA_PATH, OUTPUT_LOG_PATH}
 
 import os
 for path in paths:
@@ -42,7 +43,7 @@ ALL_ERROR_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_error_tokens.txt"
 ALL_UNDONE_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_undone_tokens.txt"
 
 
-LAST_RUN_DATE_HOUR_PATH = f"{PROCESSING_LOG_PATH}/last_run_date_hour.txt"
+LAST_RUN_DATE_HOUR_PATH = f"{PROCESSING_RUN_LOG_PATH}/last_run_date_hour.txt"
 try:
     with open(LAST_RUN_DATE_HOUR_PATH, "r") as f:  # get last_run_date_hour from run_date_hour.txt
         last_run_date_hour = f.readlines()[0]
