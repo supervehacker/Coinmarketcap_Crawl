@@ -16,7 +16,7 @@ class DataLogger:
         end_time = time.time()
         run_time = format(end_time - start_time, ".2f")
         token_run_log['run_time'].append(run_time)
-        print_and_log(f"----- token_name={self.token_name} to_date={self.to_date} run_time: {run_time} seconds")
+        print_and_log(f"----- run_time: {run_time} seconds -- token_name={self.token_name} to_date={self.to_date}")
         return token_run_log
 
     def log_no_data_error(self):
@@ -26,7 +26,7 @@ class DataLogger:
         # token_run_log["is_done"] = True
         # write_to_json(token_run_log, self.token_run_log_path)
         self.write_run_log_to_json(token_run_log)
-        print_and_log(f"token_name={self.token_name}  to_date={self.to_date} -- 'No data is available now'")
+        print_and_log(f"-- 'No data is available now' -- token_name={self.token_name}  to_date={self.to_date}")
 
     """
     def log_wrong_url(self):

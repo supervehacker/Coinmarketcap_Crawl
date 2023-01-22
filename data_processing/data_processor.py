@@ -46,7 +46,7 @@ class DataProcessor:
         # with open(token_run_log_path, "w") as f:
         #     json.dump(token_run_log, f)
         # write_to_json(token_run_log, token_run_log_path)
-        print_and_log(f"----- token_name={self.token_name} batch_dates=[{min_date}, {max_date}] {batch_size} rows has been written to csv")
+        print_and_log(f"--batch_dates=[{min_date}, {max_date}] {batch_size} rows has been written to csv -- token_name={self.token_name} ")
 
         return token_run_log, batch_size
         # if batch_size < 100:
