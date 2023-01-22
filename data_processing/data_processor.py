@@ -105,6 +105,9 @@ class DataProcessor:
         shutil.move(token_run_log_path, processing_error_run_log_path)
         try:
             shutil.move(self.processing_data_path, processing_error_data_path)
+        except FileNotFoundError:
+            print(f"FileNotFoundError token_name = {token_name}")
+
         """- no data_error:
             + token this batch has no data -> move 2 files: csv and run_log
             + first time crawl nodata -> move only run_log file"""
