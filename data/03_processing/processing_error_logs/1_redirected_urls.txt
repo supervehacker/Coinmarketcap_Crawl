@@ -15,3 +15,4 @@ https://coinmarketcap.com/currencies/poa-network/historical-data/ https://coinma
 https://coinmarketcap.com/currencies/fenerbahçe-token/historical-data/ https://coinmarketcap.com/currencies/fenerbah%C3%A7e-token/historical-data/
 https://coinmarketcap.com/currencies/navcoin/historical-data/ https://coinmarketcap.com/currencies/nav-coin/
 https://coinmarketcap.com/currencies/#metahash/historical-data/ https://coinmarketcap.com/coins/
+https://coinmarketcap.com/currencies/æternity/historical-data/ https://coinmarketcap.com/currencies/%C3%A6ternity/historical-data/

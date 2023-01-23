@@ -10,22 +10,27 @@ class DataCrawler:
         self.url = url = f"https://coinmarketcap.com/currencies/{token_name}/historical-data/"
 
     def get_driver(self):
-        chrome_options = webdriver.ChromeOptions()
+        options = webdriver.ChromeOptions()
         """
         Also, you can try to disable SSL verification by adding the following line of code before creating the webdriver instance. --ignore-ssl-errors=yes which tells the webdriver to ignore SSL errors when connecting to websites. --ignore-certificate-errors which tells the webdriver to ignore certificate errors when connecting to websites. Please keep in mind that disabling SSL verification is not recommended and it should only be used as a last resort.
         """
-        chrome_options.add_argument('--ignore-ssl-errors=yes')
-        chrome_options.add_argument('--ignore-certificate-errors')
+        options.add_argument('--ignore-ssl-errors=yes')
+        options.add_argument('--ignore-certificate-errors')
         # Crawl without loading Images
         prefs = {'profile.managed_default_content_settings.images': 2}
-        chrome_options.add_experimental_option("prefs", prefs)
+        options.add_experimental_option("prefs", prefs)
         # # try to handle ERROR:gpu_init.cc(523)] Passthrough is not supported, GL is disabled, ANGLE is
         # chrome_options.add_argument("--enable-webgl")
         # chrome_options.add_argument("--disable-extensions")
         # chrome_options.add_argument("--enable-webgl-developer-extensions")
         # chrome_options.add_argument("--enable-webgl-draft-extensions")
         # #
-        driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=chrome_options)   # driver = webdriver.Chrome(ChromeDriverManager().install())
+        """
+        When using Selenium with Chrome, you can prevent the browser from popping up on your screen by using the "headless" mode. In headless mode, the browser runs in the background without displaying any UI.
+        """
+        options.add_argument('--headless')
+        options.add_argument('--disable-gpu')
+        driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=options)   # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(self.url)
         driver.execute_script("window.scrollBy(0, 500)")
         return driver

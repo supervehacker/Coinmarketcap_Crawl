@@ -13,7 +13,7 @@ l_tokens = refresh_l_tokens()
 token_name = 'terra-classic'  # url does not exist
 # token_name = 'golem'    # url has been redirected
 
-# token_name = 'xxx'  # ok
+token_name = 'dock'  # ok
 
 if token_name in l_tokens:
     manage_a_worker(token_name)
