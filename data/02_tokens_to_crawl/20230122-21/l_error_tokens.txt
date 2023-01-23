@@ -1,0 +1,5 @@
+namecoin
+bidr
+hapi-protocol
+goldfinch
+measurable-data-token

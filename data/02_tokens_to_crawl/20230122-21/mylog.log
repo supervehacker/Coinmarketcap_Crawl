@@ -1,0 +1,1682 @@
+2023-01-22 21:03:00.125048 - token_name=reserve to_date=20201014
+2023-01-22 21:03:01.418649 - token_name=tokenlon-network-token to_date=20210813
+2023-01-22 21:03:17.806195 - --batch_dates=[20200827, 20201014] 48 rows has been written to csv -- token_name=reserve 
+2023-01-22 21:03:17.806195 - -----FINISH----- token_name=reserve -----
+2023-01-22 21:03:17.807193 - ----- run_time: 28.49 seconds -- token_name=reserve to_date=20201014
+2023-01-22 21:03:25.193572 - token_name=dia to_date=20210123
+2023-01-22 21:03:26.776366 - token_name=carry to_date=20220303
+2023-01-22 21:03:29.666688 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=tokenlon-network-token 
+2023-01-22 21:03:29.668683 - ----- run_time: 40.35 seconds -- token_name=tokenlon-network-token to_date=20210813
+2023-01-22 21:03:37.038105 - token_name=tokenlon-network-token to_date=20210504
+2023-01-22 21:03:57.761210 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:03:57.761210 - ----- run_time: 39.95 seconds -- token_name=carry to_date=20220303
+2023-01-22 21:04:05.404903 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=dia 
+2023-01-22 21:04:05.407897 - ----- run_time: 76.09 seconds -- token_name=dia to_date=20210123
+2023-01-22 21:04:07.321811 - token_name=carry to_date=20211122
+2023-01-22 21:04:07.613038 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=tokenlon-network-token 
+2023-01-22 21:04:07.613038 - ----- run_time: 37.94 seconds -- token_name=tokenlon-network-token to_date=20210504
+2023-01-22 21:04:15.535991 - token_name=dia to_date=20201014
+2023-01-22 21:04:23.766126 - token_name=tokenlon-network-token to_date=20210123
+2023-01-22 21:04:38.497264 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:04:38.498234 - ----- run_time: 40.74 seconds -- token_name=carry to_date=20211122
+2023-01-22 21:04:38.688429 - --batch_dates=[20201223, 20210123] 31 rows has been written to csv -- token_name=tokenlon-network-token 
+2023-01-22 21:04:38.690413 - -----FINISH----- token_name=tokenlon-network-token -----
+2023-01-22 21:04:38.690413 - ----- run_time: 31.08 seconds -- token_name=tokenlon-network-token to_date=20210123
+2023-01-22 21:04:39.431354 - --batch_dates=[20200804, 20201014] 71 rows has been written to csv -- token_name=dia 
+2023-01-22 21:04:39.501168 - -----FINISH----- token_name=dia -----
+2023-01-22 21:04:39.502166 - ----- run_time: 34.09 seconds -- token_name=dia to_date=20201014
+2023-01-22 21:04:45.233940 - token_name=carry to_date=20210813
+2023-01-22 21:04:47.266540 - token_name=monacoin to_date=20191216
+2023-01-22 21:04:49.720022 - token_name=akash-network to_date=20210813
+2023-01-22 21:05:15.496650 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:05:15.497606 - ----- run_time: 37.00 seconds -- token_name=carry to_date=20210813
+2023-01-22 21:05:17.250369 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:05:17.250369 - ----- run_time: 38.55 seconds -- token_name=monacoin to_date=20191216
+2023-01-22 21:05:19.230488 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=akash-network 
+2023-01-22 21:05:19.230488 - ----- run_time: 39.70 seconds -- token_name=akash-network to_date=20210813
+2023-01-22 21:05:24.597614 - token_name=carry to_date=20210504
+2023-01-22 21:05:26.019677 - token_name=akash-network to_date=20210504
+2023-01-22 21:05:31.218865 - token_name=monacoin to_date=20190906
+2023-01-22 21:05:53.339102 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:05:53.339102 - ----- run_time: 37.84 seconds -- token_name=carry to_date=20210504
+2023-01-22 21:05:56.966727 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=akash-network 
+2023-01-22 21:05:56.967709 - ----- run_time: 37.73 seconds -- token_name=akash-network to_date=20210504
+2023-01-22 21:05:57.954094 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:05:57.976036 - ----- run_time: 40.72 seconds -- token_name=monacoin to_date=20190906
+2023-01-22 21:06:02.037097 - token_name=carry to_date=20210123
+2023-01-22 21:06:04.438716 - token_name=akash-network to_date=20210123
+2023-01-22 21:06:12.254953 - token_name=monacoin to_date=20190528
+2023-01-22 21:06:35.679723 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:06:35.682715 - ----- run_time: 42.34 seconds -- token_name=carry to_date=20210123
+2023-01-22 21:06:46.319459 - token_name=carry to_date=20201014
+2023-01-22 21:06:46.621655 - --batch_dates=[20201020, 20210123] 95 rows has been written to csv -- token_name=akash-network 
+2023-01-22 21:06:46.622655 - -----FINISH----- token_name=akash-network -----
+2023-01-22 21:06:46.624648 - ----- run_time: 49.65 seconds -- token_name=akash-network to_date=20210123
+2023-01-22 21:06:46.683492 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:06:46.684574 - ----- run_time: 48.71 seconds -- token_name=monacoin to_date=20190528
+2023-01-22 21:06:54.991421 - token_name=fusion to_date=20201014
+2023-01-22 21:06:56.772691 - token_name=monacoin to_date=20190216
+2023-01-22 21:07:22.728736 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:07:22.731728 - ----- run_time: 47.05 seconds -- token_name=carry to_date=20201014
+2023-01-22 21:07:27.525487 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:07:27.525487 - ----- run_time: 40.84 seconds -- token_name=monacoin to_date=20190216
+2023-01-22 21:07:29.660508 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:07:29.660508 - ----- run_time: 43.03 seconds -- token_name=fusion to_date=20201014
+2023-01-22 21:07:34.579960 - token_name=carry to_date=20200705
+2023-01-22 21:07:38.179522 - token_name=monacoin to_date=20181107
+2023-01-22 21:07:42.010345 - token_name=fusion to_date=20200705
+2023-01-22 21:08:07.776896 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:08:07.781883 - ----- run_time: 45.05 seconds -- token_name=carry to_date=20200705
+2023-01-22 21:08:13.846412 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:08:13.846412 - ----- run_time: 44.18 seconds -- token_name=fusion to_date=20200705
+2023-01-22 21:08:14.001495 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:08:14.002501 - ----- run_time: 46.48 seconds -- token_name=monacoin to_date=20181107
+2023-01-22 21:08:15.160912 - token_name=carry to_date=20200326
+2023-01-22 21:08:24.400581 - token_name=fusion to_date=20200326
+2023-01-22 21:08:25.378981 - token_name=monacoin to_date=20180729
+2023-01-22 21:08:45.103489 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:08:45.104488 - ----- run_time: 37.32 seconds -- token_name=carry to_date=20200326
+2023-01-22 21:08:52.845119 - token_name=carry to_date=20191216
+2023-01-22 21:08:53.041598 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:08:53.042595 - ----- run_time: 39.04 seconds -- token_name=monacoin to_date=20180729
+2023-01-22 21:08:53.102436 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:08:53.102436 - ----- run_time: 39.25 seconds -- token_name=fusion to_date=20200326
+2023-01-22 21:09:03.755215 - token_name=fusion to_date=20191216
+2023-01-22 21:09:06.283498 - token_name=monacoin to_date=20180419
+2023-01-22 21:09:30.968920 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:09:30.972908 - ----- run_time: 45.87 seconds -- token_name=carry to_date=20191216
+2023-01-22 21:09:40.979326 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:09:40.985312 - ----- run_time: 47.94 seconds -- token_name=monacoin to_date=20180419
+2023-01-22 21:09:41.782194 - token_name=carry to_date=20190906
+2023-01-22 21:09:46.571471 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:09:46.597402 - ----- run_time: 53.49 seconds -- token_name=fusion to_date=20191216
+2023-01-22 21:09:53.397339 - token_name=monacoin to_date=20180108
+2023-01-22 21:09:58.534690 - token_name=fusion to_date=20190906
+2023-01-22 21:10:19.205778 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=carry 
+2023-01-22 21:10:19.209767 - ----- run_time: 48.23 seconds -- token_name=carry to_date=20190906
+2023-01-22 21:10:28.968159 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:10:28.968159 - ----- run_time: 42.37 seconds -- token_name=fusion to_date=20190906
+2023-01-22 21:10:29.000047 - --batch_dates=[20170930, 20180108] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:10:29.001045 - ----- run_time: 48.01 seconds -- token_name=monacoin to_date=20180108
+2023-01-22 21:10:34.338864 - token_name=carry to_date=20190528
+2023-01-22 21:10:42.290740 - token_name=monacoin to_date=20170929
+2023-01-22 21:10:42.407431 - token_name=fusion to_date=20190528
+2023-01-22 21:10:47.514751 - --batch_dates=[20190517, 20190528] 11 rows has been written to csv -- token_name=carry 
+2023-01-22 21:10:47.515748 - -----FINISH----- token_name=carry -----
+2023-01-22 21:10:47.517743 - ----- run_time: 28.30 seconds -- token_name=carry to_date=20190528
+2023-01-22 21:10:54.713794 - token_name=moss-coin to_date=20190906
+2023-01-22 21:11:11.483249 - --batch_dates=[20170621, 20170929] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:11:11.485244 - ----- run_time: 42.48 seconds -- token_name=monacoin to_date=20170929
+2023-01-22 21:11:13.639204 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:11:13.639204 - ----- run_time: 44.67 seconds -- token_name=fusion to_date=20190528
+2023-01-22 21:11:21.051417 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=moss-coin 
+2023-01-22 21:11:21.052377 - ----- run_time: 33.53 seconds -- token_name=moss-coin to_date=20190906
+2023-01-22 21:11:25.580529 - token_name=fusion to_date=20190216
+2023-01-22 21:11:34.813344 - token_name=monacoin to_date=20170620
+2023-01-22 21:11:48.265693 - token_name=moss-coin to_date=20190528
+2023-01-22 21:11:57.514125 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:11:57.516119 - ----- run_time: 43.87 seconds -- token_name=fusion to_date=20190216
+2023-01-22 21:12:03.527150 - --batch_dates=[20170312, 20170620] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:12:03.527150 - ----- run_time: 52.04 seconds -- token_name=monacoin to_date=20170620
+2023-01-22 21:12:06.134224 - token_name=fusion to_date=20181107
+2023-01-22 21:12:16.959468 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=moss-coin 
+2023-01-22 21:12:16.963456 - ----- run_time: 55.91 seconds -- token_name=moss-coin to_date=20190528
+2023-01-22 21:12:24.711926 - token_name=monacoin to_date=20170311
+2023-01-22 21:12:27.176378 - token_name=moss-coin to_date=20190216
+2023-01-22 21:12:46.591879 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:12:46.591879 - ----- run_time: 49.07 seconds -- token_name=fusion to_date=20181107
+2023-01-22 21:12:52.426380 - token_name=fusion to_date=20180729
+2023-01-22 21:12:54.798080 - --batch_dates=[20161201, 20170311] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:12:54.800074 - ----- run_time: 51.27 seconds -- token_name=monacoin to_date=20170311
+2023-01-22 21:13:02.344033 - token_name=monacoin to_date=20161130
+2023-01-22 21:13:02.348022 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=moss-coin 
+2023-01-22 21:13:02.354007 - ----- run_time: 45.39 seconds -- token_name=moss-coin to_date=20190216
+2023-01-22 21:13:13.361764 - token_name=moss-coin to_date=20181107
+2023-01-22 21:13:28.320025 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:13:28.321024 - ----- run_time: 41.73 seconds -- token_name=fusion to_date=20180729
+2023-01-22 21:13:36.389412 - token_name=fusion to_date=20180419
+2023-01-22 21:13:36.742473 - --batch_dates=[20160822, 20161130] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:13:36.743470 - ----- run_time: 41.94 seconds -- token_name=monacoin to_date=20161130
+2023-01-22 21:13:42.232278 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=moss-coin 
+2023-01-22 21:13:42.262198 - ----- run_time: 39.91 seconds -- token_name=moss-coin to_date=20181107
+2023-01-22 21:13:44.788487 - token_name=monacoin to_date=20160821
+2023-01-22 21:13:48.821777 - token_name=moss-coin to_date=20180729
+2023-01-22 21:13:59.935840 - --batch_dates=[20180216, 20180419] 62 rows has been written to csv -- token_name=fusion 
+2023-01-22 21:13:59.936838 - -----FINISH----- token_name=fusion -----
+2023-01-22 21:13:59.937834 - ----- run_time: 31.61 seconds -- token_name=fusion to_date=20180419
+2023-01-22 21:13:59.981760 - --batch_dates=[20180711, 20180729] 18 rows has been written to csv -- token_name=moss-coin 
+2023-01-22 21:13:59.982716 - -----FINISH----- token_name=moss-coin -----
+2023-01-22 21:13:59.983712 - ----- run_time: 17.72 seconds -- token_name=moss-coin to_date=20180729
+2023-01-22 21:14:10.384748 - token_name=alpha-quark-token to_date=20210813
+2023-01-22 21:14:10.975180 - token_name=cream-finance to_date=20220303
+2023-01-22 21:14:16.844587 - --batch_dates=[20160513, 20160821] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:14:16.872513 - ----- run_time: 40.13 seconds -- token_name=monacoin to_date=20160821
+2023-01-22 21:14:26.631588 - token_name=monacoin to_date=20160512
+2023-01-22 21:14:38.586340 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=alpha-quark-token 
+2023-01-22 21:14:38.586340 - ----- run_time: 38.60 seconds -- token_name=alpha-quark-token to_date=20210813
+2023-01-22 21:14:40.707524 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=cream-finance 
+2023-01-22 21:14:40.707524 - ----- run_time: 40.77 seconds -- token_name=cream-finance to_date=20220303
+2023-01-22 21:14:47.733382 - token_name=alpha-quark-token to_date=20210504
+2023-01-22 21:14:48.740706 - token_name=cream-finance to_date=20211122
+2023-01-22 21:14:56.611774 - --batch_dates=[20160202, 20160512] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:14:56.612772 - ----- run_time: 39.72 seconds -- token_name=monacoin to_date=20160512
+2023-01-22 21:15:12.426691 - token_name=monacoin to_date=20160201
+2023-01-22 21:15:18.571340 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=cream-finance 
+2023-01-22 21:15:18.571340 - ----- run_time: 37.86 seconds -- token_name=cream-finance to_date=20211122
+2023-01-22 21:15:19.202660 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=alpha-quark-token 
+2023-01-22 21:15:19.209642 - ----- run_time: 40.62 seconds -- token_name=alpha-quark-token to_date=20210504
+2023-01-22 21:15:23.049425 - token_name=cream-finance to_date=20210813
+2023-01-22 21:15:35.593046 - token_name=alpha-quark-token to_date=20210123
+2023-01-22 21:15:42.722076 - token_name=bella-protocol to_date=20210504
+2023-01-22 21:15:50.650977 - --batch_dates=[20151024, 20160201] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:15:50.654968 - ----- run_time: 54.04 seconds -- token_name=monacoin to_date=20160201
+2023-01-22 21:15:57.803944 - token_name=monacoin to_date=20151023
+2023-01-22 21:16:18.387172 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=bella-protocol 
+2023-01-22 21:16:18.387172 - ----- run_time: 43.27 seconds -- token_name=bella-protocol to_date=20210504
+2023-01-22 21:16:22.549882 - --batch_dates=[20201022, 20210123] 93 rows has been written to csv -- token_name=alpha-quark-token 
+2023-01-22 21:16:22.550879 - -----FINISH----- token_name=alpha-quark-token -----
+2023-01-22 21:16:22.552874 - ----- run_time: 63.34 seconds -- token_name=alpha-quark-token to_date=20210123
+2023-01-22 21:16:29.881402 - --batch_dates=[20150715, 20151023] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:16:29.901348 - ----- run_time: 39.24 seconds -- token_name=monacoin to_date=20151023
+2023-01-22 21:16:32.839626 - token_name=hermez-network to_date=20220303
+2023-01-22 21:16:33.746451 - token_name=bella-protocol to_date=20210123
+2023-01-22 21:16:46.935837 - token_name=monacoin to_date=20150714
+2023-01-22 21:17:01.352477 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=hermez-network 
+2023-01-22 21:17:01.352477 - ----- run_time: 38.80 seconds -- token_name=hermez-network to_date=20220303
+2023-01-22 21:17:03.091847 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=bella-protocol 
+2023-01-22 21:17:03.091847 - ----- run_time: 44.70 seconds -- token_name=bella-protocol to_date=20210123
+2023-01-22 21:17:12.951903 - token_name=hermez-network to_date=20211122
+2023-01-22 21:17:13.474513 - --batch_dates=[20150405, 20150714] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:17:13.475510 - ----- run_time: 43.54 seconds -- token_name=monacoin to_date=20150714
+2023-01-22 21:17:33.652818 - token_name=bella-protocol to_date=20201014
+2023-01-22 21:17:36.689739 - token_name=monacoin to_date=20150404
+2023-01-22 21:17:48.176173 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=hermez-network 
+2023-01-22 21:17:48.178241 - ----- run_time: 46.82 seconds -- token_name=hermez-network to_date=20211122
+2023-01-22 21:17:49.113679 - --batch_dates=[20200915, 20201014] 29 rows has been written to csv -- token_name=bella-protocol 
+2023-01-22 21:17:49.160554 - -----FINISH----- token_name=bella-protocol -----
+2023-01-22 21:17:49.167535 - ----- run_time: 46.07 seconds -- token_name=bella-protocol to_date=20201014
+2023-01-22 21:17:57.978091 - token_name=unifi-protocol-dao to_date=20220303
+2023-01-22 21:17:59.496052 - token_name=hermez-network to_date=20210813
+2023-01-22 21:18:13.429974 - --batch_dates=[20141225, 20150404] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:18:13.430971 - ----- run_time: 59.95 seconds -- token_name=monacoin to_date=20150404
+2023-01-22 21:18:23.117197 - token_name=monacoin to_date=20141224
+2023-01-22 21:18:32.899485 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=unifi-protocol-dao 
+2023-01-22 21:18:32.900482 - ----- run_time: 43.73 seconds -- token_name=unifi-protocol-dao to_date=20220303
+2023-01-22 21:18:34.435818 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=hermez-network 
+2023-01-22 21:18:34.435818 - ----- run_time: 46.26 seconds -- token_name=hermez-network to_date=20210813
+2023-01-22 21:18:41.729210 - token_name=unifi-protocol-dao to_date=20211122
+2023-01-22 21:18:44.837937 - token_name=hermez-network to_date=20210504
+2023-01-22 21:18:55.231280 - --batch_dates=[20140915, 20141224] 100 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:18:55.232278 - ----- run_time: 41.80 seconds -- token_name=monacoin to_date=20141224
+2023-01-22 21:19:09.504302 - token_name=monacoin to_date=20140914
+2023-01-22 21:19:14.599741 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=unifi-protocol-dao 
+2023-01-22 21:19:14.599741 - ----- run_time: 41.70 seconds -- token_name=unifi-protocol-dao to_date=20211122
+2023-01-22 21:19:14.644624 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=hermez-network 
+2023-01-22 21:19:14.645621 - ----- run_time: 40.21 seconds -- token_name=hermez-network to_date=20210504
+2023-01-22 21:19:22.074851 - token_name=unifi-protocol-dao to_date=20210813
+2023-01-22 21:19:25.745085 - token_name=hermez-network to_date=20210123
+2023-01-22 21:19:39.225215 - --batch_dates=[20140606, 20140914] 71 rows has been written to csv -- token_name=monacoin 
+2023-01-22 21:19:39.226214 - -----FINISH----- token_name=monacoin -----
+2023-01-22 21:19:39.228207 - ----- run_time: 43.99 seconds -- token_name=monacoin to_date=20140914
+2023-01-22 21:19:52.822033 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=unifi-protocol-dao 
+2023-01-22 21:19:52.822033 - ----- run_time: 38.22 seconds -- token_name=unifi-protocol-dao to_date=20210813
+2023-01-22 21:19:53.152156 - --batch_dates=[20201018, 20210123] 97 rows has been written to csv -- token_name=hermez-network 
+2023-01-22 21:19:53.153153 - -----FINISH----- token_name=hermez-network -----
+2023-01-22 21:19:53.154169 - ----- run_time: 38.51 seconds -- token_name=hermez-network to_date=20210123
+2023-01-22 21:19:59.832380 - token_name=firo to_date=20200705
+2023-01-22 21:20:04.478021 - token_name=onbuff to_date=20220303
+2023-01-22 21:20:04.822103 - token_name=unifi-protocol-dao to_date=20210504
+2023-01-22 21:20:35.693055 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=onbuff 
+2023-01-22 21:20:35.693055 - ----- run_time: 56.46 seconds -- token_name=onbuff to_date=20220303
+2023-01-22 21:20:36.777995 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:20:36.778993 - ----- run_time: 43.62 seconds -- token_name=firo to_date=20200705
+2023-01-22 21:20:37.635818 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=unifi-protocol-dao 
+2023-01-22 21:20:37.638809 - ----- run_time: 44.81 seconds -- token_name=unifi-protocol-dao to_date=20210504
+2023-01-22 21:20:43.934776 - token_name=onbuff to_date=20211122
+2023-01-22 21:20:48.072780 - token_name=firo to_date=20200326
+2023-01-22 21:20:49.955770 - token_name=unifi-protocol-dao to_date=20210123
+2023-01-22 21:20:57.053075 - --batch_dates=[20211117, 20211122] 5 rows has been written to csv -- token_name=onbuff 
+2023-01-22 21:20:57.054073 - -----FINISH----- token_name=onbuff -----
+2023-01-22 21:20:57.055071 - ----- run_time: 21.36 seconds -- token_name=onbuff to_date=20211122
+2023-01-22 21:21:03.965682 - token_name=xmon to_date=20220303
+2023-01-22 21:21:11.089836 - --batch_dates=[20201120, 20210123] 64 rows has been written to csv -- token_name=unifi-protocol-dao 
+2023-01-22 21:21:11.090835 - -----FINISH----- token_name=unifi-protocol-dao -----
+2023-01-22 21:21:11.091833 - ----- run_time: 33.45 seconds -- token_name=unifi-protocol-dao to_date=20210123
+2023-01-22 21:21:20.435778 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:21:20.436769 - ----- run_time: 43.65 seconds -- token_name=firo to_date=20200326
+2023-01-22 21:21:26.030699 - token_name=bitcicoin to_date=20220612
+2023-01-22 21:21:29.718883 - token_name=firo to_date=20191216
+2023-01-22 21:21:32.382796 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=xmon 
+2023-01-22 21:21:32.382796 - ----- run_time: 35.32 seconds -- token_name=xmon to_date=20220303
+2023-01-22 21:21:44.267171 - token_name=xmon to_date=20211122
+2023-01-22 21:21:57.371229 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=bitcicoin 
+2023-01-22 21:21:57.371229 - ----- run_time: 46.28 seconds -- token_name=bitcicoin to_date=20220612
+2023-01-22 21:21:58.233672 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:21:58.240654 - ----- run_time: 37.80 seconds -- token_name=firo to_date=20191216
+2023-01-22 21:22:10.789169 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=xmon 
+2023-01-22 21:22:10.790166 - ----- run_time: 38.41 seconds -- token_name=xmon to_date=20211122
+2023-01-22 21:22:11.744627 - token_name=bitcicoin to_date=20220303
+2023-01-22 21:22:13.932804 - token_name=firo to_date=20190906
+2023-01-22 21:22:21.863703 - token_name=xmon to_date=20210813
+2023-01-22 21:22:52.640803 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=bitcicoin 
+2023-01-22 21:22:52.640803 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:22:52.641802 - ----- run_time: 55.27 seconds -- token_name=bitcicoin to_date=20220303
+2023-01-22 21:22:52.642799 - ----- run_time: 54.40 seconds -- token_name=firo to_date=20190906
+2023-01-22 21:22:53.908431 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=xmon 
+2023-01-22 21:22:53.973258 - ----- run_time: 43.18 seconds -- token_name=xmon to_date=20210813
+2023-01-22 21:23:01.160134 - token_name=firo to_date=20190528
+2023-01-22 21:23:02.328027 - token_name=bitcicoin to_date=20211122
+2023-01-22 21:23:07.592020 - token_name=xmon to_date=20210504
+2023-01-22 21:23:33.310934 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:23:33.311912 - ----- run_time: 40.67 seconds -- token_name=firo to_date=20190528
+2023-01-22 21:23:33.870696 - --batch_dates=[20210218, 20210504] 75 rows has been written to csv -- token_name=xmon 
+2023-01-22 21:23:33.871693 - -----FINISH----- token_name=xmon -----
+2023-01-22 21:23:33.873688 - ----- run_time: 39.90 seconds -- token_name=xmon to_date=20210504
+2023-01-22 21:23:36.417167 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=bitcicoin 
+2023-01-22 21:23:36.417167 - ----- run_time: 43.77 seconds -- token_name=bitcicoin to_date=20211122
+2023-01-22 21:23:40.046503 - token_name=firo to_date=20190216
+2023-01-22 21:23:41.464730 - token_name=trustswap to_date=20210813
+2023-01-22 21:23:46.555184 - token_name=bitcicoin to_date=20210813
+2023-01-22 21:24:11.750588 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=trustswap 
+2023-01-22 21:24:11.750588 - ----- run_time: 37.87 seconds -- token_name=trustswap to_date=20210813
+2023-01-22 21:24:11.987956 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:24:11.988954 - ----- run_time: 38.67 seconds -- token_name=firo to_date=20190216
+2023-01-22 21:24:13.922807 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=bitcicoin 
+2023-01-22 21:24:13.928794 - ----- run_time: 37.51 seconds -- token_name=bitcicoin to_date=20210813
+2023-01-22 21:24:22.645597 - token_name=firo to_date=20181107
+2023-01-22 21:24:24.005004 - token_name=bitcicoin to_date=20210504
+2023-01-22 21:24:26.741723 - token_name=trustswap to_date=20210504
+2023-01-22 21:24:55.449331 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=trustswap 
+2023-01-22 21:24:55.450329 - ----- run_time: 43.70 seconds -- token_name=trustswap to_date=20210504
+2023-01-22 21:24:56.469616 - --batch_dates=[20210129, 20210504] 95 rows has been written to csv -- token_name=bitcicoin 
+2023-01-22 21:24:56.501532 - -----FINISH----- token_name=bitcicoin -----
+2023-01-22 21:24:56.539430 - ----- run_time: 42.61 seconds -- token_name=bitcicoin to_date=20210504
+2023-01-22 21:24:59.041346 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:24:59.041346 - ----- run_time: 47.05 seconds -- token_name=firo to_date=20181107
+2023-01-22 21:25:06.410738 - token_name=trustswap to_date=20210123
+2023-01-22 21:25:09.479570 - token_name=dforce to_date=20211122
+2023-01-22 21:25:11.577987 - token_name=firo to_date=20180729
+2023-01-22 21:25:39.454881 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=trustswap 
+2023-01-22 21:25:39.455877 - ----- run_time: 44.00 seconds -- token_name=trustswap to_date=20210123
+2023-01-22 21:25:41.521903 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:25:41.522900 - ----- run_time: 44.95 seconds -- token_name=dforce to_date=20211122
+2023-01-22 21:25:43.838437 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:25:43.839435 - ----- run_time: 44.80 seconds -- token_name=firo to_date=20180729
+2023-01-22 21:25:46.005530 - token_name=trustswap to_date=20201014
+2023-01-22 21:25:52.154168 - token_name=dforce to_date=20210813
+2023-01-22 21:25:54.325390 - token_name=firo to_date=20180419
+2023-01-22 21:26:15.749383 - --batch_dates=[20200710, 20201014] 96 rows has been written to csv -- token_name=trustswap 
+2023-01-22 21:26:15.750381 - -----FINISH----- token_name=trustswap -----
+2023-01-22 21:26:15.751377 - ----- run_time: 36.29 seconds -- token_name=trustswap to_date=20201014
+2023-01-22 21:26:20.108809 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:26:20.108809 - ----- run_time: 38.58 seconds -- token_name=dforce to_date=20210813
+2023-01-22 21:26:21.433257 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:26:21.448217 - ----- run_time: 37.61 seconds -- token_name=firo to_date=20180419
+2023-01-22 21:26:26.954571 - token_name=elastos to_date=20220921
+2023-01-22 21:26:30.238826 - token_name=dforce to_date=20210504
+2023-01-22 21:26:32.115832 - token_name=firo to_date=20180108
+2023-01-22 21:27:00.162201 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:27:00.162201 - ----- run_time: 44.41 seconds -- token_name=elastos to_date=20220921
+2023-01-22 21:27:04.592414 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:27:04.592414 - ----- run_time: 44.48 seconds -- token_name=dforce to_date=20210504
+2023-01-22 21:27:07.242361 - --batch_dates=[20170930, 20180108] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:27:07.243358 - ----- run_time: 45.77 seconds -- token_name=firo to_date=20180108
+2023-01-22 21:27:15.736758 - token_name=elastos to_date=20220612
+2023-01-22 21:27:19.523682 - token_name=dforce to_date=20210123
+2023-01-22 21:27:21.477482 - token_name=firo to_date=20170929
+2023-01-22 21:27:53.214697 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:27:53.215658 - ----- run_time: 53.05 seconds -- token_name=elastos to_date=20220612
+2023-01-22 21:27:54.486744 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:27:54.487739 - ----- run_time: 49.89 seconds -- token_name=dforce to_date=20210123
+2023-01-22 21:27:54.987983 - --batch_dates=[20170621, 20170929] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:27:54.988962 - ----- run_time: 47.74 seconds -- token_name=firo to_date=20170929
+2023-01-22 21:28:01.075299 - token_name=elastos to_date=20220303
+2023-01-22 21:28:09.795063 - token_name=dforce to_date=20201014
+2023-01-22 21:28:15.433061 - token_name=firo to_date=20170620
+2023-01-22 21:28:35.166310 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:28:35.166310 - ----- run_time: 41.95 seconds -- token_name=elastos to_date=20220303
+2023-01-22 21:28:37.158789 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:28:37.159781 - ----- run_time: 42.67 seconds -- token_name=dforce to_date=20201014
+2023-01-22 21:28:43.192895 - --batch_dates=[20170312, 20170620] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:28:43.192895 - ----- run_time: 48.20 seconds -- token_name=firo to_date=20170620
+2023-01-22 21:28:47.961805 - token_name=dforce to_date=20200705
+2023-01-22 21:28:53.076914 - token_name=elastos to_date=20211122
+2023-01-22 21:28:59.809352 - --batch_dates=[20200622, 20200705] 13 rows has been written to csv -- token_name=dforce 
+2023-01-22 21:28:59.811348 - -----FINISH----- token_name=dforce -----
+2023-01-22 21:28:59.813341 - ----- run_time: 22.65 seconds -- token_name=dforce to_date=20200705
+2023-01-22 21:28:59.974911 - token_name=firo to_date=20170311
+2023-01-22 21:29:11.428434 - token_name=frontier to_date=20211122
+2023-01-22 21:29:26.751659 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:29:26.751659 - ----- run_time: 51.58 seconds -- token_name=elastos to_date=20211122
+2023-01-22 21:29:38.705850 - --batch_dates=[20161201, 20170311] 100 rows has been written to csv -- token_name=firo 
+2023-01-22 21:29:38.710837 - ----- run_time: 55.51 seconds -- token_name=firo to_date=20170311
+2023-01-22 21:29:40.798281 - token_name=elastos to_date=20210813
+2023-01-22 21:29:43.203881 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=frontier 
+2023-01-22 21:29:43.233801 - ----- run_time: 43.42 seconds -- token_name=frontier to_date=20211122
+2023-01-22 21:29:48.839884 - token_name=firo to_date=20161130
+2023-01-22 21:29:57.710280 - token_name=frontier to_date=20210813
+2023-01-22 21:30:13.216020 - --batch_dates=[20161006, 20161130] 55 rows has been written to csv -- token_name=firo 
+2023-01-22 21:30:13.217017 - -----FINISH----- token_name=firo -----
+2023-01-22 21:30:13.218014 - ----- run_time: 34.51 seconds -- token_name=firo to_date=20161130
+2023-01-22 21:30:13.688762 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:30:13.688762 - ----- run_time: 46.94 seconds -- token_name=elastos to_date=20210813
+2023-01-22 21:30:22.759626 - token_name=elastos to_date=20210504
+2023-01-22 21:30:23.681173 - token_name=chimpion to_date=20211122
+2023-01-22 21:30:37.417621 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=frontier 
+2023-01-22 21:30:37.418618 - ----- run_time: 54.18 seconds -- token_name=frontier to_date=20210813
+2023-01-22 21:30:48.361765 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:30:48.362731 - ----- run_time: 34.67 seconds -- token_name=elastos to_date=20210504
+2023-01-22 21:30:49.727904 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:30:49.727904 - ----- run_time: 36.51 seconds -- token_name=chimpion to_date=20211122
+2023-01-22 21:30:55.649181 - token_name=elastos to_date=20210123
+2023-01-22 21:30:58.979348 - token_name=chimpion to_date=20210813
+2023-01-22 21:31:14.258689 - token_name=frontier to_date=20210504
+2023-01-22 21:31:22.110737 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:31:22.111734 - ----- run_time: 33.75 seconds -- token_name=elastos to_date=20210123
+2023-01-22 21:31:27.533294 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:31:27.534291 - ----- run_time: 37.80 seconds -- token_name=chimpion to_date=20210813
+2023-01-22 21:31:34.396905 - token_name=chimpion to_date=20210504
+2023-01-22 21:31:36.275906 - token_name=elastos to_date=20201014
+2023-01-22 21:31:42.832458 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=frontier 
+2023-01-22 21:31:42.841435 - ----- run_time: 65.42 seconds -- token_name=frontier to_date=20210504
+2023-01-22 21:31:55.146691 - token_name=frontier to_date=20210123
+2023-01-22 21:32:05.630763 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:32:05.631760 - ----- run_time: 38.09 seconds -- token_name=chimpion to_date=20210504
+2023-01-22 21:32:07.531698 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:32:07.533692 - ----- run_time: 45.42 seconds -- token_name=elastos to_date=20201014
+2023-01-22 21:32:13.642418 - token_name=chimpion to_date=20210123
+2023-01-22 21:32:19.741171 - token_name=elastos to_date=20200705
+2023-01-22 21:32:28.460940 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=frontier 
+2023-01-22 21:32:28.468919 - ----- run_time: 45.62 seconds -- token_name=frontier to_date=20210123
+2023-01-22 21:32:42.316030 - token_name=frontier to_date=20201014
+2023-01-22 21:32:54.302025 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:32:54.302025 - ----- run_time: 48.67 seconds -- token_name=chimpion to_date=20210123
+2023-01-22 21:32:54.722903 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:32:54.722903 - ----- run_time: 47.19 seconds -- token_name=elastos to_date=20200705
+2023-01-22 21:32:56.875170 - --batch_dates=[20200915, 20201014] 29 rows has been written to csv -- token_name=frontier 
+2023-01-22 21:32:56.876168 - -----FINISH----- token_name=frontier -----
+2023-01-22 21:32:56.878162 - ----- run_time: 28.41 seconds -- token_name=frontier to_date=20201014
+2023-01-22 21:33:02.576980 - token_name=elastos to_date=20200326
+2023-01-22 21:33:06.521475 - token_name=chimpion to_date=20201014
+2023-01-22 21:33:09.341958 - token_name=pitbull to_date=20211122
+2023-01-22 21:33:39.904537 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:33:39.905534 - ----- run_time: 45.18 seconds -- token_name=elastos to_date=20200326
+2023-01-22 21:33:43.313243 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:33:43.313243 - ----- run_time: 49.01 seconds -- token_name=chimpion to_date=20201014
+2023-01-22 21:33:43.405994 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=pitbull 
+2023-01-22 21:33:43.405994 - ----- run_time: 46.52 seconds -- token_name=pitbull to_date=20211122
+2023-01-22 21:33:48.395859 - token_name=elastos to_date=20191216
+2023-01-22 21:33:53.703723 - token_name=chimpion to_date=20200705
+2023-01-22 21:33:55.051052 - token_name=pitbull to_date=20210813
+2023-01-22 21:34:26.144244 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:34:26.144244 - ----- run_time: 46.23 seconds -- token_name=elastos to_date=20191216
+2023-01-22 21:34:26.647902 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=pitbull 
+2023-01-22 21:34:26.647902 - ----- run_time: 43.24 seconds -- token_name=pitbull to_date=20210813
+2023-01-22 21:34:26.740628 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:34:26.740628 - ----- run_time: 43.42 seconds -- token_name=chimpion to_date=20200705
+2023-01-22 21:34:37.578486 - token_name=pitbull to_date=20210504
+2023-01-22 21:34:38.244711 - token_name=elastos to_date=20190906
+2023-01-22 21:34:39.653958 - token_name=chimpion to_date=20200326
+2023-01-22 21:34:56.520025 - --batch_dates=[20210409, 20210504] 21 rows has been written to csv -- token_name=pitbull 
+2023-01-22 21:34:56.521023 - -----FINISH----- token_name=pitbull -----
+2023-01-22 21:34:56.523017 - ----- run_time: 29.87 seconds -- token_name=pitbull to_date=20210504
+2023-01-22 21:35:11.628779 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:35:11.629772 - ----- run_time: 44.89 seconds -- token_name=chimpion to_date=20200326
+2023-01-22 21:35:12.897395 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:35:12.932302 - ----- run_time: 46.79 seconds -- token_name=elastos to_date=20190906
+2023-01-22 21:35:19.754130 - token_name=chimpion to_date=20191216
+2023-01-22 21:35:23.075284 - token_name=namecoin to_date=20141224
+2023-01-22 21:35:26.255807 - token_name=elastos to_date=20190528
+2023-01-22 21:35:51.118835 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:35:51.118835 - ----- run_time: 39.49 seconds -- token_name=chimpion to_date=20191216
+2023-01-22 21:35:51.506226 - --batch_dates=[20140915, 20141224] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:35:51.506226 - ----- run_time: 54.97 seconds -- token_name=namecoin to_date=20141224
+2023-01-22 21:35:53.258714 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:35:53.259711 - ----- run_time: 40.29 seconds -- token_name=elastos to_date=20190528
+2023-01-22 21:35:59.135166 - token_name=chimpion to_date=20190906
+2023-01-22 21:36:00.458641 - token_name=elastos to_date=20190216
+2023-01-22 21:36:02.551066 - token_name=namecoin to_date=20140914
+2023-01-22 21:36:31.005262 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:36:31.006259 - ----- run_time: 39.88 seconds -- token_name=chimpion to_date=20190906
+2023-01-22 21:36:32.162305 - --batch_dates=[20140606, 20140914] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:36:32.206190 - ----- run_time: 40.70 seconds -- token_name=namecoin to_date=20140914
+2023-01-22 21:36:33.160004 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:36:33.166985 - ----- run_time: 39.91 seconds -- token_name=elastos to_date=20190216
+2023-01-22 21:36:39.925762 - token_name=chimpion to_date=20190528
+2023-01-22 21:36:40.308740 - token_name=elastos to_date=20181107
+2023-01-22 21:36:44.112609 - token_name=namecoin to_date=20140605
+2023-01-22 21:37:08.994321 - --batch_dates=[20190220, 20190528] 97 rows has been written to csv -- token_name=chimpion 
+2023-01-22 21:37:08.996316 - -----FINISH----- token_name=chimpion -----
+2023-01-22 21:37:08.997313 - ----- run_time: 37.99 seconds -- token_name=chimpion to_date=20190528
+2023-01-22 21:37:10.635946 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:37:10.636944 - ----- run_time: 37.47 seconds -- token_name=elastos to_date=20181107
+2023-01-22 21:37:12.797717 - --batch_dates=[20140225, 20140605] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:37:12.798714 - ----- run_time: 40.58 seconds -- token_name=namecoin to_date=20140605
+2023-01-22 21:37:16.684363 - token_name=elastos to_date=20180729
+2023-01-22 21:37:18.568344 - token_name=latoken to_date=20200705
+2023-01-22 21:37:23.957986 - token_name=namecoin to_date=20140224
+2023-01-22 21:37:52.654535 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:37:52.654535 - ----- run_time: 43.66 seconds -- token_name=latoken to_date=20200705
+2023-01-22 21:37:54.667174 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:37:54.668171 - ----- run_time: 44.03 seconds -- token_name=elastos to_date=20180729
+2023-01-22 21:37:57.051821 - --batch_dates=[20131116, 20140224] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:37:57.051821 - ----- run_time: 44.25 seconds -- token_name=namecoin to_date=20140224
+2023-01-22 21:38:02.586077 - token_name=latoken to_date=20200326
+2023-01-22 21:38:03.276239 - token_name=elastos to_date=20180419
+2023-01-22 21:38:08.354252 - token_name=namecoin to_date=20131115
+2023-01-22 21:38:34.809136 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:38:34.810133 - ----- run_time: 42.15 seconds -- token_name=latoken to_date=20200326
+2023-01-22 21:38:35.180147 - --batch_dates=[20180201, 20180419] 77 rows has been written to csv -- token_name=elastos 
+2023-01-22 21:38:35.181147 - -----FINISH----- token_name=elastos -----
+2023-01-22 21:38:35.182143 - ----- run_time: 40.51 seconds -- token_name=elastos to_date=20180419
+2023-01-22 21:38:42.491675 - token_name=latoken to_date=20191216
+2023-01-22 21:38:43.272352 - --batch_dates=[20130807, 20131115] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:38:43.273349 - ----- run_time: 46.22 seconds -- token_name=namecoin to_date=20131115
+2023-01-22 21:38:49.365540 - token_name=airswap to_date=20190528
+2023-01-22 21:38:54.554715 - token_name=namecoin to_date=20130806
+2023-01-22 21:39:15.992603 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:39:15.993600 - ----- run_time: 41.18 seconds -- token_name=latoken to_date=20191216
+2023-01-22 21:39:16.851315 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:39:16.869268 - ----- run_time: 41.68 seconds -- token_name=airswap to_date=20190528
+2023-01-22 21:39:21.216090 - --batch_dates=[20130428, 20130806] 100 rows has been written to csv -- token_name=namecoin 
+2023-01-22 21:39:21.220078 - ----- run_time: 37.94 seconds -- token_name=namecoin to_date=20130806
+2023-01-22 21:39:24.905261 - token_name=airswap to_date=20190216
+2023-01-22 21:39:25.102735 - token_name=latoken to_date=20190906
+2023-01-22 21:39:32.603752 - token_name=namecoin to_date=20130427
+2023-01-22 21:39:52.365107 - -- 'No data is available now' -- token_name=namecoin  to_date=20130427
+2023-01-22 21:39:52.369096 - -----Moved No_data error files token_name=namecoin -----
+2023-01-22 21:39:58.719178 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:39:58.720175 - ----- run_time: 41.85 seconds -- token_name=airswap to_date=20190216
+2023-01-22 21:40:00.716862 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:40:00.717857 - ----- run_time: 44.72 seconds -- token_name=latoken to_date=20190906
+2023-01-22 21:40:06.450582 - token_name=airswap to_date=20181107
+2023-01-22 21:40:06.612151 - token_name=latoken to_date=20190528
+2023-01-22 21:40:11.078253 - token_name=kin to_date=20190528
+2023-01-22 21:40:41.741744 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:40:41.741744 - ----- run_time: 41.02 seconds -- token_name=latoken to_date=20190528
+2023-01-22 21:40:42.463509 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:40:42.463509 - ----- run_time: 50.09 seconds -- token_name=kin to_date=20190528
+2023-01-22 21:40:42.850477 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:40:42.855464 - ----- run_time: 44.13 seconds -- token_name=airswap to_date=20181107
+2023-01-22 21:40:49.976848 - token_name=kin to_date=20190216
+2023-01-22 21:40:53.684969 - token_name=airswap to_date=20180729
+2023-01-22 21:40:57.697280 - token_name=latoken to_date=20190216
+2023-01-22 21:41:20.531138 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:41:20.531138 - ----- run_time: 38.07 seconds -- token_name=kin to_date=20190216
+2023-01-22 21:41:21.898761 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:41:21.899759 - ----- run_time: 39.04 seconds -- token_name=airswap to_date=20180729
+2023-01-22 21:41:23.042853 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:41:23.042853 - ----- run_time: 41.30 seconds -- token_name=latoken to_date=20190216
+2023-01-22 21:41:33.093450 - token_name=airswap to_date=20180419
+2023-01-22 21:41:33.346716 - token_name=kin to_date=20181107
+2023-01-22 21:41:56.967817 - token_name=latoken to_date=20181107
+2023-01-22 21:41:59.056717 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:41:59.058707 - ----- run_time: 38.52 seconds -- token_name=kin to_date=20181107
+2023-01-22 21:42:00.183408 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:42:00.201343 - ----- run_time: 38.30 seconds -- token_name=airswap to_date=20180419
+2023-01-22 21:42:04.534690 - token_name=airswap to_date=20180108
+2023-01-22 21:42:08.779382 - token_name=kin to_date=20180729
+2023-01-22 21:42:36.092644 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:42:36.092644 - ----- run_time: 73.05 seconds -- token_name=latoken to_date=20181107
+2023-01-22 21:42:36.711967 - --batch_dates=[20171017, 20180108] 83 rows has been written to csv -- token_name=airswap 
+2023-01-22 21:42:36.712965 - -----FINISH----- token_name=airswap -----
+2023-01-22 21:42:36.713962 - ----- run_time: 36.49 seconds -- token_name=airswap to_date=20180108
+2023-01-22 21:42:36.743882 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:42:36.743882 - ----- run_time: 37.68 seconds -- token_name=kin to_date=20180729
+2023-01-22 21:42:45.348959 - token_name=kin to_date=20180419
+2023-01-22 21:42:47.479283 - token_name=hyperdao to_date=20221231
+2023-01-22 21:42:48.312067 - token_name=latoken to_date=20180729
+2023-01-22 21:43:18.137120 - token_name=hyperdao -- first time run
+2023-01-22 21:43:18.138118 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:43:18.140112 - ----- run_time: 41.42 seconds -- token_name=hyperdao to_date=20221231
+2023-01-22 21:43:23.085907 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:43:23.086903 - ----- run_time: 46.34 seconds -- token_name=kin to_date=20180419
+2023-01-22 21:43:23.101864 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:43:23.101864 - ----- run_time: 47.01 seconds -- token_name=latoken to_date=20180729
+2023-01-22 21:43:27.476211 - token_name=hyperdao to_date=20220921
+2023-01-22 21:43:29.961589 - token_name=kin to_date=20180108
+2023-01-22 21:43:31.343907 - token_name=latoken to_date=20180419
+2023-01-22 21:43:57.067377 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:43:57.067377 - ----- run_time: 38.93 seconds -- token_name=hyperdao to_date=20220921
+2023-01-22 21:44:01.114146 - --batch_dates=[20170930, 20180108] 100 rows has been written to csv -- token_name=kin 
+2023-01-22 21:44:01.114146 - ----- run_time: 38.03 seconds -- token_name=kin to_date=20180108
+2023-01-22 21:44:01.145065 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:44:01.146062 - ----- run_time: 38.04 seconds -- token_name=latoken to_date=20180419
+2023-01-22 21:44:07.344534 - token_name=kin to_date=20170929
+2023-01-22 21:44:08.294000 - token_name=hyperdao to_date=20220612
+2023-01-22 21:44:11.386761 - token_name=latoken to_date=20180108
+2023-01-22 21:44:19.387889 - --batch_dates=[20170927, 20170929] 2 rows has been written to csv -- token_name=kin 
+2023-01-22 21:44:19.388887 - -----FINISH----- token_name=kin -----
+2023-01-22 21:44:19.390881 - ----- run_time: 18.27 seconds -- token_name=kin to_date=20170929
+2023-01-22 21:44:27.224013 - token_name=dora-factory to_date=20221231
+2023-01-22 21:44:35.538862 - --batch_dates=[20171025, 20180108] 75 rows has been written to csv -- token_name=latoken 
+2023-01-22 21:44:35.539859 - -----FINISH----- token_name=latoken -----
+2023-01-22 21:44:35.540857 - ----- run_time: 34.39 seconds -- token_name=latoken to_date=20180108
+2023-01-22 21:44:37.650877 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:44:37.650877 - ----- run_time: 40.58 seconds -- token_name=hyperdao to_date=20220612
+2023-01-22 21:44:45.363519 - token_name=hyperdao to_date=20220303
+2023-01-22 21:44:45.917044 - token_name=airdao to_date=20221231
+2023-01-22 21:45:00.302720 - token_name=dora-factory -- first time run
+2023-01-22 21:45:00.303718 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=dora-factory 
+2023-01-22 21:45:00.306709 - ----- run_time: 40.91 seconds -- token_name=dora-factory to_date=20221231
+2023-01-22 21:45:06.331659 - token_name=dora-factory to_date=20220921
+2023-01-22 21:45:18.381557 - token_name=airdao -- first time run
+2023-01-22 21:45:18.381557 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:45:18.383551 - ----- run_time: 42.84 seconds -- token_name=airdao to_date=20221231
+2023-01-22 21:45:18.473822 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:45:18.474820 - ----- run_time: 40.82 seconds -- token_name=hyperdao to_date=20220303
+2023-01-22 21:45:21.172632 - token_name=bidr to_date=20221231
+2023-01-22 21:45:25.617791 - token_name=hyperdao to_date=20211122
+2023-01-22 21:45:31.920001 - url does not exist: https://coinmarketcap.com/currencies/bidr/historical-data/ -- 
+2023-01-22 21:45:31.920999 - -----Deleted error run_log file token_name=bidr -----
+2023-01-22 21:45:32.689950 - token_name=airdao to_date=20220921
+2023-01-22 21:45:47.748832 - token_name=amo-coin to_date=20221231
+2023-01-22 21:46:06.401141 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:46:06.401141 - ----- run_time: 47.92 seconds -- token_name=hyperdao to_date=20211122
+2023-01-22 21:46:12.964655 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:46:12.966650 - ----- run_time: 54.58 seconds -- token_name=airdao to_date=20220921
+2023-01-22 21:46:14.778358 - token_name=hyperdao to_date=20210813
+2023-01-22 21:46:20.783938 - token_name=airdao to_date=20220612
+2023-01-22 21:46:22.390656 - token_name=amo-coin -- first time run
+2023-01-22 21:46:22.394646 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:46:22.399632 - ----- run_time: 46.33 seconds -- token_name=amo-coin to_date=20221231
+2023-01-22 21:46:29.799919 - token_name=amo-coin to_date=20220921
+2023-01-22 21:46:47.682426 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:46:47.682426 - ----- run_time: 41.28 seconds -- token_name=hyperdao to_date=20210813
+2023-01-22 21:46:52.083773 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:46:52.084770 - ----- run_time: 39.12 seconds -- token_name=airdao to_date=20220612
+2023-01-22 21:46:53.824227 - token_name=hyperdao to_date=20210504
+2023-01-22 21:46:57.332625 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:46:57.334619 - ----- run_time: 34.93 seconds -- token_name=amo-coin to_date=20220921
+2023-01-22 21:47:06.181223 - token_name=amo-coin to_date=20220612
+2023-01-22 21:47:08.406229 - token_name=airdao to_date=20220303
+2023-01-22 21:47:27.469443 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:47:27.469443 - ----- run_time: 39.79 seconds -- token_name=hyperdao to_date=20210504
+2023-01-22 21:47:32.794901 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:47:32.794901 - ----- run_time: 35.46 seconds -- token_name=amo-coin to_date=20220612
+2023-01-22 21:47:33.158585 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:47:33.159556 - ----- run_time: 41.07 seconds -- token_name=airdao to_date=20220303
+2023-01-22 21:47:42.670045 - token_name=hyperdao to_date=20210123
+2023-01-22 21:47:43.694314 - token_name=airdao to_date=20211122
+2023-01-22 21:47:45.562339 - token_name=amo-coin to_date=20220303
+2023-01-22 21:48:13.013828 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:48:13.014825 - ----- run_time: 39.85 seconds -- token_name=airdao to_date=20211122
+2023-01-22 21:48:13.155486 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:48:13.155486 - ----- run_time: 45.68 seconds -- token_name=hyperdao to_date=20210123
+2023-01-22 21:48:13.562825 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:48:13.563823 - ----- run_time: 40.77 seconds -- token_name=amo-coin to_date=20220303
+2023-01-22 21:48:21.947359 - token_name=hyperdao to_date=20201014
+2023-01-22 21:48:25.575698 - token_name=amo-coin to_date=20211122
+2023-01-22 21:48:25.765189 - token_name=airdao to_date=20210813
+2023-01-22 21:48:57.309155 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:48:57.309155 - ----- run_time: 43.74 seconds -- token_name=amo-coin to_date=20211122
+2023-01-22 21:48:58.526910 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:48:58.526910 - ----- run_time: 45.51 seconds -- token_name=airdao to_date=20210813
+2023-01-22 21:48:59.563149 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:48:59.581102 - ----- run_time: 46.42 seconds -- token_name=hyperdao to_date=20201014
+2023-01-22 21:49:06.582062 - token_name=amo-coin to_date=20210813
+2023-01-22 21:49:08.548819 - token_name=hyperdao to_date=20200705
+2023-01-22 21:49:08.685455 - token_name=airdao to_date=20210504
+2023-01-22 21:49:38.788104 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:49:38.788104 - ----- run_time: 41.48 seconds -- token_name=amo-coin to_date=20210813
+2023-01-22 21:49:42.493445 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=airdao 
+2023-01-22 21:49:42.494458 - ----- run_time: 43.97 seconds -- token_name=airdao to_date=20210504
+2023-01-22 21:49:43.516926 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:49:43.551833 - ----- run_time: 43.97 seconds -- token_name=hyperdao to_date=20200705
+2023-01-22 21:49:46.962209 - token_name=amo-coin to_date=20210504
+2023-01-22 21:49:55.852708 - token_name=hyperdao to_date=20200326
+2023-01-22 21:49:56.194831 - token_name=airdao to_date=20210123
+2023-01-22 21:50:06.112352 - --batch_dates=[20200312, 20200326] 14 rows has been written to csv -- token_name=hyperdao 
+2023-01-22 21:50:06.115344 - -----FINISH----- token_name=hyperdao -----
+2023-01-22 21:50:06.115344 - ----- run_time: 22.56 seconds -- token_name=hyperdao to_date=20200326
+2023-01-22 21:50:14.500356 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:50:14.500356 - ----- run_time: 35.71 seconds -- token_name=amo-coin to_date=20210504
+2023-01-22 21:50:17.093780 - token_name=beam to_date=20221231
+2023-01-22 21:50:24.465166 - token_name=cratos to_date=20221231
+2023-01-22 21:50:27.409316 - token_name=amo-coin to_date=20210123
+2023-01-22 21:50:48.590844 - token_name=beam -- first time run
+2023-01-22 21:50:48.591843 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:50:48.593835 - ----- run_time: 42.48 seconds -- token_name=beam to_date=20221231
+2023-01-22 21:50:52.970426 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:50:52.971449 - ----- run_time: 38.47 seconds -- token_name=amo-coin to_date=20210123
+2023-01-22 21:50:53.569227 - token_name=cratos -- first time run
+2023-01-22 21:50:53.569227 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=cratos 
+2023-01-22 21:50:53.571180 - ----- run_time: 45.77 seconds -- token_name=cratos to_date=20221231
+2023-01-22 21:50:59.212295 - token_name=amo-coin to_date=20201014
+2023-01-22 21:51:02.596273 - token_name=beam to_date=20220921
+2023-01-22 21:51:03.999532 - token_name=cratos to_date=20220921
+2023-01-22 21:51:31.200622 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:51:31.201619 - ----- run_time: 38.23 seconds -- token_name=amo-coin to_date=20201014
+2023-01-22 21:51:31.245207 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=cratos 
+2023-01-22 21:51:31.246344 - ----- run_time: 37.67 seconds -- token_name=cratos to_date=20220921
+2023-01-22 21:51:32.702630 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:51:32.741527 - ----- run_time: 44.15 seconds -- token_name=beam to_date=20220921
+2023-01-22 21:51:39.115975 - token_name=amo-coin to_date=20200705
+2023-01-22 21:51:40.054492 - token_name=cratos to_date=20220612
+2023-01-22 21:51:46.478344 - token_name=beam to_date=20220612
+2023-01-22 21:52:09.585392 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:52:09.585392 - ----- run_time: 38.38 seconds -- token_name=amo-coin to_date=20200705
+2023-01-22 21:52:10.600183 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=cratos 
+2023-01-22 21:52:10.602178 - ----- run_time: 39.35 seconds -- token_name=cratos to_date=20220612
+2023-01-22 21:52:13.268040 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:52:13.268040 - ----- run_time: 40.52 seconds -- token_name=beam to_date=20220612
+2023-01-22 21:52:18.013863 - token_name=cratos to_date=20220303
+2023-01-22 21:52:22.570713 - token_name=amo-coin to_date=20200326
+2023-01-22 21:52:26.980469 - token_name=beam to_date=20220303
+2023-01-22 21:52:53.769418 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:52:53.769418 - ----- run_time: 44.18 seconds -- token_name=amo-coin to_date=20200326
+2023-01-22 21:52:54.696437 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=cratos 
+2023-01-22 21:52:54.696437 - ----- run_time: 44.09 seconds -- token_name=cratos to_date=20220303
+2023-01-22 21:52:55.235003 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:52:55.235003 - ----- run_time: 41.96 seconds -- token_name=beam to_date=20220303
+2023-01-22 21:53:03.794709 - token_name=amo-coin to_date=20191216
+2023-01-22 21:53:03.851557 - token_name=beam to_date=20211122
+2023-01-22 21:53:06.467582 - token_name=cratos to_date=20211122
+2023-01-22 21:53:26.633814 - --batch_dates=[20210924, 20211122] 59 rows has been written to csv -- token_name=cratos 
+2023-01-22 21:53:26.635809 - -----FINISH----- token_name=cratos -----
+2023-01-22 21:53:26.636805 - ----- run_time: 31.92 seconds -- token_name=cratos to_date=20211122
+2023-01-22 21:53:32.533606 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:53:32.533606 - ----- run_time: 38.76 seconds -- token_name=amo-coin to_date=20191216
+2023-01-22 21:53:32.722019 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:53:32.722019 - ----- run_time: 37.49 seconds -- token_name=beam to_date=20211122
+2023-01-22 21:53:33.708645 - token_name=circuits-of-value to_date=20221231
+2023-01-22 21:53:41.086472 - token_name=amo-coin to_date=20190906
+2023-01-22 21:53:44.239059 - token_name=beam to_date=20210813
+2023-01-22 21:54:05.123376 - token_name=circuits-of-value -- first time run
+2023-01-22 21:54:05.123376 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:54:05.125371 - ----- run_time: 38.49 seconds -- token_name=circuits-of-value to_date=20221231
+2023-01-22 21:54:10.733890 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:54:10.733890 - ----- run_time: 38.20 seconds -- token_name=amo-coin to_date=20190906
+2023-01-22 21:54:11.497636 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:54:11.527558 - ----- run_time: 38.80 seconds -- token_name=beam to_date=20210813
+2023-01-22 21:54:20.344722 - token_name=beam to_date=20210504
+2023-01-22 21:54:21.776904 - token_name=amo-coin to_date=20190528
+2023-01-22 21:54:21.996318 - token_name=circuits-of-value to_date=20220921
+2023-01-22 21:54:48.275211 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:54:48.276208 - ----- run_time: 43.15 seconds -- token_name=circuits-of-value to_date=20220921
+2023-01-22 21:54:48.653371 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:54:48.654330 - ----- run_time: 37.12 seconds -- token_name=beam to_date=20210504
+2023-01-22 21:54:49.121325 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:54:49.122321 - ----- run_time: 38.39 seconds -- token_name=amo-coin to_date=20190528
+2023-01-22 21:54:57.346802 - token_name=circuits-of-value to_date=20220612
+2023-01-22 21:54:58.177587 - token_name=beam to_date=20210123
+2023-01-22 21:54:58.704182 - token_name=amo-coin to_date=20190216
+2023-01-22 21:55:25.039517 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:55:25.039517 - ----- run_time: 35.91 seconds -- token_name=amo-coin to_date=20190216
+2023-01-22 21:55:26.019231 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:55:26.028207 - ----- run_time: 37.37 seconds -- token_name=beam to_date=20210123
+2023-01-22 21:55:26.035189 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:55:26.036186 - ----- run_time: 37.76 seconds -- token_name=circuits-of-value to_date=20220612
+2023-01-22 21:55:31.670397 - token_name=amo-coin to_date=20181107
+2023-01-22 21:55:36.294074 - token_name=beam to_date=20201014
+2023-01-22 21:55:43.893806 - token_name=circuits-of-value to_date=20220303
+2023-01-22 21:55:52.165750 - --batch_dates=[20180911, 20181107] 51 rows has been written to csv -- token_name=amo-coin 
+2023-01-22 21:55:52.166747 - -----FINISH----- token_name=amo-coin -----
+2023-01-22 21:55:52.167745 - ----- run_time: 27.13 seconds -- token_name=amo-coin to_date=20181107
+2023-01-22 21:55:55.284435 - token_name=hapi-protocol to_date=20221231
+2023-01-22 21:56:04.095970 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:56:04.095970 - ----- run_time: 38.07 seconds -- token_name=beam to_date=20201014
+2023-01-22 21:56:05.744338 - url does not exist: https://coinmarketcap.com/currencies/hapi-protocol/historical-data/ -- 
+2023-01-22 21:56:05.744338 - -----Deleted error run_log file token_name=hapi-protocol -----
+2023-01-22 21:56:06.514158 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:56:06.515158 - ----- run_time: 40.48 seconds -- token_name=circuits-of-value to_date=20220303
+2023-01-22 21:56:13.341682 - token_name=beam to_date=20200705
+2023-01-22 21:56:20.492781 - token_name=handshake to_date=20221231
+2023-01-22 21:56:20.866785 - token_name=circuits-of-value to_date=20211122
+2023-01-22 21:56:43.439599 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:56:43.440599 - ----- run_time: 39.34 seconds -- token_name=beam to_date=20200705
+2023-01-22 21:56:47.331787 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:56:47.331787 - ----- run_time: 40.81 seconds -- token_name=circuits-of-value to_date=20211122
+2023-01-22 21:56:48.014856 - token_name=handshake -- first time run
+2023-01-22 21:56:48.014856 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:56:48.017849 - ----- run_time: 37.14 seconds -- token_name=handshake to_date=20221231
+2023-01-22 21:56:52.193447 - token_name=beam to_date=20200326
+2023-01-22 21:56:54.680809 - token_name=circuits-of-value to_date=20210813
+2023-01-22 21:56:56.955743 - token_name=handshake to_date=20220921
+2023-01-22 21:57:23.965156 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:57:23.966118 - ----- run_time: 35.94 seconds -- token_name=handshake to_date=20220921
+2023-01-22 21:57:23.995956 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:57:23.996954 - ----- run_time: 40.55 seconds -- token_name=beam to_date=20200326
+2023-01-22 21:57:25.098623 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:57:25.102613 - ----- run_time: 37.77 seconds -- token_name=circuits-of-value to_date=20210813
+2023-01-22 21:57:32.520603 - token_name=circuits-of-value to_date=20210504
+2023-01-22 21:57:32.997329 - token_name=beam to_date=20191216
+2023-01-22 21:57:34.518273 - token_name=handshake to_date=20220612
+2023-01-22 21:58:01.237506 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:58:01.237506 - ----- run_time: 37.24 seconds -- token_name=beam to_date=20191216
+2023-01-22 21:58:01.852764 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:58:01.853760 - ----- run_time: 36.67 seconds -- token_name=circuits-of-value to_date=20210504
+2023-01-22 21:58:02.146944 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:58:02.146944 - ----- run_time: 38.18 seconds -- token_name=handshake to_date=20220612
+2023-01-22 21:58:10.075973 - token_name=handshake to_date=20220303
+2023-01-22 21:58:11.315668 - token_name=beam to_date=20190906
+2023-01-22 21:58:12.419724 - token_name=circuits-of-value to_date=20210123
+2023-01-22 21:58:39.732897 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:58:39.732897 - ----- run_time: 37.58 seconds -- token_name=handshake to_date=20220303
+2023-01-22 21:58:40.425608 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:58:40.426578 - ----- run_time: 38.57 seconds -- token_name=circuits-of-value to_date=20210123
+2023-01-22 21:58:40.586153 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:58:40.642005 - ----- run_time: 39.40 seconds -- token_name=beam to_date=20190906
+2023-01-22 21:58:45.382367 - token_name=handshake to_date=20211122
+2023-01-22 21:58:51.538949 - token_name=beam to_date=20190528
+2023-01-22 21:58:53.678246 - token_name=circuits-of-value to_date=20201014
+2023-01-22 21:59:10.851456 - --batch_dates=[20200827, 20201014] 48 rows has been written to csv -- token_name=circuits-of-value 
+2023-01-22 21:59:10.852455 - -----FINISH----- token_name=circuits-of-value -----
+2023-01-22 21:59:10.854449 - ----- run_time: 30.43 seconds -- token_name=circuits-of-value to_date=20201014
+2023-01-22 21:59:17.029142 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:59:17.029142 - ----- run_time: 37.29 seconds -- token_name=handshake to_date=20211122
+2023-01-22 21:59:18.274059 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=beam 
+2023-01-22 21:59:18.296996 - ----- run_time: 37.65 seconds -- token_name=beam to_date=20190528
+2023-01-22 21:59:19.296332 - token_name=parsiq to_date=20221231
+2023-01-22 21:59:27.145845 - token_name=handshake to_date=20210813
+2023-01-22 21:59:45.926326 - token_name=parsiq -- first time run
+2023-01-22 21:59:45.926326 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 21:59:45.929318 - ----- run_time: 35.07 seconds -- token_name=parsiq to_date=20221231
+2023-01-22 21:59:49.803668 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 21:59:49.803668 - ----- run_time: 32.77 seconds -- token_name=handshake to_date=20210813
+2023-01-22 21:59:59.167104 - token_name=beam to_date=20190216
+2023-01-22 22:00:01.176811 - token_name=handshake to_date=20210504
+2023-01-22 22:00:03.456747 - token_name=parsiq to_date=20220921
+2023-01-22 22:00:17.097362 - --batch_dates=[20190117, 20190216] 30 rows has been written to csv -- token_name=beam 
+2023-01-22 22:00:17.099359 - -----FINISH----- token_name=beam -----
+2023-01-22 22:00:17.102350 - ----- run_time: 58.80 seconds -- token_name=beam to_date=20190216
+2023-01-22 22:00:23.680810 - token_name=viberate to_date=20221231
+2023-01-22 22:00:32.727963 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 22:00:32.727963 - ----- run_time: 42.92 seconds -- token_name=handshake to_date=20210504
+2023-01-22 22:00:33.989992 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:00:33.996978 - ----- run_time: 48.07 seconds -- token_name=parsiq to_date=20220921
+2023-01-22 22:00:40.637102 - token_name=parsiq to_date=20220612
+2023-01-22 22:00:42.602861 - token_name=handshake to_date=20210123
+2023-01-22 22:00:56.331256 - token_name=viberate -- first time run
+2023-01-22 22:00:56.332254 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:00:56.334248 - ----- run_time: 39.23 seconds -- token_name=viberate to_date=20221231
+2023-01-22 22:01:04.997151 - token_name=viberate to_date=20220921
+2023-01-22 22:01:10.449612 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:01:10.449612 - ----- run_time: 36.45 seconds -- token_name=parsiq to_date=20220612
+2023-01-22 22:01:12.935256 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 22:01:12.935256 - ----- run_time: 40.20 seconds -- token_name=handshake to_date=20210123
+2023-01-22 22:01:17.219717 - token_name=parsiq to_date=20220303
+2023-01-22 22:01:21.024572 - token_name=handshake to_date=20201014
+2023-01-22 22:01:37.022917 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:01:37.023913 - ----- run_time: 40.69 seconds -- token_name=viberate to_date=20220921
+2023-01-22 22:01:44.159969 - token_name=viberate to_date=20220612
+2023-01-22 22:01:48.559763 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:01:48.560780 - ----- run_time: 38.11 seconds -- token_name=parsiq to_date=20220303
+2023-01-22 22:01:49.772218 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 22:01:49.782191 - ----- run_time: 36.84 seconds -- token_name=handshake to_date=20201014
+2023-01-22 22:01:59.652890 - token_name=handshake to_date=20200705
+2023-01-22 22:02:00.325097 - token_name=parsiq to_date=20211122
+2023-01-22 22:02:16.202764 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:02:16.202764 - ----- run_time: 39.18 seconds -- token_name=viberate to_date=20220612
+2023-01-22 22:02:25.846593 - token_name=viberate to_date=20220303
+2023-01-22 22:02:26.059027 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=handshake 
+2023-01-22 22:02:26.060024 - ----- run_time: 36.27 seconds -- token_name=handshake to_date=20200705
+2023-01-22 22:02:27.503510 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:02:27.503510 - ----- run_time: 38.94 seconds -- token_name=parsiq to_date=20211122
+2023-01-22 22:02:34.539154 - token_name=handshake to_date=20200326
+2023-01-22 22:02:43.744610 - token_name=parsiq to_date=20210813
+2023-01-22 22:02:51.005252 - --batch_dates=[20200221, 20200326] 34 rows has been written to csv -- token_name=handshake 
+2023-01-22 22:02:51.006249 - -----FINISH----- token_name=handshake -----
+2023-01-22 22:02:51.008243 - ----- run_time: 24.95 seconds -- token_name=handshake to_date=20200326
+2023-01-22 22:02:54.706364 - token_name=goldfinch to_date=20221231
+2023-01-22 22:02:55.433376 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:02:55.434360 - ----- run_time: 39.23 seconds -- token_name=viberate to_date=20220303
+2023-01-22 22:03:02.947170 - token_name=viberate to_date=20211122
+2023-01-22 22:03:05.011666 - url does not exist: https://coinmarketcap.com/currencies/goldfinch/historical-data/ -- 
+2023-01-22 22:03:05.029618 - -----Deleted error run_log file token_name=goldfinch -----
+2023-01-22 22:03:11.206011 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:03:11.214987 - ----- run_time: 43.71 seconds -- token_name=parsiq to_date=20210813
+2023-01-22 22:03:18.131965 - token_name=parsiq to_date=20210504
+2023-01-22 22:03:19.507299 - token_name=apm-coin to_date=20221231
+2023-01-22 22:03:33.070136 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:03:33.071133 - ----- run_time: 37.63 seconds -- token_name=viberate to_date=20211122
+2023-01-22 22:03:40.840419 - token_name=viberate to_date=20210813
+2023-01-22 22:03:48.801677 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:03:48.802639 - ----- run_time: 37.59 seconds -- token_name=parsiq to_date=20210504
+2023-01-22 22:03:50.130421 - token_name=apm-coin -- first time run
+2023-01-22 22:03:50.131418 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:03:50.132415 - ----- run_time: 42.52 seconds -- token_name=apm-coin to_date=20221231
+2023-01-22 22:03:54.787376 - token_name=parsiq to_date=20210123
+2023-01-22 22:03:59.039040 - token_name=apm-coin to_date=20220921
+2023-01-22 22:04:15.066820 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:04:15.067817 - ----- run_time: 41.99 seconds -- token_name=viberate to_date=20210813
+2023-01-22 22:04:19.820146 - token_name=viberate to_date=20210504
+2023-01-22 22:04:25.091374 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:04:25.091374 - ----- run_time: 36.29 seconds -- token_name=parsiq to_date=20210123
+2023-01-22 22:04:26.115467 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:04:26.146384 - ----- run_time: 36.01 seconds -- token_name=apm-coin to_date=20220921
+2023-01-22 22:04:32.509136 - token_name=apm-coin to_date=20220612
+2023-01-22 22:04:33.040716 - token_name=parsiq to_date=20201014
+2023-01-22 22:04:51.895820 - --batch_dates=[20200820, 20201014] 55 rows has been written to csv -- token_name=parsiq 
+2023-01-22 22:04:51.896818 - -----FINISH----- token_name=parsiq -----
+2023-01-22 22:04:51.897814 - ----- run_time: 26.80 seconds -- token_name=parsiq to_date=20201014
+2023-01-22 22:04:53.300597 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:04:53.306581 - ----- run_time: 38.24 seconds -- token_name=viberate to_date=20210504
+2023-01-22 22:04:59.016749 - token_name=tokemak to_date=20221231
+2023-01-22 22:05:04.279608 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:05:04.279608 - ----- run_time: 38.13 seconds -- token_name=apm-coin to_date=20220612
+2023-01-22 22:05:10.991180 - token_name=apm-coin to_date=20220303
+2023-01-22 22:05:12.093242 - token_name=viberate to_date=20210123
+2023-01-22 22:05:33.433173 - token_name=tokemak -- first time run
+2023-01-22 22:05:33.433173 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:05:33.435169 - ----- run_time: 41.53 seconds -- token_name=tokemak to_date=20221231
+2023-01-22 22:05:37.206961 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:05:37.206961 - ----- run_time: 43.89 seconds -- token_name=viberate to_date=20210123
+2023-01-22 22:05:38.958001 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:05:38.963985 - ----- run_time: 34.68 seconds -- token_name=apm-coin to_date=20220303
+2023-01-22 22:05:39.237256 - token_name=tokemak to_date=20220921
+2023-01-22 22:05:45.721480 - token_name=viberate to_date=20201014
+2023-01-22 22:05:47.502730 - token_name=apm-coin to_date=20211122
+2023-01-22 22:06:12.319547 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:06:12.326530 - ----- run_time: 38.89 seconds -- token_name=tokemak to_date=20220921
+2023-01-22 22:06:17.083863 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:06:17.083863 - ----- run_time: 39.87 seconds -- token_name=viberate to_date=20201014
+2023-01-22 22:06:17.333169 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:06:17.334167 - ----- run_time: 38.37 seconds -- token_name=apm-coin to_date=20211122
+2023-01-22 22:06:23.151647 - token_name=tokemak to_date=20220612
+2023-01-22 22:06:25.653970 - token_name=viberate to_date=20200705
+2023-01-22 22:06:28.748714 - token_name=apm-coin to_date=20210813
+2023-01-22 22:06:58.220602 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:06:58.220602 - ----- run_time: 45.89 seconds -- token_name=tokemak to_date=20220612
+2023-01-22 22:07:02.079553 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:07:02.080549 - ----- run_time: 44.99 seconds -- token_name=viberate to_date=20200705
+2023-01-22 22:07:02.312928 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:07:02.312928 - ----- run_time: 44.98 seconds -- token_name=apm-coin to_date=20210813
+2023-01-22 22:07:08.056605 - token_name=tokemak to_date=20220303
+2023-01-22 22:07:09.552614 - token_name=viberate to_date=20200326
+2023-01-22 22:07:15.078871 - token_name=apm-coin to_date=20210504
+2023-01-22 22:07:41.562582 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:07:41.563552 - ----- run_time: 39.48 seconds -- token_name=viberate to_date=20200326
+2023-01-22 22:07:41.723452 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:07:41.723452 - ----- run_time: 43.50 seconds -- token_name=tokemak to_date=20220303
+2023-01-22 22:07:44.056905 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:07:44.056905 - ----- run_time: 41.74 seconds -- token_name=apm-coin to_date=20210504
+2023-01-22 22:07:46.011684 - token_name=viberate to_date=20191216
+2023-01-22 22:07:50.572515 - token_name=tokemak to_date=20211122
+2023-01-22 22:07:52.363737 - token_name=apm-coin to_date=20210123
+2023-01-22 22:08:17.256325 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:08:17.256325 - ----- run_time: 35.69 seconds -- token_name=viberate to_date=20191216
+2023-01-22 22:08:22.889296 - token_name=viberate to_date=20190906
+2023-01-22 22:08:23.082780 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:08:23.083778 - ----- run_time: 39.02 seconds -- token_name=apm-coin to_date=20210123
+2023-01-22 22:08:23.930517 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:08:23.933514 - ----- run_time: 42.21 seconds -- token_name=tokemak to_date=20211122
+2023-01-22 22:08:32.732007 - token_name=apm-coin to_date=20201014
+2023-01-22 22:08:51.151878 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:08:51.151878 - ----- run_time: 33.89 seconds -- token_name=viberate to_date=20190906
+2023-01-22 22:08:58.746602 - token_name=viberate to_date=20190528
+2023-01-22 22:09:00.986624 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:09:00.986624 - ----- run_time: 37.90 seconds -- token_name=apm-coin to_date=20201014
+2023-01-22 22:09:10.969989 - token_name=apm-coin to_date=20200705
+2023-01-22 22:09:12.258552 - token_name=tokemak to_date=20210813
+2023-01-22 22:09:27.627549 - --batch_dates=[20210809, 20210813] 4 rows has been written to csv -- token_name=tokemak 
+2023-01-22 22:09:27.628547 - -----FINISH----- token_name=tokemak -----
+2023-01-22 22:09:27.630539 - ----- run_time: 63.70 seconds -- token_name=tokemak to_date=20210813
+2023-01-22 22:09:32.055764 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:09:32.055764 - ----- run_time: 40.90 seconds -- token_name=viberate to_date=20190528
+2023-01-22 22:09:34.059023 - token_name=bonfida to_date=20221231
+2023-01-22 22:09:38.842774 - token_name=viberate to_date=20190216
+2023-01-22 22:09:47.696154 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:09:47.699148 - ----- run_time: 46.71 seconds -- token_name=apm-coin to_date=20200705
+2023-01-22 22:09:56.411901 - token_name=apm-coin to_date=20200326
+2023-01-22 22:10:06.289034 - token_name=bonfida -- first time run
+2023-01-22 22:10:06.290013 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:10:06.292007 - ----- run_time: 38.66 seconds -- token_name=bonfida to_date=20221231
+2023-01-22 22:10:07.132650 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:10:07.200468 - ----- run_time: 35.14 seconds -- token_name=viberate to_date=20190216
+2023-01-22 22:10:11.799199 - token_name=viberate to_date=20181107
+2023-01-22 22:10:15.796534 - token_name=bonfida to_date=20220921
+2023-01-22 22:10:27.599047 - --batch_dates=[20191227, 20200326] 90 rows has been written to csv -- token_name=apm-coin 
+2023-01-22 22:10:27.603036 - -----FINISH----- token_name=apm-coin -----
+2023-01-22 22:10:27.605030 - ----- run_time: 39.90 seconds -- token_name=apm-coin to_date=20200326
+2023-01-22 22:10:32.943785 - token_name=ooki-protocol to_date=20221231
+2023-01-22 22:10:42.866985 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:10:42.866985 - ----- run_time: 35.66 seconds -- token_name=viberate to_date=20181107
+2023-01-22 22:10:42.959738 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:10:42.960735 - ----- run_time: 36.67 seconds -- token_name=bonfida to_date=20220921
+2023-01-22 22:10:50.586637 - token_name=viberate to_date=20180729
+2023-01-22 22:10:57.248860 - token_name=bonfida to_date=20220612
+2023-01-22 22:11:06.885152 - token_name=ooki-protocol -- first time run
+2023-01-22 22:11:06.887146 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=ooki-protocol 
+2023-01-22 22:11:06.890232 - ----- run_time: 39.28 seconds -- token_name=ooki-protocol to_date=20221231
+2023-01-22 22:11:14.261472 - token_name=ooki-protocol to_date=20220921
+2023-01-22 22:11:25.117508 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:11:25.118506 - ----- run_time: 42.25 seconds -- token_name=viberate to_date=20180729
+2023-01-22 22:11:25.821630 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:11:25.835601 - ----- run_time: 42.87 seconds -- token_name=bonfida to_date=20220612
+2023-01-22 22:11:30.546026 - token_name=viberate to_date=20180419
+2023-01-22 22:11:39.067290 - token_name=bonfida to_date=20220303
+2023-01-22 22:11:50.061957 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=ooki-protocol 
+2023-01-22 22:11:50.062954 - ----- run_time: 43.17 seconds -- token_name=ooki-protocol to_date=20220921
+2023-01-22 22:11:55.193780 - token_name=ooki-protocol to_date=20220612
+2023-01-22 22:12:10.810115 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:12:10.810115 - ----- run_time: 45.69 seconds -- token_name=viberate to_date=20180419
+2023-01-22 22:12:12.400871 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:12:12.400871 - ----- run_time: 46.56 seconds -- token_name=bonfida to_date=20220303
+2023-01-22 22:12:20.252922 - token_name=bonfida to_date=20211122
+2023-01-22 22:12:27.573395 - token_name=viberate to_date=20180108
+2023-01-22 22:12:28.227646 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=ooki-protocol 
+2023-01-22 22:12:28.229640 - ----- run_time: 38.16 seconds -- token_name=ooki-protocol to_date=20220612
+2023-01-22 22:12:37.031159 - token_name=ooki-protocol to_date=20220303
+2023-01-22 22:12:56.537554 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:12:56.538549 - ----- run_time: 44.14 seconds -- token_name=bonfida to_date=20211122
+2023-01-22 22:12:57.852675 - --batch_dates=[20211223, 20220303] 70 rows has been written to csv -- token_name=ooki-protocol 
+2023-01-22 22:12:57.853673 - -----FINISH----- token_name=ooki-protocol -----
+2023-01-22 22:12:57.854670 - ----- run_time: 29.62 seconds -- token_name=ooki-protocol to_date=20220303
+2023-01-22 22:12:59.051746 - --batch_dates=[20171006, 20180108] 94 rows has been written to csv -- token_name=viberate 
+2023-01-22 22:12:59.060722 - -----FINISH----- token_name=viberate -----
+2023-01-22 22:12:59.060722 - ----- run_time: 48.25 seconds -- token_name=viberate to_date=20180108
+2023-01-22 22:13:05.117563 - token_name=bonfida to_date=20210813
+2023-01-22 22:13:11.464629 - token_name=energi to_date=20221231
+2023-01-22 22:13:14.048735 - token_name=aion to_date=20221231
+2023-01-22 22:13:39.226561 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:13:39.226561 - ----- run_time: 42.69 seconds -- token_name=bonfida to_date=20210813
+2023-01-22 22:13:44.760447 - token_name=energi -- first time run
+2023-01-22 22:13:44.760447 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:13:44.762441 - ----- run_time: 45.70 seconds -- token_name=energi to_date=20221231
+2023-01-22 22:13:46.224540 - token_name=bonfida to_date=20210504
+2023-01-22 22:13:46.620485 - token_name=aion -- first time run
+2023-01-22 22:13:46.625472 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:13:46.627466 - ----- run_time: 48.77 seconds -- token_name=aion to_date=20221231
+2023-01-22 22:13:53.302656 - token_name=energi to_date=20220921
+2023-01-22 22:13:58.324259 - token_name=aion to_date=20220921
+2023-01-22 22:14:22.896701 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:14:22.896701 - ----- run_time: 43.67 seconds -- token_name=bonfida to_date=20210504
+2023-01-22 22:14:27.356669 - token_name=bonfida to_date=20210123
+2023-01-22 22:14:27.463385 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:14:27.464382 - ----- run_time: 42.70 seconds -- token_name=energi to_date=20220921
+2023-01-22 22:14:29.006661 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:14:29.007661 - ----- run_time: 42.38 seconds -- token_name=aion to_date=20220921
+2023-01-22 22:14:35.745351 - token_name=energi to_date=20220612
+2023-01-22 22:14:38.693486 - token_name=aion to_date=20220612
+2023-01-22 22:14:46.209433 - --batch_dates=[20201223, 20210123] 31 rows has been written to csv -- token_name=bonfida 
+2023-01-22 22:14:46.216414 - -----FINISH----- token_name=bonfida -----
+2023-01-22 22:14:46.217411 - ----- run_time: 23.32 seconds -- token_name=bonfida to_date=20210123
+2023-01-22 22:14:53.147921 - token_name=presearch to_date=20221231
+2023-01-22 22:15:06.608419 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:15:06.609416 - ----- run_time: 39.14 seconds -- token_name=energi to_date=20220612
+2023-01-22 22:15:07.260679 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:15:07.270652 - ----- run_time: 38.26 seconds -- token_name=aion to_date=20220612
+2023-01-22 22:15:13.699439 - token_name=aion to_date=20220303
+2023-01-22 22:15:15.953425 - token_name=energi to_date=20220303
+2023-01-22 22:15:23.870303 - token_name=presearch -- first time run
+2023-01-22 22:15:23.871301 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:15:23.872298 - ----- run_time: 37.65 seconds -- token_name=presearch to_date=20221231
+2023-01-22 22:15:29.178142 - token_name=presearch to_date=20220921
+2023-01-22 22:15:44.242467 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:15:44.243423 - ----- run_time: 36.97 seconds -- token_name=aion to_date=20220303
+2023-01-22 22:15:44.460783 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:15:44.461780 - ----- run_time: 37.85 seconds -- token_name=energi to_date=20220303
+2023-01-22 22:15:50.757892 - token_name=energi to_date=20211122
+2023-01-22 22:15:56.456805 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:15:56.457802 - ----- run_time: 32.58 seconds -- token_name=presearch to_date=20220921
+2023-01-22 22:15:59.026948 - token_name=aion to_date=20211122
+2023-01-22 22:16:05.183523 - token_name=presearch to_date=20220612
+2023-01-22 22:16:29.680166 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:16:29.681163 - ----- run_time: 45.22 seconds -- token_name=energi to_date=20211122
+2023-01-22 22:16:31.806521 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:16:31.806521 - ----- run_time: 35.35 seconds -- token_name=presearch to_date=20220612
+2023-01-22 22:16:32.254326 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:16:32.254326 - ----- run_time: 48.01 seconds -- token_name=aion to_date=20211122
+2023-01-22 22:16:38.176499 - token_name=energi to_date=20210813
+2023-01-22 22:16:40.654886 - token_name=presearch to_date=20220303
+2023-01-22 22:16:49.512254 - token_name=aion to_date=20210813
+2023-01-22 22:17:12.354314 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:17:12.355310 - ----- run_time: 42.67 seconds -- token_name=energi to_date=20210813
+2023-01-22 22:17:16.451382 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:17:16.454374 - ----- run_time: 44.65 seconds -- token_name=presearch to_date=20220303
+2023-01-22 22:17:19.305766 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:17:19.306764 - ----- run_time: 47.05 seconds -- token_name=aion to_date=20210813
+2023-01-22 22:17:21.579700 - token_name=energi to_date=20210504
+2023-01-22 22:17:22.174115 - token_name=presearch to_date=20211122
+2023-01-22 22:17:31.270843 - token_name=aion to_date=20210504
+2023-01-22 22:17:50.962798 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:17:50.963796 - ----- run_time: 38.61 seconds -- token_name=energi to_date=20210504
+2023-01-22 22:17:52.318676 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:17:52.320671 - ----- run_time: 35.86 seconds -- token_name=presearch to_date=20211122
+2023-01-22 22:17:56.447359 - token_name=energi to_date=20210123
+2023-01-22 22:17:58.067037 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:17:58.068036 - ----- run_time: 38.75 seconds -- token_name=aion to_date=20210504
+2023-01-22 22:18:05.318690 - token_name=aion to_date=20210123
+2023-01-22 22:18:07.453992 - token_name=presearch to_date=20210813
+2023-01-22 22:18:28.259484 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:18:28.260483 - ----- run_time: 37.29 seconds -- token_name=energi to_date=20210123
+2023-01-22 22:18:32.435635 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:18:32.435635 - ----- run_time: 34.37 seconds -- token_name=aion to_date=20210123
+2023-01-22 22:18:33.122801 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:18:33.123799 - ----- run_time: 40.80 seconds -- token_name=presearch to_date=20210813
+2023-01-22 22:18:35.051656 - token_name=energi to_date=20201014
+2023-01-22 22:18:40.864149 - token_name=presearch to_date=20210504
+2023-01-22 22:18:42.028042 - token_name=aion to_date=20201014
+2023-01-22 22:19:05.746274 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:19:05.747271 - ----- run_time: 37.49 seconds -- token_name=energi to_date=20201014
+2023-01-22 22:19:10.021867 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:19:10.025857 - ----- run_time: 36.90 seconds -- token_name=presearch to_date=20210504
+2023-01-22 22:19:10.052785 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:19:10.065750 - ----- run_time: 37.63 seconds -- token_name=aion to_date=20201014
+2023-01-22 22:19:12.994446 - token_name=energi to_date=20200705
+2023-01-22 22:19:20.427613 - token_name=presearch to_date=20210123
+2023-01-22 22:19:21.169635 - token_name=aion to_date=20200705
+2023-01-22 22:19:48.107763 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:19:48.107763 - ----- run_time: 42.36 seconds -- token_name=energi to_date=20200705
+2023-01-22 22:19:54.560085 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:19:54.807451 - ----- run_time: 44.78 seconds -- token_name=presearch to_date=20210123
+2023-01-22 22:19:56.214699 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:19:56.214699 - ----- run_time: 46.13 seconds -- token_name=aion to_date=20200705
+2023-01-22 22:20:01.063734 - token_name=energi to_date=20200326
+2023-01-22 22:20:04.581351 - token_name=presearch to_date=20201014
+2023-01-22 22:20:05.303421 - token_name=aion to_date=20200326
+2023-01-22 22:20:35.271437 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:20:35.271437 - ----- run_time: 47.16 seconds -- token_name=energi to_date=20200326
+2023-01-22 22:20:38.041588 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:20:38.042585 - ----- run_time: 41.83 seconds -- token_name=aion to_date=20200326
+2023-01-22 22:20:38.841961 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:20:38.922745 - ----- run_time: 44.11 seconds -- token_name=presearch to_date=20201014
+2023-01-22 22:20:43.653125 - token_name=energi to_date=20191216
+2023-01-22 22:20:44.471941 - token_name=aion to_date=20191216
+2023-01-22 22:20:47.555713 - token_name=presearch to_date=20200705
+2023-01-22 22:21:11.915721 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:21:11.916720 - ----- run_time: 36.64 seconds -- token_name=energi to_date=20191216
+2023-01-22 22:21:13.605213 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:21:13.605213 - ----- run_time: 35.56 seconds -- token_name=aion to_date=20191216
+2023-01-22 22:21:16.590284 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:21:16.591247 - ----- run_time: 37.63 seconds -- token_name=presearch to_date=20200705
+2023-01-22 22:21:20.473914 - token_name=aion to_date=20190906
+2023-01-22 22:21:20.592597 - token_name=energi to_date=20190906
+2023-01-22 22:21:27.556017 - token_name=presearch to_date=20200326
+2023-01-22 22:21:54.801328 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:21:54.802325 - ----- run_time: 42.88 seconds -- token_name=energi to_date=20190906
+2023-01-22 22:21:58.802653 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:21:58.804647 - ----- run_time: 45.20 seconds -- token_name=aion to_date=20190906
+2023-01-22 22:21:59.154713 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:21:59.154713 - ----- run_time: 42.56 seconds -- token_name=presearch to_date=20200326
+2023-01-22 22:22:03.787354 - token_name=aion to_date=20190528
+2023-01-22 22:22:04.088551 - token_name=energi to_date=20190528
+2023-01-22 22:22:10.678972 - token_name=presearch to_date=20191216
+2023-01-22 22:22:36.191899 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:22:36.191899 - ----- run_time: 41.39 seconds -- token_name=energi to_date=20190528
+2023-01-22 22:22:40.312067 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:22:40.313063 - ----- run_time: 41.51 seconds -- token_name=aion to_date=20190528
+2023-01-22 22:22:42.377150 - token_name=energi to_date=20190216
+2023-01-22 22:22:42.814190 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:22:42.814190 - ----- run_time: 43.66 seconds -- token_name=presearch to_date=20191216
+2023-01-22 22:22:48.613407 - token_name=aion to_date=20190216
+2023-01-22 22:22:50.580160 - token_name=presearch to_date=20190906
+2023-01-22 22:23:12.328131 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=energi 
+2023-01-22 22:23:12.328131 - ----- run_time: 36.13 seconds -- token_name=energi to_date=20190216
+2023-01-22 22:23:16.734683 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:23:16.735680 - ----- run_time: 36.42 seconds -- token_name=aion to_date=20190216
+2023-01-22 22:23:18.273481 - token_name=energi to_date=20181107
+2023-01-22 22:23:18.727271 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:23:18.728267 - ----- run_time: 35.91 seconds -- token_name=presearch to_date=20190906
+2023-01-22 22:23:27.450197 - token_name=aion to_date=20181107
+2023-01-22 22:23:40.632378 - token_name=presearch to_date=20190528
+2023-01-22 22:23:42.198200 - --batch_dates=[20180824, 20181107] 75 rows has been written to csv -- token_name=energi 
+2023-01-22 22:23:42.200200 - -----FINISH----- token_name=energi -----
+2023-01-22 22:23:42.202192 - ----- run_time: 29.87 seconds -- token_name=energi to_date=20181107
+2023-01-22 22:23:52.198288 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:23:52.199286 - ----- run_time: 35.46 seconds -- token_name=aion to_date=20181107
+2023-01-22 22:23:53.632460 - token_name=petals to_date=20221231
+2023-01-22 22:24:08.446634 - token_name=aion to_date=20180729
+2023-01-22 22:24:08.886459 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:24:08.900423 - ----- run_time: 50.17 seconds -- token_name=presearch to_date=20190528
+2023-01-22 22:24:24.685800 - token_name=petals -- first time run
+2023-01-22 22:24:24.685800 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=petals 
+2023-01-22 22:24:24.687795 - ----- run_time: 42.48 seconds -- token_name=petals to_date=20221231
+2023-01-22 22:24:27.129280 - token_name=presearch to_date=20190216
+2023-01-22 22:24:31.260253 - token_name=petals to_date=20220921
+2023-01-22 22:24:43.950385 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:24:43.950385 - ----- run_time: 51.75 seconds -- token_name=aion to_date=20180729
+2023-01-22 22:24:50.074037 - token_name=aion to_date=20180419
+2023-01-22 22:25:06.013494 - --batch_dates=[20220630, 20220921] 83 rows has been written to csv -- token_name=petals 
+2023-01-22 22:25:06.014490 - -----FINISH----- token_name=petals -----
+2023-01-22 22:25:06.016486 - ----- run_time: 41.33 seconds -- token_name=petals to_date=20220921
+2023-01-22 22:25:08.572684 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:25:08.572684 - ----- run_time: 59.67 seconds -- token_name=presearch to_date=20190216
+2023-01-22 22:25:13.733908 - token_name=presearch to_date=20181107
+2023-01-22 22:25:15.049397 - token_name=measurable-data-token to_date=20221231
+2023-01-22 22:25:28.714961 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=aion 
+2023-01-22 22:25:28.714961 - ----- run_time: 44.76 seconds -- token_name=aion to_date=20180419
+2023-01-22 22:25:36.353535 - token_name=aion to_date=20180108
+2023-01-22 22:25:43.726591 - token_name=measurable-data-token -- first time run
+2023-01-22 22:25:43.726591 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:25:43.727588 - ----- run_time: 37.71 seconds -- token_name=measurable-data-token to_date=20221231
+2023-01-22 22:25:45.250953 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:25:45.251950 - ----- run_time: 36.68 seconds -- token_name=presearch to_date=20181107
+2023-01-22 22:25:51.137929 - token_name=presearch to_date=20180729
+2023-01-22 22:25:55.562120 - token_name=measurable-data-token to_date=20220921
+2023-01-22 22:26:05.561452 - --batch_dates=[20171018, 20180108] 82 rows has been written to csv -- token_name=aion 
+2023-01-22 22:26:05.562429 - -----FINISH----- token_name=aion -----
+2023-01-22 22:26:05.564423 - ----- run_time: 36.85 seconds -- token_name=aion to_date=20180108
+2023-01-22 22:26:10.672789 - token_name=decentral-games to_date=20221231
+2023-01-22 22:26:24.229264 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:26:24.230237 - ----- run_time: 38.98 seconds -- token_name=presearch to_date=20180729
+2023-01-22 22:26:24.557764 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:26:24.558734 - ----- run_time: 40.83 seconds -- token_name=measurable-data-token to_date=20220921
+2023-01-22 22:26:30.680080 - token_name=presearch to_date=20180419
+2023-01-22 22:26:31.973628 - token_name=measurable-data-token to_date=20220612
+2023-01-22 22:26:43.123867 - token_name=decentral-games -- first time run
+2023-01-22 22:26:43.123867 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=decentral-games 
+2023-01-22 22:26:43.125863 - ----- run_time: 37.56 seconds -- token_name=decentral-games to_date=20221231
+2023-01-22 22:26:50.371525 - token_name=decentral-games to_date=20220921
+2023-01-22 22:27:01.576577 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:27:01.576577 - ----- run_time: 37.02 seconds -- token_name=measurable-data-token to_date=20220612
+2023-01-22 22:27:02.359487 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:27:02.371455 - ----- run_time: 38.14 seconds -- token_name=presearch to_date=20180419
+2023-01-22 22:27:08.504087 - token_name=measurable-data-token to_date=20220303
+2023-01-22 22:27:12.342842 - token_name=presearch to_date=20180108
+2023-01-22 22:27:27.107433 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=decentral-games 
+2023-01-22 22:27:27.108431 - ----- run_time: 43.98 seconds -- token_name=decentral-games to_date=20220921
+2023-01-22 22:27:28.032963 - --batch_dates=[20171205, 20180108] 34 rows has been written to csv -- token_name=presearch 
+2023-01-22 22:27:28.073854 - -----FINISH----- token_name=presearch -----
+2023-01-22 22:27:28.074851 - ----- run_time: 25.70 seconds -- token_name=presearch to_date=20180108
+2023-01-22 22:27:35.247706 - token_name=decentral-games to_date=20220612
+2023-01-22 22:27:37.428884 - token_name=metronome to_date=20221231
+2023-01-22 22:27:48.523273 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:27:48.526265 - ----- run_time: 46.95 seconds -- token_name=measurable-data-token to_date=20220303
+2023-01-22 22:27:59.058156 - token_name=measurable-data-token to_date=20211122
+2023-01-22 22:28:11.574769 - token_name=metronome -- first time run
+2023-01-22 22:28:11.574769 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:28:11.576764 - ----- run_time: 43.49 seconds -- token_name=metronome to_date=20221231
+2023-01-22 22:28:11.903892 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=decentral-games 
+2023-01-22 22:28:11.904891 - ----- run_time: 44.79 seconds -- token_name=decentral-games to_date=20220612
+2023-01-22 22:28:20.586716 - token_name=decentral-games to_date=20220303
+2023-01-22 22:28:22.435782 - token_name=metronome to_date=20220921
+2023-01-22 22:28:34.844661 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:28:34.844661 - ----- run_time: 46.32 seconds -- token_name=measurable-data-token to_date=20211122
+2023-01-22 22:28:41.395387 - token_name=measurable-data-token to_date=20210813
+2023-01-22 22:28:48.220172 - --batch_dates=[20211202, 20220303] 91 rows has been written to csv -- token_name=decentral-games 
+2023-01-22 22:28:48.222167 - -----FINISH----- token_name=decentral-games -----
+2023-01-22 22:28:48.223163 - ----- run_time: 36.32 seconds -- token_name=decentral-games to_date=20220303
+2023-01-22 22:28:52.586710 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:28:52.587707 - ----- run_time: 41.01 seconds -- token_name=metronome to_date=20220921
+2023-01-22 22:28:56.779950 - token_name=vectorspace-ai to_date=20221231
+2023-01-22 22:29:00.677548 - token_name=metronome to_date=20220612
+2023-01-22 22:29:12.042214 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:29:12.043211 - ----- run_time: 37.20 seconds -- token_name=measurable-data-token to_date=20210813
+2023-01-22 22:29:21.358348 - token_name=measurable-data-token to_date=20210504
+2023-01-22 22:29:36.486481 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:29:36.487478 - ----- run_time: 43.90 seconds -- token_name=metronome to_date=20220612
+2023-01-22 22:29:36.903369 - token_name=vectorspace-ai -- first time run
+2023-01-22 22:29:36.904367 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:29:36.907358 - ----- run_time: 48.68 seconds -- token_name=vectorspace-ai to_date=20221231
+2023-01-22 22:29:44.521036 - token_name=vectorspace-ai to_date=20220921
+2023-01-22 22:29:47.508063 - token_name=metronome to_date=20220303
+2023-01-22 22:29:54.602128 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:29:54.608113 - ----- run_time: 42.56 seconds -- token_name=measurable-data-token to_date=20210504
+2023-01-22 22:30:04.321189 - token_name=measurable-data-token to_date=20210123
+2023-01-22 22:30:19.455794 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:30:19.455794 - ----- run_time: 42.55 seconds -- token_name=vectorspace-ai to_date=20220921
+2023-01-22 22:30:23.764293 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:30:23.765290 - ----- run_time: 47.28 seconds -- token_name=metronome to_date=20220303
+2023-01-22 22:30:30.812485 - token_name=metronome to_date=20211122
+2023-01-22 22:30:37.053152 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:30:37.053152 - ----- run_time: 42.44 seconds -- token_name=measurable-data-token to_date=20210123
+2023-01-22 22:30:38.391196 - token_name=vectorspace-ai to_date=20220612
+2023-01-22 22:30:44.646793 - token_name=measurable-data-token to_date=20201014
+2023-01-22 22:31:02.087780 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:31:02.088778 - ----- run_time: 38.32 seconds -- token_name=metronome to_date=20211122
+2023-01-22 22:31:08.531713 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:31:08.532710 - ----- run_time: 49.07 seconds -- token_name=vectorspace-ai to_date=20220612
+2023-01-22 22:31:10.753858 - token_name=metronome to_date=20210813
+2023-01-22 22:31:12.386475 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:31:12.387489 - ----- run_time: 35.33 seconds -- token_name=measurable-data-token to_date=20201014
+2023-01-22 22:31:19.677796 - token_name=vectorspace-ai to_date=20220303
+2023-01-22 22:31:20.194417 - token_name=measurable-data-token to_date=20200705
+2023-01-22 22:31:43.228937 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:31:43.229935 - ----- run_time: 41.14 seconds -- token_name=metronome to_date=20210813
+2023-01-22 22:31:46.727599 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:31:46.728597 - ----- run_time: 38.19 seconds -- token_name=vectorspace-ai to_date=20220303
+2023-01-22 22:31:48.222902 - token_name=metronome to_date=20210504
+2023-01-22 22:31:49.433271 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:31:49.434268 - ----- run_time: 37.04 seconds -- token_name=measurable-data-token to_date=20200705
+2023-01-22 22:31:54.590651 - token_name=vectorspace-ai to_date=20211122
+2023-01-22 22:31:55.798428 - token_name=measurable-data-token to_date=20200326
+2023-01-22 22:32:22.237859 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:32:22.246836 - ----- run_time: 39.01 seconds -- token_name=metronome to_date=20210504
+2023-01-22 22:32:26.482530 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:32:26.483527 - ----- run_time: 39.75 seconds -- token_name=vectorspace-ai to_date=20211122
+2023-01-22 22:32:27.084922 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:32:27.084922 - ----- run_time: 37.65 seconds -- token_name=measurable-data-token to_date=20200326
+2023-01-22 22:32:29.798685 - token_name=metronome to_date=20210123
+2023-01-22 22:32:34.307645 - token_name=vectorspace-ai to_date=20210813
+2023-01-22 22:32:36.753117 - token_name=measurable-data-token to_date=20191216
+2023-01-22 22:33:05.188222 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:33:05.189220 - ----- run_time: 42.94 seconds -- token_name=metronome to_date=20210123
+2023-01-22 22:33:09.393000 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:33:09.396988 - ----- run_time: 42.31 seconds -- token_name=measurable-data-token to_date=20191216
+2023-01-22 22:33:11.134351 - token_name=metronome to_date=20201014
+2023-01-22 22:33:14.065527 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:33:14.066525 - ----- run_time: 47.58 seconds -- token_name=vectorspace-ai to_date=20210813
+2023-01-22 22:33:16.347437 - token_name=measurable-data-token to_date=20190906
+2023-01-22 22:33:21.652277 - token_name=vectorspace-ai to_date=20210504
+2023-01-22 22:33:45.165520 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:33:45.166517 - ----- run_time: 39.98 seconds -- token_name=metronome to_date=20201014
+2023-01-22 22:33:49.516693 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:33:49.516693 - ----- run_time: 40.12 seconds -- token_name=measurable-data-token to_date=20190906
+2023-01-22 22:33:51.212199 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:33:51.234140 - ----- run_time: 37.17 seconds -- token_name=vectorspace-ai to_date=20210504
+2023-01-22 22:33:54.600734 - token_name=metronome to_date=20200705
+2023-01-22 22:33:58.292161 - token_name=vectorspace-ai to_date=20210123
+2023-01-22 22:34:05.531349 - token_name=measurable-data-token to_date=20190528
+2023-01-22 22:34:23.425588 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:34:23.425588 - ----- run_time: 38.26 seconds -- token_name=metronome to_date=20200705
+2023-01-22 22:34:28.793263 - token_name=metronome to_date=20200326
+2023-01-22 22:34:29.086480 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:34:29.098449 - ----- run_time: 37.86 seconds -- token_name=vectorspace-ai to_date=20210123
+2023-01-22 22:34:35.448368 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:34:35.465323 - ----- run_time: 45.95 seconds -- token_name=measurable-data-token to_date=20190528
+2023-01-22 22:34:35.981945 - token_name=vectorspace-ai to_date=20201014
+2023-01-22 22:34:42.735917 - token_name=measurable-data-token to_date=20190216
+2023-01-22 22:35:00.890059 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:35:00.895045 - ----- run_time: 37.47 seconds -- token_name=metronome to_date=20200326
+2023-01-22 22:35:06.206870 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:35:06.211856 - ----- run_time: 37.11 seconds -- token_name=vectorspace-ai to_date=20201014
+2023-01-22 22:35:08.353143 - token_name=metronome to_date=20191216
+2023-01-22 22:35:12.773343 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:35:12.776335 - ----- run_time: 37.31 seconds -- token_name=measurable-data-token to_date=20190216
+2023-01-22 22:35:12.783316 - token_name=vectorspace-ai to_date=20200705
+2023-01-22 22:35:23.436880 - token_name=measurable-data-token to_date=20181107
+2023-01-22 22:35:47.391003 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:35:47.392000 - ----- run_time: 41.18 seconds -- token_name=vectorspace-ai to_date=20200705
+2023-01-22 22:35:48.330495 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:35:48.369391 - ----- run_time: 47.47 seconds -- token_name=metronome to_date=20191216
+2023-01-22 22:35:56.476753 - token_name=metronome to_date=20190906
+2023-01-22 22:35:56.589452 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:35:56.593441 - ----- run_time: 43.82 seconds -- token_name=measurable-data-token to_date=20181107
+2023-01-22 22:36:04.947145 - token_name=measurable-data-token to_date=20180729
+2023-01-22 22:36:12.145931 - token_name=vectorspace-ai to_date=20200326
+2023-01-22 22:36:29.326240 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:36:29.328235 - ----- run_time: 40.96 seconds -- token_name=metronome to_date=20190906
+2023-01-22 22:36:36.183596 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:36:36.184593 - ----- run_time: 39.59 seconds -- token_name=measurable-data-token to_date=20180729
+2023-01-22 22:36:37.797289 - token_name=metronome to_date=20190528
+2023-01-22 22:36:43.075202 - token_name=measurable-data-token to_date=20180419
+2023-01-22 22:36:44.612099 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:36:44.630052 - ----- run_time: 57.24 seconds -- token_name=vectorspace-ai to_date=20200326
+2023-01-22 22:36:51.645137 - token_name=vectorspace-ai to_date=20191216
+2023-01-22 22:37:02.499168 - --batch_dates=[20191204, 20191216] 12 rows has been written to csv -- token_name=vectorspace-ai 
+2023-01-22 22:37:02.502160 - -----FINISH----- token_name=vectorspace-ai -----
+2023-01-22 22:37:02.504154 - ----- run_time: 17.87 seconds -- token_name=vectorspace-ai to_date=20191216
+2023-01-22 22:37:08.467502 - token_name=dextools to_date=20221231
+2023-01-22 22:37:10.214838 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:37:10.214838 - ----- run_time: 40.88 seconds -- token_name=metronome to_date=20190528
+2023-01-22 22:37:15.547945 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=measurable-data-token 
+2023-01-22 22:37:15.547945 - ----- run_time: 39.36 seconds -- token_name=measurable-data-token to_date=20180419
+2023-01-22 22:37:17.637368 - token_name=metronome to_date=20190216
+2023-01-22 22:37:25.356764 - token_name=measurable-data-token to_date=20180108
+2023-01-22 22:37:33.531851 - -- 'No data is available now' -- token_name=measurable-data-token  to_date=20180108
+2023-01-22 22:37:33.532847 - -----Moved No_data error files token_name=measurable-data-token -----
+2023-01-22 22:37:40.462354 - token_name=dextools -- first time run
+2023-01-22 22:37:40.462354 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:37:40.464347 - ----- run_time: 37.96 seconds -- token_name=dextools to_date=20221231
+2023-01-22 22:37:41.036824 - token_name=pivx to_date=20221231
+2023-01-22 22:37:48.774168 - token_name=dextools to_date=20220921
+2023-01-22 22:37:50.230281 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:37:50.230281 - ----- run_time: 40.01 seconds -- token_name=metronome to_date=20190216
+2023-01-22 22:37:57.242504 - token_name=metronome to_date=20181107
+2023-01-22 22:38:12.798982 - token_name=pivx -- first time run
+2023-01-22 22:38:12.802971 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:38:12.804966 - ----- run_time: 39.27 seconds -- token_name=pivx to_date=20221231
+2023-01-22 22:38:22.521033 - token_name=pivx to_date=20220921
+2023-01-22 22:38:25.153008 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:38:25.154006 - ----- run_time: 44.69 seconds -- token_name=dextools to_date=20220921
+2023-01-22 22:38:30.812902 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:38:30.812902 - ----- run_time: 40.58 seconds -- token_name=metronome to_date=20181107
+2023-01-22 22:38:32.524333 - token_name=dextools to_date=20220612
+2023-01-22 22:38:39.683226 - token_name=metronome to_date=20180729
+2023-01-22 22:39:04.613844 - --batch_dates=[20180626, 20180729] 33 rows has been written to csv -- token_name=metronome 
+2023-01-22 22:39:04.615838 - -----FINISH----- token_name=metronome -----
+2023-01-22 22:39:04.616837 - ----- run_time: 33.80 seconds -- token_name=metronome to_date=20180729
+2023-01-22 22:39:04.693632 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:39:04.693632 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:39:04.693632 - ----- run_time: 39.54 seconds -- token_name=dextools to_date=20220612
+2023-01-22 22:39:04.695631 - ----- run_time: 51.89 seconds -- token_name=pivx to_date=20220921
+2023-01-22 22:39:09.605522 - token_name=pivx to_date=20220612
+2023-01-22 22:39:10.862168 - token_name=hydra to_date=20221231
+2023-01-22 22:39:17.617647 - token_name=dextools to_date=20220303
+2023-01-22 22:39:41.908812 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:39:41.913800 - ----- run_time: 37.22 seconds -- token_name=pivx to_date=20220612
+2023-01-22 22:39:48.744457 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:39:48.745454 - ----- run_time: 44.05 seconds -- token_name=dextools to_date=20220303
+2023-01-22 22:39:48.759416 - token_name=hydra -- first time run
+2023-01-22 22:39:48.759416 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:39:48.762409 - ----- run_time: 44.14 seconds -- token_name=hydra to_date=20221231
+2023-01-22 22:39:50.133455 - token_name=pivx to_date=20220303
+2023-01-22 22:39:54.169565 - token_name=dextools to_date=20211122
+2023-01-22 22:39:59.004661 - token_name=hydra to_date=20220921
+2023-01-22 22:40:19.019232 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:40:19.020230 - ----- run_time: 37.10 seconds -- token_name=pivx to_date=20220303
+2023-01-22 22:40:24.490450 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:40:24.491447 - ----- run_time: 35.74 seconds -- token_name=dextools to_date=20211122
+2023-01-22 22:40:24.630079 - token_name=pivx to_date=20211122
+2023-01-22 22:40:32.703690 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:40:32.703690 - ----- run_time: 43.94 seconds -- token_name=hydra to_date=20220921
+2023-01-22 22:40:32.800971 - token_name=dextools to_date=20210813
+2023-01-22 22:40:38.782000 - token_name=hydra to_date=20220612
+2023-01-22 22:40:57.164431 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:40:57.165430 - ----- run_time: 38.14 seconds -- token_name=pivx to_date=20211122
+2023-01-22 22:41:01.611799 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:41:01.611799 - ----- run_time: 37.12 seconds -- token_name=dextools to_date=20210813
+2023-01-22 22:41:03.365118 - token_name=pivx to_date=20210813
+2023-01-22 22:41:08.738771 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:41:08.746751 - ----- run_time: 36.04 seconds -- token_name=hydra to_date=20220612
+2023-01-22 22:41:11.263031 - token_name=dextools to_date=20210504
+2023-01-22 22:41:22.783273 - token_name=hydra to_date=20220303
+2023-01-22 22:41:44.484334 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:41:44.486329 - ----- run_time: 47.32 seconds -- token_name=pivx to_date=20210813
+2023-01-22 22:41:44.562126 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:41:44.566115 - ----- run_time: 42.95 seconds -- token_name=dextools to_date=20210504
+2023-01-22 22:41:52.502930 - token_name=pivx to_date=20210504
+2023-01-22 22:41:53.915155 - token_name=dextools to_date=20210123
+2023-01-22 22:42:00.851636 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:42:00.851636 - ----- run_time: 52.10 seconds -- token_name=hydra to_date=20220303
+2023-01-22 22:42:08.336653 - token_name=hydra to_date=20211122
+2023-01-22 22:42:26.298696 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:42:26.298696 - ----- run_time: 41.81 seconds -- token_name=pivx to_date=20210504
+2023-01-22 22:42:30.409518 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:42:30.412511 - ----- run_time: 45.85 seconds -- token_name=dextools to_date=20210123
+2023-01-22 22:42:30.475342 - token_name=pivx to_date=20210123
+2023-01-22 22:42:35.566749 - token_name=dextools to_date=20201014
+2023-01-22 22:42:42.877231 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:42:42.878228 - ----- run_time: 42.02 seconds -- token_name=hydra to_date=20211122
+2023-01-22 22:42:48.239912 - token_name=hydra to_date=20210813
+2023-01-22 22:43:02.535419 - --batch_dates=[20200719, 20201014] 87 rows has been written to csv -- token_name=dextools 
+2023-01-22 22:43:02.536417 - -----FINISH----- token_name=dextools -----
+2023-01-22 22:43:02.538412 - ----- run_time: 32.12 seconds -- token_name=dextools to_date=20201014
+2023-01-22 22:43:03.719392 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:43:03.739340 - ----- run_time: 37.44 seconds -- token_name=pivx to_date=20210123
+2023-01-22 22:43:07.669852 - token_name=obyte to_date=20221231
+2023-01-22 22:43:11.200420 - token_name=pivx to_date=20201014
+2023-01-22 22:43:19.253917 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:43:19.253917 - ----- run_time: 36.37 seconds -- token_name=hydra to_date=20210813
+2023-01-22 22:43:24.435085 - token_name=hydra to_date=20210504
+2023-01-22 22:43:39.902746 - token_name=obyte -- first time run
+2023-01-22 22:43:39.902746 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:43:39.905702 - ----- run_time: 37.36 seconds -- token_name=obyte to_date=20221231
+2023-01-22 22:43:40.011623 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:43:40.012619 - ----- run_time: 36.27 seconds -- token_name=pivx to_date=20201014
+2023-01-22 22:43:44.230409 - token_name=pivx to_date=20200705
+2023-01-22 22:43:45.263650 - token_name=obyte to_date=20220921
+2023-01-22 22:43:57.721390 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:43:57.722388 - ----- run_time: 38.47 seconds -- token_name=hydra to_date=20210504
+2023-01-22 22:44:04.083403 - token_name=hydra to_date=20210123
+2023-01-22 22:44:15.754244 - --batch_dates=[20210112, 20210123] 11 rows has been written to csv -- token_name=hydra 
+2023-01-22 22:44:15.755241 - -----FINISH----- token_name=hydra -----
+2023-01-22 22:44:15.757237 - ----- run_time: 18.03 seconds -- token_name=hydra to_date=20210123
+2023-01-22 22:44:17.209359 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:44:17.210356 - ----- run_time: 37.20 seconds -- token_name=pivx to_date=20200705
+2023-01-22 22:44:19.752568 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:44:19.753566 - ----- run_time: 39.85 seconds -- token_name=obyte to_date=20220921
+2023-01-22 22:44:22.622905 - token_name=bitball-treasure to_date=20221231
+2023-01-22 22:44:24.678418 - token_name=pivx to_date=20200326
+2023-01-22 22:44:28.361584 - token_name=obyte to_date=20220612
+2023-01-22 22:44:56.522274 - token_name=bitball-treasure -- first time run
+2023-01-22 22:44:56.522274 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=bitball-treasure 
+2023-01-22 22:44:56.525267 - ----- run_time: 40.77 seconds -- token_name=bitball-treasure to_date=20221231
+2023-01-22 22:45:01.233699 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:45:01.233699 - ----- run_time: 41.48 seconds -- token_name=obyte to_date=20220612
+2023-01-22 22:45:02.973051 - token_name=bitball-treasure to_date=20220921
+2023-01-22 22:45:04.446119 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:45:04.446119 - ----- run_time: 47.23 seconds -- token_name=pivx to_date=20200326
+2023-01-22 22:45:10.501974 - token_name=obyte to_date=20220303
+2023-01-22 22:45:11.647916 - token_name=pivx to_date=20191216
+2023-01-22 22:45:38.157288 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=bitball-treasure 
+2023-01-22 22:45:38.158286 - ----- run_time: 41.63 seconds -- token_name=bitball-treasure to_date=20220921
+2023-01-22 22:45:43.831060 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:45:43.832058 - ----- run_time: 42.60 seconds -- token_name=obyte to_date=20220303
+2023-01-22 22:45:44.830756 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:45:44.837737 - ----- run_time: 40.39 seconds -- token_name=pivx to_date=20191216
+2023-01-22 22:45:46.357598 - token_name=bitball-treasure to_date=20220612
+2023-01-22 22:45:49.616893 - token_name=pivx to_date=20190906
+2023-01-22 22:45:51.468950 - token_name=obyte to_date=20211122
+2023-01-22 22:46:18.285355 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=bitball-treasure 
+2023-01-22 22:46:18.285355 - ----- run_time: 40.13 seconds -- token_name=bitball-treasure to_date=20220612
+2023-01-22 22:46:20.271050 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:46:20.272048 - ----- run_time: 35.43 seconds -- token_name=pivx to_date=20190906
+2023-01-22 22:46:22.961058 - token_name=bitball-treasure to_date=20220303
+2023-01-22 22:46:23.770897 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:46:23.771894 - ----- run_time: 39.94 seconds -- token_name=obyte to_date=20211122
+2023-01-22 22:46:27.690433 - token_name=pivx to_date=20190528
+2023-01-22 22:46:31.434436 - token_name=obyte to_date=20210813
+2023-01-22 22:46:58.500174 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=bitball-treasure 
+2023-01-22 22:46:58.501171 - ----- run_time: 40.21 seconds -- token_name=bitball-treasure to_date=20220303
+2023-01-22 22:47:03.076955 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:47:03.077954 - ----- run_time: 42.80 seconds -- token_name=pivx to_date=20190528
+2023-01-22 22:47:04.754477 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:47:04.759463 - ----- run_time: 40.98 seconds -- token_name=obyte to_date=20210813
+2023-01-22 22:47:05.039714 - token_name=bitball-treasure to_date=20211122
+2023-01-22 22:47:09.628466 - token_name=obyte to_date=20210504
+2023-01-22 22:47:10.796345 - token_name=pivx to_date=20190216
+2023-01-22 22:47:25.618771 - token_name=maro to_date=20221231
+2023-01-22 22:47:49.261804 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:47:49.261804 - ----- run_time: 44.50 seconds -- token_name=obyte to_date=20210504
+2023-01-22 22:47:51.005409 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:47:51.006381 - ----- run_time: 47.93 seconds -- token_name=pivx to_date=20190216
+2023-01-22 22:47:51.511894 - token_name=maro -- first time run
+2023-01-22 22:47:51.519873 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:47:51.520870 - ----- run_time: 33.68 seconds -- token_name=maro to_date=20221231
+2023-01-22 22:47:53.996260 - token_name=obyte to_date=20210123
+2023-01-22 22:47:58.933081 - token_name=pivx to_date=20181107
+2023-01-22 22:47:59.610272 - token_name=maro to_date=20220921
+2023-01-22 22:48:26.701069 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:48:26.701069 - ----- run_time: 37.44 seconds -- token_name=obyte to_date=20210123
+2023-01-22 22:48:27.078248 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:48:27.078248 - ----- run_time: 35.56 seconds -- token_name=maro to_date=20220921
+2023-01-22 22:48:27.839752 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:48:27.877648 - ----- run_time: 36.87 seconds -- token_name=pivx to_date=20181107
+2023-01-22 22:48:33.760312 - token_name=obyte to_date=20201014
+2023-01-22 22:48:34.243966 - token_name=maro to_date=20220612
+2023-01-22 22:48:36.641565 - token_name=pivx to_date=20180729
+2023-01-22 22:49:03.859517 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:49:03.859517 - ----- run_time: 36.78 seconds -- token_name=maro to_date=20220612
+2023-01-22 22:49:05.272778 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:49:05.273740 - ----- run_time: 38.57 seconds -- token_name=obyte to_date=20201014
+2023-01-22 22:49:05.849204 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:49:05.850205 - ----- run_time: 37.87 seconds -- token_name=pivx to_date=20180729
+2023-01-22 22:49:12.262084 - token_name=maro to_date=20220303
+2023-01-22 22:49:13.153703 - token_name=obyte to_date=20200705
+2023-01-22 22:49:14.631756 - token_name=pivx to_date=20180419
+2023-01-22 22:49:44.661094 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:49:44.661094 - ----- run_time: 40.80 seconds -- token_name=maro to_date=20220303
+2023-01-22 22:49:50.527435 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:49:50.530423 - ----- run_time: 45.25 seconds -- token_name=obyte to_date=20200705
+2023-01-22 22:49:50.544386 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:49:50.544386 - ----- run_time: 44.69 seconds -- token_name=pivx to_date=20180419
+2023-01-22 22:49:54.770104 - token_name=maro to_date=20211122
+2023-01-22 22:49:59.591234 - token_name=obyte to_date=20200326
+2023-01-22 22:49:59.737841 - token_name=pivx to_date=20180108
+2023-01-22 22:50:29.924246 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:50:29.924246 - ----- run_time: 45.26 seconds -- token_name=maro to_date=20211122
+2023-01-22 22:50:33.382155 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:50:33.384147 - ----- run_time: 42.85 seconds -- token_name=obyte to_date=20200326
+2023-01-22 22:50:35.598842 - --batch_dates=[20170930, 20180108] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:50:35.604833 - ----- run_time: 45.06 seconds -- token_name=pivx to_date=20180108
+2023-01-22 22:50:37.380400 - token_name=maro to_date=20210813
+2023-01-22 22:50:40.359359 - token_name=obyte to_date=20191216
+2023-01-22 22:50:42.153569 - token_name=pivx to_date=20170929
+2023-01-22 22:51:07.596494 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:51:07.597492 - ----- run_time: 37.67 seconds -- token_name=maro to_date=20210813
+2023-01-22 22:51:10.042394 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:51:10.042394 - ----- run_time: 36.66 seconds -- token_name=obyte to_date=20191216
+2023-01-22 22:51:12.329580 - --batch_dates=[20170621, 20170929] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:51:12.329580 - ----- run_time: 36.72 seconds -- token_name=pivx to_date=20170929
+2023-01-22 22:51:12.537026 - token_name=maro to_date=20210504
+2023-01-22 22:51:14.769071 - token_name=obyte to_date=20190906
+2023-01-22 22:51:20.214527 - token_name=pivx to_date=20170620
+2023-01-22 22:51:42.504018 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:51:42.505015 - ----- run_time: 34.90 seconds -- token_name=maro to_date=20210504
+2023-01-22 22:51:44.972709 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:51:44.973697 - ----- run_time: 34.93 seconds -- token_name=obyte to_date=20190906
+2023-01-22 22:51:47.181233 - --batch_dates=[20170312, 20170620] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:51:47.183228 - ----- run_time: 34.85 seconds -- token_name=pivx to_date=20170620
+2023-01-22 22:51:49.424244 - token_name=maro to_date=20210123
+2023-01-22 22:51:50.564201 - token_name=obyte to_date=20190528
+2023-01-22 22:51:54.346104 - token_name=pivx to_date=20170311
+2023-01-22 22:52:21.034889 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:52:21.034889 - ----- run_time: 38.53 seconds -- token_name=maro to_date=20210123
+2023-01-22 22:52:22.757249 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:52:22.758246 - ----- run_time: 37.78 seconds -- token_name=obyte to_date=20190528
+2023-01-22 22:52:23.421477 - --batch_dates=[20161201, 20170311] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:52:23.421477 - ----- run_time: 36.24 seconds -- token_name=pivx to_date=20170311
+2023-01-22 22:52:28.464013 - token_name=maro to_date=20201014
+2023-01-22 22:52:29.880232 - token_name=pivx to_date=20161130
+2023-01-22 22:52:32.402016 - token_name=obyte to_date=20190216
+2023-01-22 22:53:00.706959 - --batch_dates=[20200706, 20201014] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:53:00.706959 - ----- run_time: 39.67 seconds -- token_name=maro to_date=20201014
+2023-01-22 22:53:06.008802 - token_name=maro to_date=20200705
+2023-01-22 22:53:08.478209 - --batch_dates=[20160822, 20161130] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:53:08.478209 - ----- run_time: 45.05 seconds -- token_name=pivx to_date=20161130
+2023-01-22 22:53:09.617168 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:53:09.640107 - ----- run_time: 46.88 seconds -- token_name=obyte to_date=20190216
+2023-01-22 22:53:14.780384 - token_name=pivx to_date=20160821
+2023-01-22 22:53:16.262427 - token_name=obyte to_date=20181107
+2023-01-22 22:53:40.645327 - --batch_dates=[20200327, 20200705] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:53:40.646325 - ----- run_time: 39.94 seconds -- token_name=maro to_date=20200705
+2023-01-22 22:53:46.785442 - token_name=maro to_date=20200326
+2023-01-22 22:53:49.848711 - --batch_dates=[20160513, 20160821] 100 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:53:49.849710 - ----- run_time: 41.37 seconds -- token_name=pivx to_date=20160821
+2023-01-22 22:53:51.118129 - --batch_dates=[20180730, 20181107] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:53:51.126107 - ----- run_time: 41.48 seconds -- token_name=obyte to_date=20181107
+2023-01-22 22:53:55.007748 - token_name=pivx to_date=20160512
+2023-01-22 22:53:58.053613 - token_name=obyte to_date=20180729
+2023-01-22 22:54:19.695831 - --batch_dates=[20191217, 20200326] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:54:19.696828 - ----- run_time: 39.05 seconds -- token_name=maro to_date=20200326
+2023-01-22 22:54:21.787401 - --batch_dates=[20160213, 20160512] 89 rows has been written to csv -- token_name=pivx 
+2023-01-22 22:54:21.788370 - -----FINISH----- token_name=pivx -----
+2023-01-22 22:54:21.791397 - ----- run_time: 31.94 seconds -- token_name=pivx to_date=20160512
+2023-01-22 22:54:24.764786 - --batch_dates=[20180420, 20180729] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:54:24.765784 - ----- run_time: 33.64 seconds -- token_name=obyte to_date=20180729
+2023-01-22 22:54:27.303790 - token_name=maro to_date=20191216
+2023-01-22 22:54:29.960696 - token_name=maple to_date=20221231
+2023-01-22 22:54:31.715011 - token_name=obyte to_date=20180419
+2023-01-22 22:54:58.671671 - --batch_dates=[20190907, 20191216] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:54:58.672667 - ----- run_time: 38.97 seconds -- token_name=maro to_date=20191216
+2023-01-22 22:54:59.447208 - token_name=maple -- first time run
+2023-01-22 22:54:59.448206 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:54:59.449202 - ----- run_time: 37.66 seconds -- token_name=maple to_date=20221231
+2023-01-22 22:54:59.878085 - --batch_dates=[20180109, 20180419] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:54:59.878085 - ----- run_time: 35.11 seconds -- token_name=obyte to_date=20180419
+2023-01-22 22:55:04.665011 - token_name=maro to_date=20190906
+2023-01-22 22:55:05.729171 - token_name=maple to_date=20220921
+2023-01-22 22:55:08.981488 - token_name=obyte to_date=20180108
+2023-01-22 22:55:40.009646 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:55:40.010643 - ----- run_time: 40.56 seconds -- token_name=maple to_date=20220921
+2023-01-22 22:55:40.803528 - --batch_dates=[20190529, 20190906] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:55:40.884311 - ----- run_time: 42.21 seconds -- token_name=maro to_date=20190906
+2023-01-22 22:55:45.020269 - --batch_dates=[20170930, 20180108] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:55:45.024259 - ----- run_time: 45.14 seconds -- token_name=obyte to_date=20180108
+2023-01-22 22:55:47.548519 - token_name=maro to_date=20190528
+2023-01-22 22:55:47.652241 - token_name=maple to_date=20220612
+2023-01-22 22:55:52.543208 - token_name=obyte to_date=20170929
+2023-01-22 22:56:22.704202 - --batch_dates=[20190217, 20190528] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:56:22.706192 - ----- run_time: 41.82 seconds -- token_name=maro to_date=20190528
+2023-01-22 22:56:25.676261 - --batch_dates=[20170621, 20170929] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:56:25.678270 - ----- run_time: 40.65 seconds -- token_name=obyte to_date=20170929
+2023-01-22 22:56:26.906975 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:56:26.995742 - ----- run_time: 46.98 seconds -- token_name=maple to_date=20220612
+2023-01-22 22:56:27.972131 - token_name=maro to_date=20190216
+2023-01-22 22:56:34.419916 - token_name=maple to_date=20220303
+2023-01-22 22:56:36.883340 - token_name=obyte to_date=20170620
+2023-01-22 22:56:58.830768 - --batch_dates=[20181108, 20190216] 100 rows has been written to csv -- token_name=maro 
+2023-01-22 22:56:58.831765 - ----- run_time: 36.12 seconds -- token_name=maro to_date=20190216
+2023-01-22 22:57:03.037304 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:57:03.038302 - ----- run_time: 36.04 seconds -- token_name=maple to_date=20220303
+2023-01-22 22:57:04.386792 - --batch_dates=[20170312, 20170620] 100 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:57:04.387767 - ----- run_time: 38.71 seconds -- token_name=obyte to_date=20170620
+2023-01-22 22:57:19.638105 - token_name=maple to_date=20211122
+2023-01-22 22:57:20.398074 - token_name=obyte to_date=20170311
+2023-01-22 22:57:20.455920 - token_name=maro to_date=20181107
+2023-01-22 22:57:47.063863 - --batch_dates=[20161227, 20170311] 74 rows has been written to csv -- token_name=obyte 
+2023-01-22 22:57:47.064860 - -----FINISH----- token_name=obyte -----
+2023-01-22 22:57:47.065857 - ----- run_time: 42.68 seconds -- token_name=obyte to_date=20170311
+2023-01-22 22:57:47.095777 - --batch_dates=[20180814, 20181107] 85 rows has been written to csv -- token_name=maro 
+2023-01-22 22:57:47.096776 - -----FINISH----- token_name=maro -----
+2023-01-22 22:57:47.097772 - ----- run_time: 48.27 seconds -- token_name=maro to_date=20181107
+2023-01-22 22:57:53.381827 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:57:53.382823 - ----- run_time: 50.20 seconds -- token_name=maple to_date=20211122
+2023-01-22 22:57:54.011447 - token_name=polkadex to_date=20221231
+2023-01-22 22:58:03.517525 - token_name=maple to_date=20210813
+2023-01-22 22:58:04.009212 - token_name=akropolis to_date=20221231
+2023-01-22 22:58:29.790363 - token_name=polkadex -- first time run
+2023-01-22 22:58:29.790363 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 22:58:29.792359 - ----- run_time: 42.69 seconds -- token_name=polkadex to_date=20221231
+2023-01-22 22:58:35.056302 - token_name=polkadex to_date=20220921
+2023-01-22 22:58:38.587870 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=maple 
+2023-01-22 22:58:38.589866 - ----- run_time: 45.21 seconds -- token_name=maple to_date=20210813
+2023-01-22 22:58:38.916996 - token_name=akropolis -- first time run
+2023-01-22 22:58:38.923974 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 22:58:38.925967 - ----- run_time: 51.86 seconds -- token_name=akropolis to_date=20221231
+2023-01-22 22:58:45.884386 - token_name=akropolis to_date=20220921
+2023-01-22 22:58:46.074876 - token_name=maple to_date=20210504
+2023-01-22 22:59:00.469436 - --batch_dates=[20210501, 20210504] 3 rows has been written to csv -- token_name=maple 
+2023-01-22 22:59:00.482401 - -----FINISH----- token_name=maple -----
+2023-01-22 22:59:00.483399 - ----- run_time: 21.89 seconds -- token_name=maple to_date=20210504
+2023-01-22 22:59:10.291207 - token_name=karura to_date=20221231
+2023-01-22 22:59:13.646249 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 22:59:13.646249 - ----- run_time: 43.85 seconds -- token_name=polkadex to_date=20220921
+2023-01-22 22:59:19.527059 - token_name=polkadex to_date=20220612
+2023-01-22 22:59:25.549974 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 22:59:25.550972 - ----- run_time: 46.62 seconds -- token_name=akropolis to_date=20220921
+2023-01-22 22:59:31.805270 - token_name=akropolis to_date=20220612
+2023-01-22 22:59:42.053411 - token_name=karura -- first time run
+2023-01-22 22:59:42.054409 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=karura 
+2023-01-22 22:59:42.055406 - ----- run_time: 41.57 seconds -- token_name=karura to_date=20221231
+2023-01-22 22:59:46.998206 - token_name=karura to_date=20220921
+2023-01-22 22:59:54.587938 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 22:59:54.588937 - ----- run_time: 40.94 seconds -- token_name=polkadex to_date=20220612
+2023-01-22 22:59:59.879806 - token_name=polkadex to_date=20220303
+2023-01-22 23:00:01.445625 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:00:01.477539 - ----- run_time: 35.92 seconds -- token_name=akropolis to_date=20220612
+2023-01-22 23:00:08.182634 - token_name=akropolis to_date=20220303
+2023-01-22 23:00:19.384748 - --batch_dates=[20220613, 20220921] 100 rows has been written to csv -- token_name=karura 
+2023-01-22 23:00:19.386714 - ----- run_time: 37.33 seconds -- token_name=karura to_date=20220921
+2023-01-22 23:00:27.153971 - token_name=karura to_date=20220612
+2023-01-22 23:00:29.785943 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 23:00:29.791927 - ----- run_time: 35.20 seconds -- token_name=polkadex to_date=20220303
+2023-01-22 23:00:38.614888 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:00:38.615885 - ----- run_time: 37.14 seconds -- token_name=akropolis to_date=20220303
+2023-01-22 23:00:39.046680 - token_name=polkadex to_date=20211122
+2023-01-22 23:00:42.461560 - token_name=akropolis to_date=20211122
+2023-01-22 23:00:57.837499 - --batch_dates=[20220304, 20220612] 100 rows has been written to csv -- token_name=karura 
+2023-01-22 23:00:57.839494 - ----- run_time: 38.45 seconds -- token_name=karura to_date=20220612
+2023-01-22 23:01:02.388346 - token_name=karura to_date=20220303
+2023-01-22 23:01:12.225077 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 23:01:12.226074 - ----- run_time: 42.43 seconds -- token_name=polkadex to_date=20211122
+2023-01-22 23:01:14.780254 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:01:14.788232 - ----- run_time: 36.17 seconds -- token_name=akropolis to_date=20211122
+2023-01-22 23:01:18.859360 - token_name=polkadex to_date=20210813
+2023-01-22 23:01:19.760952 - token_name=akropolis to_date=20210813
+2023-01-22 23:01:40.322044 - --batch_dates=[20211123, 20220303] 100 rows has been written to csv -- token_name=karura 
+2023-01-22 23:01:40.323043 - ----- run_time: 42.48 seconds -- token_name=karura to_date=20220303
+2023-01-22 23:01:44.579189 - token_name=karura to_date=20211122
+2023-01-22 23:01:55.136996 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:01:55.138989 - ----- run_time: 40.35 seconds -- token_name=akropolis to_date=20210813
+2023-01-22 23:01:58.336450 - --batch_dates=[20210505, 20210813] 100 rows has been written to csv -- token_name=polkadex 
+2023-01-22 23:01:58.361383 - ----- run_time: 46.13 seconds -- token_name=polkadex to_date=20210813
+2023-01-22 23:02:01.029258 - token_name=akropolis to_date=20210504
+2023-01-22 23:02:05.675852 - token_name=polkadex to_date=20210504
+2023-01-22 23:02:21.983301 - --batch_dates=[20210814, 20211122] 100 rows has been written to csv -- token_name=karura 
+2023-01-22 23:02:21.984299 - --batch_dates=[20210416, 20210504] 18 rows has been written to csv -- token_name=polkadex 
+2023-01-22 23:02:21.984299 - ----- run_time: 41.66 seconds -- token_name=karura to_date=20211122
+2023-01-22 23:02:21.987291 - -----FINISH----- token_name=polkadex -----
+2023-01-22 23:02:21.989286 - ----- run_time: 23.63 seconds -- token_name=polkadex to_date=20210504
+2023-01-22 23:02:28.079023 - token_name=dock to_date=20221231
+2023-01-22 23:02:30.217313 - token_name=karura to_date=20210813
+2023-01-22 23:02:35.628861 - token_name=1eco to_date=20221231
+2023-01-22 23:02:44.412405 - --batch_dates=[20210124, 20210504] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:02:44.412405 - ----- run_time: 49.27 seconds -- token_name=akropolis to_date=20210504
+2023-01-22 23:02:45.118520 - --batch_dates=[20210720, 20210813] 24 rows has been written to csv -- token_name=karura 
+2023-01-22 23:02:45.126499 - -----FINISH----- token_name=karura -----
+2023-01-22 23:02:45.128493 - ----- run_time: 23.14 seconds -- token_name=karura to_date=20210813
+2023-01-22 23:02:49.318306 - token_name=akropolis to_date=20210123
+2023-01-22 23:02:52.173679 - token_name=math to_date=20221231
+2023-01-22 23:03:07.611453 - token_name=1eco -- first time run
+2023-01-22 23:03:07.612450 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=1eco 
+2023-01-22 23:03:07.614445 - ----- run_time: 37.76 seconds -- token_name=1eco to_date=20221231
+2023-01-22 23:03:12.152327 - token_name=1eco to_date=20220921
+2023-01-22 23:03:24.253013 - token_name=math -- first time run
+2023-01-22 23:03:24.254009 - --batch_dates=[20220922, 20221231] 100 rows has been written to csv -- token_name=math 
+2023-01-22 23:03:24.258996 - ----- run_time: 39.13 seconds -- token_name=math to_date=20221231
+2023-01-22 23:03:26.046665 - --batch_dates=[20201015, 20210123] 100 rows has been written to csv -- token_name=akropolis 
+2023-01-22 23:03:26.046665 - ----- run_time: 41.63 seconds -- token_name=akropolis to_date=20210123

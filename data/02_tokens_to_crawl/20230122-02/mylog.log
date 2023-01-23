@@ -1,0 +1,38 @@
+2023-01-22 02:13:48.984668 - token_name=terra-classic to_date=20221231
+2023-01-22 02:16:19.376204 - token_name=terra-classic to_date=20221231
+2023-01-22 02:16:31.883179 - EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:23:48.533815 - token_name=status to_date=20180108
+2023-01-22 02:24:12.311822 - token_name=status, [20170930, 20180108] 100 rows has been written to csv
+2023-01-22 02:24:12.312819 - ------done batch token_name=status to_date=20180108 run_time: 26.81 seconds
+2023-01-22 02:26:31.815355 - token_name=status to_date=20170929
+2023-01-22 02:26:54.898628 - token_name=status, [20170628, 20170929] 93 rows has been written to csv
+2023-01-22 02:26:54.898628 - ------done batch token_name=status to_date=20170929 run_time: 26.62 seconds
+2023-01-22 02:26:54.900621 - -----FINISH----- token_name=status -----
+2023-01-22 02:27:44.824389 - token_name=dydx to_date=20220612
+2023-01-22 02:28:08.092670 - token_name=dydx, [20220304, 20220612] 100 rows has been written to csv
+2023-01-22 02:28:08.092670 - ------done batch token_name=dydx to_date=20220612 run_time: 27.45 seconds
+2023-01-22 02:30:43.249640 - token_name=dydx to_date=20220303
+2023-01-22 02:31:06.609920 - ----- token_name=dydx, [20211123, 20220303] 100 rows has been written to csv
+2023-01-22 02:31:06.609920 - ----- token_name=dydx to_date=20220303 run_time: 26.82 seconds
+2023-01-22 02:40:09.079987 - token_name=dydx to_date=20211122
+2023-01-22 02:40:27.698644 - ----- token_name=dydx, [20210908, 20211122] 75 rows has been written to csv
+2023-01-22 02:40:27.699614 - ----- token_name=dydx to_date=20211122 run_time: 22.18 seconds
+2023-01-22 02:40:27.700611 - -----FINISH----- token_name=dydx -----
+2023-01-22 02:40:43.708166 - token_name=terra-classic to_date=20221231
+2023-01-22 02:40:56.175154 - !!! EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:41:57.780111 - token_name=terra-classic to_date=20221231
+2023-01-22 02:42:10.288178 - !!! EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:42:50.082617 - token_name=terra-classic to_date=20221231
+2023-01-22 02:43:12.306724 - token_name=terra-classic to_date=20221231
+2023-01-22 02:45:27.222303 - token_name=terra-classic to_date=20221231
+2023-01-22 02:46:31.540405 - token_name=terra-classic to_date=20221231
+2023-01-22 02:55:01.966307 - token_name=terra-classic to_date=20221231
+2023-01-22 02:55:12.320790 - token_name=terra-classic Sorry, we couldn't find your page
+2023-01-22 02:55:14.798205 - !!! EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:56:17.225310 - token_name=terra-classic to_date=20221231
+2023-01-22 02:56:27.545920 - token_name=terra-classic Sorry, we couldn't find your page
+2023-01-22 02:56:33.680660 - !!! EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:57:30.936059 - token_name=terra-classic to_date=20221231
+2023-01-22 02:57:41.314625 - token_name=terra-classic Sorry, we couldn't find your page
+2023-01-22 02:57:43.506056 - !!! EXECPTION: token_name=terra-classic, to_date = 20221231 TimeoutException
+2023-01-22 02:59:13.493180 - token_name=golem to_date=20221231
