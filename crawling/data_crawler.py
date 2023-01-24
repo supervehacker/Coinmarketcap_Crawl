@@ -28,8 +28,8 @@ class DataCrawler:
         """
         When using Selenium with Chrome, you can prevent the browser from popping up on your screen by using the "headless" mode. In headless mode, the browser runs in the background without displaying any UI.
         """
-        options.add_argument('--headless')
-        options.add_argument('--disable-gpu')
+        # options.add_argument('--headless')
+        # options.add_argument('--disable-gpu')
         driver = webdriver.Chrome(executable_path="crawling/chromedriver.exe", chrome_options=options)   # driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(self.url)
         driver.execute_script("window.scrollBy(0, 500)")
