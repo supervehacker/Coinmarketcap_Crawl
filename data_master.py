@@ -27,8 +27,10 @@ def refresh_l_tokens():
     try:
         l_tokens = read_list_from_txt(c.L_TOKENS_PATH)
     except FileNotFoundError:
-        l_tokens = read_list_from_txt(c.ALL_UNDONE_TOKENS_PATH)[:250]  # TODO set this bigger?
+        # l_tokens = read_list_from_txt(c.ALL_UNDONE_TOKENS_PATH)[:250]  # TODO set this bigger?
+        l_tokens = read_list_from_txt(c.ALL_UNDONE_TOKENS_PATH)[:5000]  # TODO set this bigger?
         # TODO get from all_tokens - (all_error_tokens + all_done_tokens)
+
         write_list_to_txt(l_tokens, c.L_TOKENS_PATH)
 
     l_done_tokens = read_list_from_txt_create_if_filenotfound(c.L_DONE_TOKENS_PATH)
