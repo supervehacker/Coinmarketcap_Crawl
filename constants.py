@@ -39,7 +39,7 @@ ALL_ERROR_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_error_tokens.txt"
 ALL_UNDONE_TOKENS_PATH = f"{LIST_ALL_TOKENS_PATH}all_undone_tokens.txt"
 
 
-LAST_RUN_DATE_HOUR_PATH = f"{PROCESSING_RUN_LOG_PATH}/last_run_date_hour.txt"
+LAST_RUN_DATE_HOUR_PATH = f"{PROCESSING_RUN_LOG_PATH}last_run_date_hour.txt"
 try:
     with open(LAST_RUN_DATE_HOUR_PATH, "r") as f:  # get last_run_date_hour from run_date_hour.txt
         last_run_date_hour = f.readlines()[0]
