@@ -1,3 +1,4 @@
+cardano_xxx
 bitcoin
 gnosis
 flux
@@ -7,7 +8,6 @@ stasis-euro
 humanscape
 golem
 terra-classic
-cardano
 dai
 polkadot
 pax-dollar
