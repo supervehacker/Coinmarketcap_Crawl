@@ -19,7 +19,8 @@ class DataProcessor:
         token_run_log_path = self.token_run_log_path
 
         df = pd.DataFrame(data, columns=l_cols)  # Create a DataFrame from the list of data
-        batch_size = df.shape[0] - 1  # header row is not included
+        # batch_size = df.shape[0] - 1  # header row is not included
+        batch_size = df.shape[0]  # TODO check this again
         max_date = convert_cmc_date_str_to_yyyymmdd(df['Date'].iloc[0])
         min_date = convert_cmc_date_str_to_yyyymmdd(df['Date'].iloc[-1])
         # import json
