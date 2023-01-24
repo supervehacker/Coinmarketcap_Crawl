@@ -16,10 +16,11 @@ l_tokens = refresh_l_tokens()
 token_name = 'cardano'  # ok
 
 if token_name in l_tokens:
-    manage_a_worker(token_name)
+    print("err")
+    # manage_a_worker(token_name)
 else:
     print(f"token_name ={token_name} is not included in l_tokens")
 
-# Write RUN_DATE_HOUR to the file
-with open(c.LAST_RUN_DATE_HOUR_PATH, "w") as f:
-    f.write(f"{c.RUN_DATE_HOUR}")
+# # Write RUN_DATE_HOUR to the file
+# with open(c.LAST_RUN_DATE_HOUR_PATH, "w") as f:
+#     f.write(f"{c.RUN_DATE_HOUR}")

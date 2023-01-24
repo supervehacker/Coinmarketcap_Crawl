@@ -1,18 +1,25 @@
 from data_processing.helpers import *
 import constants as c
+from utils.helpers import print_and_log
 
 
 def refresh_all_undone_tokens():
     last_l_tokens_path, last_l_done_tokens_path, last_l_error_tokens_path = c.get_l_tokens_paths(c.LAST_TOKEN_TO_CRAWL_PATH)
-    append_txt_to_txt(last_l_done_tokens_path, c.ALL_DONE_TOKENS_PATH)
-    append_txt_to_txt(last_l_error_tokens_path, c.ALL_ERROR_TOKENS_PATH)
+    try:
+        append_txt_to_txt(last_l_done_tokens_path, c.ALL_DONE_TOKENS_PATH)
+        append_txt_to_txt(last_l_error_tokens_path, c.ALL_ERROR_TOKENS_PATH)
+    except FileNotFoundError:
+        print_and_log("First time run on this computer")
 
     all_tokens = read_list_from_txt(c.ALL_TOKENS_PATH)
     all_done_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_DONE_TOKENS_PATH)
     all_error_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_ERROR_TOKENS_PATH)
     all_done_error_set = set(all_error_tokens + all_done_tokens)
     all_undone_tokens = [x for x in all_tokens if x not in all_done_error_set]
+    print_and_log(
+        f"all_tokens: {len(all_tokens)}, all_done_tokens: {len(all_done_tokens)}, all_error_tokens: {len(all_error_tokens)}, all_undone_token: {len(all_undone_tokens)}")
     write_list_to_txt(all_undone_tokens, c.ALL_UNDONE_TOKENS_PATH)
+
 
 
 def refresh_l_tokens():

@@ -1,4 +1,4 @@
-cardano_xxx
+cardano
 bitcoin
 gnosis
 flux
