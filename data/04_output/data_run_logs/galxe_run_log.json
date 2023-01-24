@@ -1,0 +1,1 @@
+{"is_started": true, "is_done": true, "is_error": false, "max_date": 20221231, "min_date": 20220505, "batch_dates": [[20221231, 20220922], [20220921, 20220613], [20220612, 20220505]], "run_time": ["55.89", "44.62", "24.52"], "last_batch_size": 39}
