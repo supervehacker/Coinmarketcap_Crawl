@@ -49,7 +49,7 @@ class DataWorker:
                 break
             else:
                 token_run_log, batch_size = data_processor.write_data_to_csv(data, l_cols)  # TODO data_processor.write_data_to_csv(data)
-                if batch_size < 100:
+                if batch_size < 100:  # TODO handle this case better
                     # log last_batch_size, is_done
                     token_run_log["last_batch_size"] = batch_size
                     token_run_log["is_done"] = True
