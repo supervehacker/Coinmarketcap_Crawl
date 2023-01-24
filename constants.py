@@ -43,14 +43,16 @@ LAST_RUN_DATE_HOUR_PATH = f"{PROCESSING_RUN_LOG_PATH}last_run_date_hour.txt"
 try:
     with open(LAST_RUN_DATE_HOUR_PATH, "r") as f:  # get last_run_date_hour from run_date_hour.txt
         last_run_date_hour = f.readlines()[0]
+        print(f"run_date_hour: {RUN_DATE_HOUR}; last_run_date_hour: {last_run_date_hour}")
 except FileNotFoundError:
     last_run_date_hour = RUN_DATE_HOUR
     from data_processing.helpers import write_list_to_txt, read_list_from_txt
     write_list_to_txt(read_list_from_txt(ALL_TOKENS_PATH), ALL_UNDONE_TOKENS_PATH)
+    print(f"run_date_hour: {RUN_DATE_HOUR}; last_run_date_hour: None")
 
 LAST_RUN_DATE_HOUR = last_run_date_hour
 LAST_TOKEN_TO_CRAWL_PATH = f"data/02_tokens_to_crawl/{LAST_RUN_DATE_HOUR}/"
-print(f"run_date_hour: {RUN_DATE_HOUR}; last_run_date_hour: {LAST_RUN_DATE_HOUR}")
+
 
 # import os
 # filename = "/foo/bar/baz.txt"
