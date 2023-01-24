@@ -21,7 +21,6 @@ def refresh_all_undone_tokens():
     write_list_to_txt(all_undone_tokens, c.ALL_UNDONE_TOKENS_PATH)
 
 
-
 def refresh_l_tokens():
     if c.RUN_DATE_HOUR == c.LAST_RUN_DATE_HOUR:
         pass
