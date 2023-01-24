@@ -13,6 +13,7 @@ class DataCrawler:
         options = webdriver.ChromeOptions()
         """
         Also, you can try to disable SSL verification by adding the following line of code before creating the webdriver instance. --ignore-ssl-errors=yes which tells the webdriver to ignore SSL errors when connecting to websites. --ignore-certificate-errors which tells the webdriver to ignore certificate errors when connecting to websites. Please keep in mind that disabling SSL verification is not recommended and it should only be used as a last resort.
+        NOT WORKING on lab server
         """
         options.add_argument('--ignore-ssl-errors=yes')
         options.add_argument('--ignore-certificate-errors')
