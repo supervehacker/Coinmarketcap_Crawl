@@ -16,8 +16,7 @@ def refresh_all_undone_tokens():
     all_error_tokens = read_list_from_txt_create_if_filenotfound(c.ALL_ERROR_TOKENS_PATH)
     all_done_error_set = set(all_error_tokens + all_done_tokens)
     all_undone_tokens = [x for x in all_tokens if x not in all_done_error_set]
-    print_and_log(
-        f"all_tokens: {len(all_tokens)}, all_done_tokens: {len(all_done_tokens)}, all_error_tokens: {len(all_error_tokens)}, all_undone_token: {len(all_undone_tokens)}")
+    print_and_log(f"all_tokens: {len(all_tokens)}, all_done_tokens: {len(all_done_tokens)}, all_error_tokens: {len(all_error_tokens)}, all_undone_token: {len(all_undone_tokens)}")
     write_list_to_txt(all_undone_tokens, c.ALL_UNDONE_TOKENS_PATH)
 
 
