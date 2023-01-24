@@ -1,9 +1,4 @@
-from datetime import datetime
-
-
-def current_time_yyyymmddhh():
-    return datetime.now().strftime("%Y%m%d-%H")
-
+from utils.date_helpers import current_time_yyyymmddhh
 
 RUN_DATE_HOUR = current_time_yyyymmddhh()
 
@@ -19,8 +14,9 @@ OUTPUT_LOG_PATH = f"data/04_output/data_run_logs/"
 
 paths = {TOKEN_TO_CRAWL_PATH, PROCESSING_DATA_PATH, PROCESSING_RUN_LOG_PATH, PROCESSING_ERROR_LOG_PATH, OUTPUT_DATA_PATH, OUTPUT_LOG_PATH}
 
-import os
+
 for path in paths:
+    import os
     os.makedirs(os.path.dirname(path), exist_ok=True)
     # if not os.path.exists(path):
     #     os.makedirs(path)

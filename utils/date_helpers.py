@@ -1,4 +1,13 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+
+
+def current_time_yyyymmddhh():
+    return datetime.now(timezone.utc).strftime("%Y%m%d-%H")
+
+
+# def current_time_formatted_str():
+#     # now = datetime.now(timezone.utc)
+#     return datetime.now(timezone.utc).strftime("%Y-%m-%d-%H-%M")
 
 
 def convert_cmc_date_str_to_yyyymmdd(cmc_date_str):
@@ -44,6 +53,4 @@ def get_date_text_values(yyyymmdd):
     return year_text_value, month_text_value, date_text_value
 
 
-def current_time_formatted_str():
-    now = datetime.now()
-    return now.strftime("%Y-%m-%d-%H-%M")
+
