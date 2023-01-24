@@ -73,7 +73,7 @@ class DataCrawler:
             return False
 
     def save_current_screenshot(self, driver):
-        from utils.date_helpers import current_time_formatted_str
-        driver.save_screenshot(f"{c.PROCESSING_ERROR_LOG_PATH}{self.token_name}-{current_time_formatted_str()}.png")
+        from utils.date_helpers import current_time_yyyymmddhh
+        driver.save_screenshot(f"{c.PROCESSING_ERROR_LOG_PATH}{self.token_name}-{current_time_yyyymmddhh()}.png")
         print_and_log(f"-----Screenshot saved token_name={self.token_name} TimeoutException has not been handled")
 
